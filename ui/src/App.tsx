@@ -1,13 +1,16 @@
-import React, { Component } from 'react';
-import TopBar from './components/TopBar';
+import React from 'react';
+import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import './App.css';
+import Routes from './routes';
 
-class App extends Component {
-  render() {
-    return (
-      <TopBar/>
-    );
-  }
+const theme = createMuiTheme({});
+
+function App() {
+  return (
+    <MuiThemeProvider theme={theme}>
+      <Routes/>
+    </MuiThemeProvider>
+  );
 }
 
 export default App;
