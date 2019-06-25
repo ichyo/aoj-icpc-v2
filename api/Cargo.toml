@@ -1,5 +1,5 @@
 [package]
-name = "aoj-icpc-v2"
+name = "aoj-icpc-api-server"
 version = "0.1.0"
 authors = ["ichyo <ichyo00@gmail.com>"]
 edition = "2018"

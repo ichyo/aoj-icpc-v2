@@ -11,20 +11,20 @@ COPY Cargo.lock .
 # This is a dummy build to get the dependencies cached
 RUN cargo build
 # Remove last build result
-RUN rm target/debug/deps/aoj_icpc_v2-*
+RUN rm target/debug/deps/aoj_icpc_api_server-*
 
 FROM dev as build
 # This is a dummy build to get the dependencies cached
 RUN cargo build --release
 # Remove last build result
-RUN rm target/release/deps/aoj_icpc_v2-*
+RUN rm target/release/deps/aoj_icpc_api_server-*
 # Copy sources
 COPY src src
-# Build app (bin will be in /usr/src/app/target/release/aoj-icpc-v2)
+# Build app (bin will be in /usr/src/app/target/release/aoj-icpc-api-server)
 RUN cargo build --release
 
 FROM debian:stretch-slim
 # Copy bin from builder to this new image
-COPY --from=build /app/target/release/aoj-icpc-v2 /bin/
+COPY --from=build /app/target/release/aoj-icpc-api-server /bin/
 # Default command, run app
-CMD ["aoj-icpc-v2"]
+CMD ["aoj-icpc-api-server"]

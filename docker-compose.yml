@@ -12,15 +12,15 @@ services:
 
   api:
     build:
-      context: .
+      context: ./api
       target: dev
     command: cargo run
     # You can use cargo watch instead if you want
     # command: cargo watch -x run
     volumes:
-      - ./src:/app/src
-      - ./Cargo.toml:/app/Cargo.toml
-      - ./Cargo.lock:/app/Cargo.lock
+      - ./api/src:/app/src
+      - ./api/Cargo.toml:/app/Cargo.toml
+      - ./api/Cargo.lock:/app/Cargo.lock
   ui:
     build:
       context: ./ui
