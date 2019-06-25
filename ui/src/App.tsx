@@ -83,6 +83,14 @@ interface TableProps {
   problems: Array<Problem>,
 }
 
+const Form: React.FC = () => {
+  return (
+    <form className="form-inline mb-3 mt-3">
+      <input type="text" id="aoj-id" className="form-control mr-2 col-4 col-md-3" placeholder="AOJ ID" />
+      <button type="submit" className="btn btn-primary">Update</button>
+    </form>);
+}
+
 const Table: React.FC<TableProps> = ({ problems }) => {
   return (
     <table className="table table-sm">
@@ -101,7 +109,7 @@ const Table: React.FC<TableProps> = ({ problems }) => {
           <tr>
             <td className="text-center text-success"><FontAwesomeIcon icon={faCheckCircle} /></td>
             <td className="text-center">{p.point}</td>
-            <td><a href={p.url}>{p.title}</a></td>
+            <td><a href={p.url} target="_blank" rel="noopener noreferrer">{p.title}</a></td>
             <td>{p.source}</td>
             <td className="text-center">{p.stars}</td>
             <td>{p.solutions}</td>
@@ -115,6 +123,7 @@ const Table: React.FC<TableProps> = ({ problems }) => {
 const App: React.FC = () => {
   return (
     <div className="container">
+      <Form />
       <Table problems={problems} />
     </div>
   );
