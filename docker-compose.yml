@@ -1,6 +1,15 @@
+# docker-compose for development
+
 version: '3.7'
 
 services:
+  web:
+    image: nginx:alpine
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+    ports:
+      - 5050:80
+
   api:
     build:
       context: .
@@ -8,8 +17,6 @@ services:
     command: cargo run
     # You can use cargo watch instead if you want
     # command: cargo watch -x run
-    ports:
-      - 8080:8080
     volumes:
       - ./src:/app/src
       - ./Cargo.toml:/app/Cargo.toml
@@ -19,9 +26,7 @@ services:
       context: ./ui
       target: dev
     command: npm start
-    ports:
-      - 3000:3000
-    valumes:
+    volumes:
       - ./ui/public:/app/public
       - ./ui/src:/app/src
       - ./ui/package.json:/app/package.json
