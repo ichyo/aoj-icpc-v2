@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  api:
+    build:
+      context: .
+      target: dev
+    command: cargo run
+    # You can use cargo watch instead if you want
+    # command: cargo watch -x run
+    ports:
+      - 8080:8080
+    volumes:
+      - ./src:/app/src
+      - ./Cargo.toml:/app/Cargo.toml
+      - ./Cargo.lock:/app/Cargo.lock
