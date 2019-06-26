@@ -4,7 +4,11 @@ version = "0.1.0"
 authors = ["ichyo <ichyo00@gmail.com>"]
 edition = "2018"
 
+[lib]
+name = "aoj_icpc"
+path = "src/lib.rs"
+
 [dependencies]
 actix-web = "1.0"
 serde = { version = "1.0", features = ["derive"] }
-diesel = { version = "1.0", features = ["postgres"] }
+diesel = { version = "1.0", features = ["postgres", "r2d2"] }

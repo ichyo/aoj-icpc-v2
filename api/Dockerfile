@@ -23,7 +23,7 @@ RUN rm target/release/deps/aoj_icpc_api_server-*
 # Copy sources
 COPY src src
 # Build app (bin will be in /usr/src/app/target/release/aoj-icpc-api-server)
-RUN cargo build --release
+RUN cargo build --release --bin aoj-icpc-api-server
 
 FROM debian:stretch-slim
 # Copy bin from builder to this new image

@@ -16,7 +16,8 @@ $ docker-compose down -v
 ```
 
 ### DB set up
-Initially, you need DB scheme change.
+Initially, you need DB scheme change and initialize with dummy data.
 ```
 $ docker-compose run api diesel migration run
+$ docker-compose run api cargo run --bin initialize_db
 ```

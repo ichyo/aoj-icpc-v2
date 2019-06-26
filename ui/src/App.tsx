@@ -61,7 +61,7 @@ const App: React.FC = () => {
     fetch("/api/v1/problems")
       .then(res => res.json())
       .then(res => setProblems(res));
-  });
+  }, []);
 
   return (
     <div className="container">
