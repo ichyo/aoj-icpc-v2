@@ -12,14 +12,27 @@ struct Problem {
 }
 
 fn problems() -> impl Responder {
-    let problems = vec![Problem {
-        point: 100,
-        title: "ICPC 得点集計ソフトウェア".to_string(),
-        source: "国内予選2007A".to_string(),
-        solutions: 2692,
-        url: "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1147&lang=jp".to_string(),
-        stars: 0,
-    }];
+    let problems = vec![
+        Problem {
+            point: 100,
+            title: "Hanafuda Shuffle".to_string(),
+            source: "国内予選2004A".to_string(),
+            solutions: 2076,
+            url: "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1129&lang=jp"
+                .to_string(),
+            stars: 0,
+        },
+        Problem {
+            point: 150,
+            title: "Red and Black".to_string(),
+            source: "国内予選2004B".to_string(),
+            solutions: 1887,
+            url: "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1130&lang=jp"
+                .to_string(),
+            stars: 0,
+        },
+    ];
+
     web::Json(problems)
 }
 
