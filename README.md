@@ -5,6 +5,11 @@ AOJ ICPC v2
 Install [docker-compose](https://docs.docker.com/compose/install/) first.
 Then, this command will set up dev environment.
 ```
-$ docker-compose up
+$ docker-compose up -d
 ```
-Try to go [http://localhost:5050](http://localhost:5050)
+
+### DB commands
+Initially, you need DB scheme setup
+```
+$ docker-compose run api diesel migration run
+```

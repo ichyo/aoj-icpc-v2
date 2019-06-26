@@ -9,6 +9,15 @@ services:
       - ./nginx/conf.d:/etc/nginx/conf.d
     ports:
       - 5050:80
+    depends_on:
+      - api
+      - ui
+
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_USER=aojicpc
+      - POSTGRES_PASSWORD=aojicpc
 
   api:
     build:
@@ -19,8 +28,15 @@ services:
     # command: cargo watch -x run
     volumes:
       - ./api/src:/app/src
-      - ./api/Cargo.toml:/app/Cargo.toml
+      - ./api/migrations:/app/migrations
       - ./api/Cargo.lock:/app/Cargo.lock
+      - ./api/Cargo.toml:/app/Cargo.toml
+      - ./api/diesel.toml:/app/diesel.toml
+    environment:
+      - DATABASE_URL=postgres://aojicpc:aojicpc@db/aojicpc
+    depends_on:
+      - db
+
   ui:
     build:
       context: ./ui

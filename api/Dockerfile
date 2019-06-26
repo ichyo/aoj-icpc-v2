@@ -3,6 +3,8 @@ FROM rust:1 as dev
 WORKDIR /app
 # Install watch for dev environment
 RUN cargo install cargo-watch
+# Install diesel for migration
+RUN cargo install diesel_cli --no-default-features --features postgres
 # Create blank project
 RUN USER=root cargo init --bin
 # Copy Cargo.toml and Cargo.lock to get dependencies
