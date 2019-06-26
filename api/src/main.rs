@@ -2,6 +2,7 @@ use actix_web::{web, App, HttpServer, Responder};
 use serde::{Deserialize, Serialize};
 
 use aoj_icpc::db;
+use log::info;
 
 #[derive(Serialize, Deserialize, Debug)]
 struct Problem {
@@ -32,8 +33,11 @@ fn problems(db: web::Data<db::Pool>) -> impl Responder {
 }
 
 fn main() -> std::io::Result<()> {
+    env_logger::init();
     let database_url = std::env::var("DATABASE_URL").expect("DATABASE_URL is required");
     let pool = db::create_pool(&database_url);
+
+    info!("Running 0.0.0.0:8080");
 
     HttpServer::new(move || {
         App::new()

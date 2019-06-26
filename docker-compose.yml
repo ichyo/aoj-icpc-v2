@@ -33,7 +33,8 @@ services:
       - ./api/Cargo.toml:/app/Cargo.toml
       - ./api/diesel.toml:/app/diesel.toml
     environment:
-      - DATABASE_URL=postgres://aojicpc:aojicpc@db/aojicpc
+      DATABASE_URL: "postgres://aojicpc:aojicpc@db/aojicpc"
+      RUST_LOG: "aoj_icpc=info,aoj_icpc_api_server=info"
     depends_on:
       - db
 
