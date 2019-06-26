@@ -1,15 +1,22 @@
 # aoj-icpc-v2
 AOJ ICPC v2
 
-### How to set up dev environment
+### Set up dev environment
 Install [docker-compose](https://docs.docker.com/compose/install/) first.
-Then, this command will set up dev environment.
+
+Then, this command will set up containers for dev environment.
 ```
 $ docker-compose up -d
 ```
+Try to connect to [http://localhost:5050/](http://localhost:5050/) after DB set up.
 
-### DB commands
-Initially, you need DB scheme setup
+You can stop containers and remove volumes and start again if you have trouble.
+```
+$ docker-compose down -v
+```
+
+### DB set up
+Initially, you need DB scheme change.
 ```
 $ docker-compose run api diesel migration run
 ```
