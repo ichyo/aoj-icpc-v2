@@ -1,8 +1,8 @@
 use crate::schema::problems;
 
 use diesel::prelude::*;
-use diesel::Connection as _;
 use diesel::r2d2::{self, ConnectionManager};
+use diesel::Connection as _;
 
 #[derive(Queryable)]
 pub struct Problem {
@@ -37,6 +37,7 @@ pub fn establish_connection(database_url: &str) -> Connection {
 pub fn get_problems(connection: &Connection) -> Vec<Problem> {
     use crate::schema::problems::dsl::*;
     problems
+        .order((point.asc(), source.asc()))
         .load::<Problem>(connection)
         .expect("Failed to query problems")
 }
