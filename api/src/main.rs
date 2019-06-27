@@ -6,12 +6,18 @@ use log::info;
 
 #[derive(Serialize, Deserialize, Debug)]
 struct Problem {
+    id: i32,
     point: i32,
     title: String,
     source: String,
     solutions: u32,
     url: String,
     stars: u16,
+}
+
+#[derive(Serialize, Deserialize, Debug)]
+struct AojUser {
+    solutions: Vec<i32>,
 }
 
 fn problems(db: web::Data<db::Pool>) -> impl Responder {
@@ -21,6 +27,7 @@ fn problems(db: web::Data<db::Pool>) -> impl Responder {
         problems
             .into_iter()
             .map(|p| Problem {
+                id: p.id,
                 point: p.point,
                 title: p.title,
                 source: p.source,
@@ -30,6 +37,12 @@ fn problems(db: web::Data<db::Pool>) -> impl Responder {
             })
             .collect::<Vec<_>>(),
     )
+}
+
+fn aoj_user(_db: web::Data<db::Pool>, _aoj_user_id: web::Path<String>) -> impl Responder {
+    web::Json(AojUser {
+        solutions: vec![1, 3, 5, 645, 663],
+    })
 }
 
 fn main() -> std::io::Result<()> {
@@ -43,6 +56,7 @@ fn main() -> std::io::Result<()> {
         App::new()
             .data(pool.clone())
             .service(web::resource("/api/v1/problems").to(problems))
+            .service(web::resource("/api/v1/aoj_users/{id}").to(aoj_user))
     })
     .bind("0.0.0.0:8080")?
     .run()

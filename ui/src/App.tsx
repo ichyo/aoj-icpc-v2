@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, FormEventHandler, FormEvent } from 'react';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCheckCircle, faStar } from '@fortawesome/free-solid-svg-icons'
+import { faCheckCircle, faStar, faUserInjured } from '@fortawesome/free-solid-svg-icons'
 
 interface Problem {
+  id: number,
   point: number,
   title: string,
   source: string,
@@ -12,20 +13,50 @@ interface Problem {
   stars: number,
 }
 
-interface TableProps {
-  problems: Array<Problem>,
+interface User {
+  solutions: Array<number>,
 }
 
-const Form: React.FC = () => {
+interface TableProps {
+  problems: Array<Problem>,
+  user: User | null,
+}
+
+interface FormData {
+  aojUserId: string,
+}
+
+interface FormProps {
+  onSubmit: (data: FormData) => void,
+}
+
+const Form: React.FC<FormProps> = ({ onSubmit }) => {
+  const [aojUserId, setAojUserId] = useState("");
+
+  const handleSubmit = (event: FormEvent) => {
+    event.preventDefault();
+    const data = {
+      aojUserId,
+    };
+    onSubmit(data);
+  };
+
   return (
-    <form className="form-inline mb-3 mt-3">
-      <input type="text" id="aoj-id" className="form-control mr-2 col-4 col-md-3" placeholder="AOJ ID" />
+    <form className="form-inline mb-3 mt-3" onSubmit={handleSubmit}>
+      <input
+        type="text"
+        className="form-control mr-2 col-4 col-md-3"
+        placeholder="AOJ ID"
+        value={aojUserId}
+        onChange={e => setAojUserId(e.target.value)}
+      />
       <button type="submit" className="btn btn-primary">Update</button>
     </form>
   );
 }
 
-const Table: React.FC<TableProps> = ({ problems }) => {
+const Table: React.FC<TableProps> = ({ problems, user }) => {
+  const solutions = new Set(user ? user.solutions : []);
   return (
     <table className="table table-sm">
       <thead>
@@ -39,16 +70,21 @@ const Table: React.FC<TableProps> = ({ problems }) => {
         </tr>
       </thead>
       <tbody>
-        {problems.map(p =>
-          <tr>
-            <td className="text-center text-success"><FontAwesomeIcon icon={faCheckCircle} /></td>
-            <td className="text-center">{p.point}</td>
-            <td><a href={p.url} target="_blank" rel="noopener noreferrer">{p.title}</a></td>
-            <td>{p.source}</td>
-            <td className="text-center">{p.stars}</td>
-            <td>{p.solutions}</td>
-          </tr>
-        )}
+        {problems.map(p => {
+          const solved = solutions.has(p.id);
+          return (
+            <tr key={p.id}>
+              <td className="text-center text-success">
+                {solved ? <FontAwesomeIcon icon={faCheckCircle} /> : null}
+              </td>
+              <td className="text-center">{p.point}</td>
+              <td><a href={p.url} target="_blank" rel="noopener noreferrer">{p.title}</a></td>
+              <td>{p.source}</td>
+              <td className="text-center">{p.stars}</td>
+              <td>{p.solutions}</td>
+            </tr>
+          );
+        })}
       </tbody>
     </table>
   );
@@ -56,6 +92,7 @@ const Table: React.FC<TableProps> = ({ problems }) => {
 
 const App: React.FC = () => {
   const [problems, setProblems] = useState([]);
+  const [user, setUser] = useState(null);
 
   useEffect(() => {
     fetch("/api/v1/problems")
@@ -63,10 +100,18 @@ const App: React.FC = () => {
       .then(res => setProblems(res));
   }, []);
 
+  const handleSubmit = (data: FormData) => {
+    if (data.aojUserId) {
+      fetch("/api/v1/aoj_users/" + data.aojUserId)
+        .then(res => res.json())
+        .then(res => setUser(res));
+    }
+  };
+
   return (
     <div className="container">
-      <Form />
-      <Table problems={problems} />
+      <Form onSubmit={handleSubmit} />
+      <Table problems={problems} user={user} />
     </div>
   );
 }
