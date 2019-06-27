@@ -1,0 +1,3848 @@
+[
+  {
+    "title": "ICPC 得点集計ソフトウェア",
+    "point": 100,
+    "source": "国内予選2007A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1147&lang=jp"
+  },
+  {
+    "title": "等しい合計点",
+    "point": 100,
+    "source": "国内予選2008A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1153&lang=jp"
+  },
+  {
+    "title": "When Can We Meet?",
+    "point": 100,
+    "source": "国内予選2003A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1124"
+  },
+  {
+    "title": "Get Many Persimmon Trees",
+    "point": 100,
+    "source": "国内予選2003B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1125"
+  },
+  {
+    "title": "Hanafuda Shuffle",
+    "point": 100,
+    "source": "国内予選2004A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1129&lang=jp"
+  },
+  {
+    "title": "次期町長",
+    "point": 100,
+    "source": "国内予選2009A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1159&lang=jp"
+  },
+  {
+    "title": "ミレニアム",
+    "point": 100,
+    "source": "国内予選2012A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1179&lang=jp"
+  },
+  {
+    "title": "税率変更",
+    "point": 100,
+    "source": "国内予選2014A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1192&lang=jp"
+  },
+  {
+    "title": "踏み台昇降",
+    "point": 100,
+    "source": "模擬国内2014A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2582&lang=jp"
+  },
+  {
+    "title": "Keitai Message",
+    "point": 100,
+    "source": "模擬国内2005A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2006&lang=jp"
+  },
+  {
+    "title": "Misterious Gems",
+    "point": 100,
+    "source": "模擬国内2006A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2000&lang=jp"
+  },
+  {
+    "title": "お姫様のギャンブル",
+    "point": 100,
+    "source": "模擬国内2008A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2018&lang=jp"
+  },
+  {
+    "title": "幸運の操作者",
+    "point": 100,
+    "source": "模擬国内2009A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2149&lang=jp"
+  },
+  {
+    "title": "連続する整数の和",
+    "point": 100,
+    "source": "模擬国内2010A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2197&lang=jp"
+  },
+  {
+    "title": "koukyoukoukokukikou",
+    "point": 100,
+    "source": "模擬国内2011A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2252&lang=jp"
+  },
+  {
+    "title": "Kagisys",
+    "point": 100,
+    "source": "夏合宿2012:day3bA",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2440&lang=jp"
+  },
+  {
+    "title": "入学試験",
+    "point": 100,
+    "source": "国内予選2015A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1600&lang=jp"
+  },
+  {
+    "title": "列車の編成パートII",
+    "point": 150,
+    "source": "国内予選2006B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1142&lang=jp"
+  },
+  {
+    "title": "かけざん",
+    "point": 150,
+    "source": "夏合宿2012:day2A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2424&lang=jp"
+  },
+  {
+    "title": "整長方形",
+    "point": 150,
+    "source": "国内予選2013A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1186&lang=jp"
+  },
+  {
+    "title": "ICPCの順位付け",
+    "point": 150,
+    "source": "国内予選2013B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1187&lang=jp"
+  },
+  {
+    "title": "王様の視察",
+    "point": 150,
+    "source": "模擬国内2013A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2508&lang=jp"
+  },
+  {
+    "title": "Equal Sum Sets",
+    "point": 150,
+    "source": "アジア地区予選2013A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1335"
+  },
+  {
+    "title": "North North West",
+    "point": 150,
+    "source": "模擬地区2014A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2589"
+  },
+  {
+    "title": "Unreliable Message",
+    "point": 150,
+    "source": "アジア地区予選2003A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1240"
+  },
+  {
+    "title": "Make Purse Light",
+    "point": 150,
+    "source": "模擬国内2005B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2007&lang=jp"
+  },
+  {
+    "title": "お姫様の嫁入り",
+    "point": 150,
+    "source": "模擬国内2008B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2019&lang=jp"
+  },
+  {
+    "title": "宇宙ヤシガニ",
+    "point": 150,
+    "source": "模擬国内2007A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2012&lang=jp"
+  },
+  {
+    "title": "君のプライバシーを守れ！",
+    "point": 150,
+    "source": "模擬国内2012A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2399&lang=jp"
+  },
+  {
+    "title": "世界の天秤",
+    "point": 150,
+    "source": "国内予選2011B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1173&lang=jp"
+  },
+  {
+    "title": "Prime Gap",
+    "point": 150,
+    "source": "アジア地区予選2007B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1276"
+  },
+  {
+    "title": "Numeral System",
+    "point": 150,
+    "source": "国内予選2005C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1137&lang=jp"
+  },
+  {
+    "title": "ディリクレの算術級数定理",
+    "point": 150,
+    "source": "国内予選2006A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1141&lang=jp"
+  },
+  {
+    "title": "島はいくつある？",
+    "point": 150,
+    "source": "国内予選2009B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1160&lang=jp"
+  },
+  {
+    "title": "角角画伯，かく悩みき",
+    "point": 150,
+    "source": "国内予選2010A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1165&lang=jp"
+  },
+  {
+    "title": "チェビシェフの定理",
+    "point": 150,
+    "source": "国内予選2011A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1172&lang=jp"
+  },
+  {
+    "title": "Amida, the City of Miracle",
+    "point": 150,
+    "source": "模擬国内2006B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2001&lang=jp"
+  },
+  {
+    "title": "Matsuzaki 数",
+    "point": 150,
+    "source": "模擬国内2009B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2150&lang=jp"
+  },
+  {
+    "title": "Red and Black",
+    "point": 150,
+    "source": "国内予選2004B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1130&lang=jp"
+  },
+  {
+    "title": "繰り返す10進数",
+    "point": 150,
+    "source": "国内予選2012B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1180&lang=jp"
+  },
+  {
+    "title": "審判は君だ！",
+    "point": 150,
+    "source": "模擬国内2012B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2400&lang=jp"
+  },
+  {
+    "title": "山手線",
+    "point": 150,
+    "source": "夏合宿2014:day4A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2639&lang=jp"
+  },
+  {
+    "title": "Koto市営地下鉄",
+    "point": 100,
+    "source": "模擬国内2015A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2699&lang=jp"
+  },
+  {
+    "title": "短句",
+    "point": 150,
+    "source": "国内予選2015B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1601&lang=jp"
+  },
+  {
+    "title": "Decimal Sequences",
+    "point": 150,
+    "source": "アジア地区予選2015A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1356"
+  },
+  {
+    "title": "Calling Extraterrestrial Intelligence Again",
+    "point": 200,
+    "source": "アジア地区予選2002A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1232"
+  },
+  {
+    "title": "大崎",
+    "point": 200,
+    "source": "模擬国内2007B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2013&lang=jp"
+  },
+  {
+    "title": "Broken Audio Signal",
+    "point": 200,
+    "source": "模擬地区2013A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2565"
+  },
+  {
+    "title": "連鎖消滅パズル",
+    "point": 200,
+    "source": "国内予選2014B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1193&lang=jp"
+  },
+  {
+    "title": "Unknown Switches",
+    "point": 250,
+    "source": "模擬地区2014B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2590"
+  },
+  {
+    "title": "And Then There Was One",
+    "point": 200,
+    "source": "アジア地区予選2007A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1275"
+  },
+  {
+    "title": "Grey Area",
+    "point": 200,
+    "source": "アジア地区予選2008A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1285"
+  },
+  {
+    "title": "Make a Sequence",
+    "point": 200,
+    "source": "アジア地区予選2004B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1249"
+  },
+  {
+    "title": "Infected Computer",
+    "point": 150,
+    "source": "夏合宿2009:day2A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2155"
+  },
+  {
+    "title": "Strange String Manipulation",
+    "point": 200,
+    "source": "夏合宿2009:day3A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2165"
+  },
+  {
+    "title": "雅先生の地球侵略日誌",
+    "point": 200,
+    "source": "夏合宿2010:day2A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2330&lang=jp"
+  },
+  {
+    "title": "Calender Colors",
+    "point": 200,
+    "source": "夏合宿2011:day3A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2300"
+  },
+  {
+    "title": "Lagrange's Four-Square Theorem",
+    "point": 200,
+    "source": "アジア地区予選2003B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1241"
+  },
+  {
+    "title": "ログイン/ログアウト記録の解析",
+    "point": 200,
+    "source": "国内予選2007B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1148&lang=jp"
+  },
+  {
+    "title": "月曜土曜素因数",
+    "point": 200,
+    "source": "国内予選2008B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1154&lang=jp"
+  },
+  {
+    "title": "迷図と命ず",
+    "point": 200,
+    "source": "国内予選2010B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1166&lang=jp"
+  },
+  {
+    "title": "土地囲い",
+    "point": 200,
+    "source": "模擬国内2007C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2014&lang=jp"
+  },
+  {
+    "title": "ムーンライト牧場",
+    "point": 200,
+    "source": "模擬国内2010B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2198&lang=jp"
+  },
+  {
+    "title": "ブレイブ・フォース・ストーリー",
+    "point": 200,
+    "source": "模擬国内2011B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2253&lang=jp"
+  },
+  {
+    "title": "Era Name",
+    "point": 200,
+    "source": "模擬地区2010A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2242"
+  },
+  {
+    "title": "Miscalculation",
+    "point": 200,
+    "source": "アジア地区予選2014B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1346"
+  },
+  {
+    "title": "Fast Division",
+    "point": 250,
+    "source": "夏合宿2013:day3D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2610&lang=jp"
+  },
+  {
+    "title": "Thread Tree",
+    "point": 200,
+    "source": "夏合宿2013:day4A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2619"
+  },
+  {
+    "title": "空港コード",
+    "point": 200,
+    "source": "模擬国内2015B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2700&lang=jp"
+  },
+  {
+    "title": "Cubist Artwork",
+    "point": 250,
+    "source": "アジア地区予選2009A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1295"
+  },
+  {
+    "title": "スクウェア・ルート",
+    "point": 250,
+    "source": "模擬国内2007D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2015&lang=jp"
+  },
+  {
+    "title": "Sightseeing Tour",
+    "point": 250,
+    "source": "冬合宿2010:day4H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2386"
+  },
+  {
+    "title": "Minimal Backgammon",
+    "point": 250,
+    "source": "アジア地区予選2007C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1277"
+  },
+  {
+    "title": "Carpenters' Language",
+    "point": 200,
+    "source": "冬コンテスト2011A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2340"
+  },
+  {
+    "title": "JAG-channel",
+    "point": 250,
+    "source": "模擬国内2014B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2583&lang=jp"
+  },
+  {
+    "title": "Expected Allowance",
+    "point": 250,
+    "source": "アジア地区予選2008B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1286"
+  },
+  {
+    "title": "Ginkgo Numbers",
+    "point": 250,
+    "source": "アジア地区予選2012A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1325"
+  },
+  {
+    "title": "Butterfly",
+    "point": 250,
+    "source": "模擬地区2011B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2321"
+  },
+  {
+    "title": "The Sorcerer's Donut",
+    "point": 250,
+    "source": "アジア地区予選2011B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1316"
+  },
+  {
+    "title": "Shredding Company",
+    "point": 250,
+    "source": "アジア地区予選2002F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1237"
+  },
+  {
+    "title": "Ennichi",
+    "point": 250,
+    "source": "夏合宿2010:day3A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2232&lang=jp"
+  },
+  {
+    "title": "お菓子の魔女",
+    "point": 250,
+    "source": "夏合宿2011:day4B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2311&lang=jp"
+  },
+  {
+    "title": "Leaky Cryptography",
+    "point": 250,
+    "source": "アジア地区予選2004C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1250"
+  },
+  {
+    "title": "The Secret Number",
+    "point": 250,
+    "source": "国内予選2003C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1126"
+  },
+  {
+    "title": "Polygonal Line Search",
+    "point": 250,
+    "source": "国内予選2005B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1136&lang=jp"
+  },
+  {
+    "title": "ポロック予想",
+    "point": 250,
+    "source": "国内予選2010C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1167&lang=jp"
+  },
+  {
+    "title": "差分パルス符号変調",
+    "point": 250,
+    "source": "模擬国内2010C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2199&lang=jp"
+  },
+  {
+    "title": "最短ルート",
+    "point": 250,
+    "source": "模擬国内2011C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2254&lang=jp"
+  },
+  {
+    "title": "Whist",
+    "point": 250,
+    "source": "模擬地区2009A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2175"
+  },
+  {
+    "title": "Step Step Evolution",
+    "point": 250,
+    "source": "模擬地区2010B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2243"
+  },
+  {
+    "title": "The Last Ant",
+    "point": 250,
+    "source": "アジア地区予選2013B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1336"
+  },
+  {
+    "title": "Bit String Reordering",
+    "point": 250,
+    "source": "アジア地区予選2014A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1345"
+  },
+  {
+    "title": "Koto Distance",
+    "point": 250,
+    "source": "夏合宿2013:day2A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2600&lang=jp"
+  },
+  {
+    "title": "Magic Bullet",
+    "point": 250,
+    "source": "夏合宿2014:day4C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2641&lang=jp"
+  },
+  {
+    "title": "友だちの誘い方",
+    "point": 200,
+    "source": "夏合宿2010:day2B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2331&lang=jp"
+  },
+  {
+    "title": "Squeeze the Cylinders",
+    "point": 250,
+    "source": "アジア地区予選2015B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1357"
+  },
+  {
+    "title": "CatChecker",
+    "point": 300,
+    "source": "冬合宿2010:day3A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2369&lang=jp"
+  },
+  {
+    "title": "Membership Management",
+    "point": 300,
+    "source": "アジア地区予選2010A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1305"
+  },
+  {
+    "title": "カーリング 2.0",
+    "point": 350,
+    "source": "国内予選2006D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1144&lang=jp"
+  },
+  {
+    "title": "X-Ray Screening System",
+    "point": 300,
+    "source": "模擬国内2006C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2002&lang=jp"
+  },
+  {
+    "title": "Repeated Substitution with Sed",
+    "point": 300,
+    "source": "アジア地区予選2009B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1296"
+  },
+  {
+    "title": "Balloon Collecting",
+    "point": 300,
+    "source": "アジア地区予選2010B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1306"
+  },
+  {
+    "title": "Gift from the Goddess of Program...",
+    "point": 300,
+    "source": "アジア地区予選2011A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1315"
+  },
+  {
+    "title": "Stylish",
+    "point": 300,
+    "source": "アジア地区予選2012B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1326"
+  },
+  {
+    "title": "階層民主主義",
+    "point": 300,
+    "source": "国内予選2013C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1188&lang=jp"
+  },
+  {
+    "title": "One-Dimensional Cellular Automaton",
+    "point": 300,
+    "source": "アジア地区予選2012C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1327"
+  },
+  {
+    "title": "Erratic Sleep Habits",
+    "point": 300,
+    "source": "夏合宿2009:day3B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2166"
+  },
+  {
+    "title": "Building a Space Station",
+    "point": 300,
+    "source": "国内予選2003D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1127"
+  },
+  {
+    "title": "ケーキカット",
+    "point": 300,
+    "source": "国内予選2007C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1149&lang=jp"
+  },
+  {
+    "title": "Gather the Maps",
+    "point": 300,
+    "source": "模擬国内2005F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2011&lang=jp"
+  },
+  {
+    "title": "The Balance",
+    "point": 300,
+    "source": "アジア地区予選2004A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1248"
+  },
+  {
+    "title": "お姫様の危機",
+    "point": 300,
+    "source": "模擬国内2008D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2021&lang=jp"
+  },
+  {
+    "title": "バンパイア",
+    "point": 300,
+    "source": "国内予選2014C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1194&lang=jp"
+  },
+  {
+    "title": "Shopping",
+    "point": 300,
+    "source": "アジア地区予選2014C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1347"
+  },
+  {
+    "title": "Fox Observation",
+    "point": 300,
+    "source": "夏合宿2013:day4C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2621"
+  },
+  {
+    "title": "Manhattan",
+    "point": 250,
+    "source": "夏合宿2014:day2A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2629&lang=jp"
+  },
+  {
+    "title": "Invest Master",
+    "point": 300,
+    "source": "夏合宿2013:day3A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2607&lang=jp"
+  },
+  {
+    "title": "ICPC 計算機",
+    "point": 250,
+    "source": "国内予選2015C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1602&lang=jp"
+  },
+  {
+    "title": "Sleeping Time",
+    "point": 350,
+    "source": "夏合宿2011:day3B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2301"
+  },
+  {
+    "title": "Rabbit Game Playing",
+    "point": 350,
+    "source": "冬合宿2010:day4E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2383"
+  },
+  {
+    "title": "For the Peace",
+    "point": 350,
+    "source": "模擬地区2009B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2176"
+  },
+  {
+    "title": "Slim Span",
+    "point": 350,
+    "source": "アジア地区予選2007F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1280"
+  },
+  {
+    "title": "Infinity Maze",
+    "point": 350,
+    "source": "模擬地区2011A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2320"
+  },
+  {
+    "title": "時空のスゴロク・ロード",
+    "point": 350,
+    "source": "夏合宿2010:day2C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2332&lang=jp"
+  },
+  {
+    "title": "Usaneko Matrix",
+    "point": 350,
+    "source": "夏合宿2010:day3J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2241&lang=jp"
+  },
+  {
+    "title": "Restore Calculation",
+    "point": 350,
+    "source": "模擬地区2013B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2566"
+  },
+  {
+    "title": "Dictionary",
+    "point": 350,
+    "source": "模擬地区2012A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2534"
+  },
+  {
+    "title": "如何に汝を満足せしめむ？ いざ数え上げむ…",
+    "point": 350,
+    "source": "国内予選2008C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1155&lang=jp"
+  },
+  {
+    "title": "同色パネル結合",
+    "point": 350,
+    "source": "国内予選2011C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1174&lang=jp"
+  },
+  {
+    "title": "偏りのあるサイコロ",
+    "point": 350,
+    "source": "国内予選2012C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1181&lang=jp"
+  },
+  {
+    "title": "Tiles are Colorful",
+    "point": 350,
+    "source": "夏合宿2011:day2J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2299&lang=jp"
+  },
+  {
+    "title": "Railroad Conflict",
+    "point": 350,
+    "source": "模擬国内2006D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2003&lang=jp"
+  },
+  {
+    "title": "Water Pipe Construction",
+    "point": 350,
+    "source": "模擬国内2006F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2005&lang=jp"
+  },
+  {
+    "title": "鏡の洞窟",
+    "point": 300,
+    "source": "模擬国内2009E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2153&lang=jp"
+  },
+  {
+    "title": "そして，いくつになった？",
+    "point": 350,
+    "source": "国内予選2011D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1175&lang=jp"
+  },
+  {
+    "title": "宝探し",
+    "point": 350,
+    "source": "夏合宿2012:day2C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2426&lang=jp"
+  },
+  {
+    "title": "Futon",
+    "point": 350,
+    "source": "模擬地区2009D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2178"
+  },
+  {
+    "title": "Everlasting Zero",
+    "point": 350,
+    "source": "春コンテスト2013A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2555"
+  },
+  {
+    "title": "Minus One",
+    "point": 350,
+    "source": "夏合宿2013:day3B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2608&lang=jp"
+  },
+  {
+    "title": "RLE Replacement",
+    "point": 350,
+    "source": "春コンテスト2014H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2684"
+  },
+  {
+    "title": "不審者",
+    "point": 350,
+    "source": "夏合宿2014:day4B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2640&lang=jp"
+  },
+  {
+    "title": "Idempotent Filter",
+    "point": 350,
+    "source": "模擬地区2014K",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2599"
+  },
+  {
+    "title": "Dial Lock",
+    "point": 400,
+    "source": "夏合宿2009:day2C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2157"
+  },
+  {
+    "title": "Carrot Tour",
+    "point": 400,
+    "source": "夏合宿2010:day3B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2233&lang=jp"
+  },
+  {
+    "title": "Starting Line",
+    "point": 350,
+    "source": "夏合宿2011:day2I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2298&lang=jp"
+  },
+  {
+    "title": "Convex-Cut",
+    "point": 400,
+    "source": "夏合宿2012:day3bC",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2442&lang=jp"
+  },
+  {
+    "title": "City Merger",
+    "point": 400,
+    "source": "アジア地区予選2011F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1320"
+  },
+  {
+    "title": "Weather Forecast",
+    "point": 400,
+    "source": "アジア地区予選2003D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1243"
+  },
+  {
+    "title": "Eleven Lover",
+    "point": 400,
+    "source": "模擬地区2009H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2182"
+  },
+  {
+    "title": "Unit Fraction Partition",
+    "point": 400,
+    "source": "国内予選2004C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1131&lang=jp"
+  },
+  {
+    "title": "制限されたファイルシステム",
+    "point": 400,
+    "source": "模擬国内2009D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2152&lang=jp"
+  },
+  {
+    "title": "ちょろちょろロボット",
+    "point": 350,
+    "source": "国内予選2008D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1156&lang=jp"
+  },
+  {
+    "title": "On or Off",
+    "point": 400,
+    "source": "夏合宿2011:day3C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2302"
+  },
+  {
+    "title": "勇敢なお姫様またも現る",
+    "point": 400,
+    "source": "模擬国内2009C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2151&lang=jp"
+  },
+  {
+    "title": "素数洞穴",
+    "point": 400,
+    "source": "国内予選2013D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1189&lang=jp"
+  },
+  {
+    "title": "Everlasting -One-",
+    "point": 450,
+    "source": "模擬地区2013D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2568"
+  },
+  {
+    "title": "Count the Regions",
+    "point": 400,
+    "source": "アジア地区予選2013C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1337"
+  },
+  {
+    "title": "壊れた暗号生成器",
+    "point": 400,
+    "source": "模擬国内2014C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2584&lang=jp"
+  },
+  {
+    "title": "Magic Slayer",
+    "point": 400,
+    "source": "夏合宿2009:day2B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2156"
+  },
+  {
+    "title": "Colored Octahedra",
+    "point": 400,
+    "source": "夏合宿2009:day3E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2169"
+  },
+  {
+    "title": "Marathon Match",
+    "point": 400,
+    "source": "夏合宿2011:day3D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2303"
+  },
+  {
+    "title": "Median Tree",
+    "point": 400,
+    "source": "模擬地区2012C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2536"
+  },
+  {
+    "title": "Life Line",
+    "point": 400,
+    "source": "アジア地区予選2002D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1235"
+  },
+  {
+    "title": "Zero division checker",
+    "point": 400,
+    "source": "夏合宿2012:day3aB",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2435&lang=jp"
+  },
+  {
+    "title": "Molecular Formula",
+    "point": 400,
+    "source": "アジア地区予選2003E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1244"
+  },
+  {
+    "title": "崖登り",
+    "point": 350,
+    "source": "国内予選2007D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1150&lang=jp"
+  },
+  {
+    "title": "覆面算",
+    "point": 400,
+    "source": "国内予選2009C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1161&lang=jp"
+  },
+  {
+    "title": "Champernowne Constant",
+    "point": 400,
+    "source": "模擬地区2009C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2177"
+  },
+  {
+    "title": "Evacuation Route",
+    "point": 350,
+    "source": "夏合宿2013:day2B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2601&lang=jp"
+  },
+  {
+    "title": "Unordered Operators",
+    "point": 350,
+    "source": "夏合宿2013:day3G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2613&lang=jp"
+  },
+  {
+    "title": "Breadth-First Search by Foxpower",
+    "point": 400,
+    "source": "春コンテスト2014A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2677"
+  },
+  {
+    "title": "LR",
+    "point": 400,
+    "source": "春コンテスト2014D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2680"
+  },
+  {
+    "title": "Marked Ancestor",
+    "point": 450,
+    "source": "夏合宿2009:day3F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2170"
+  },
+  {
+    "title": "Rectangular Stamps",
+    "point": 450,
+    "source": "夏合宿2011:day2H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2297&lang=jp"
+  },
+  {
+    "title": "Stopped Watches",
+    "point": 450,
+    "source": "アジア地区予選2008C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1287"
+  },
+  {
+    "title": "King Slime",
+    "point": 450,
+    "source": "冬合宿2010:day4D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2382"
+  },
+  {
+    "title": "Light Road",
+    "point": 450,
+    "source": "冬コンテスト2011C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2342"
+  },
+  {
+    "title": "Map of Ninja House",
+    "point": 450,
+    "source": "アジア地区予選2002E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1236"
+  },
+  {
+    "title": "FizzBuzz",
+    "point": 450,
+    "source": "夏合宿2012:day3bB",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2441&lang=jp"
+  },
+  {
+    "title": "全探索お姉さんの休日",
+    "point": 450,
+    "source": "夏合宿2012:day2B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2425&lang=jp"
+  },
+  {
+    "title": "Circle and Points",
+    "point": 450,
+    "source": "国内予選2004D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1132&lang=jp"
+  },
+  {
+    "title": "大玉転がし",
+    "point": 450,
+    "source": "国内予選2008E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1157&lang=jp"
+  },
+  {
+    "title": "Cleaning Robot",
+    "point": 450,
+    "source": "国内予選2005F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1140&lang=jp"
+  },
+  {
+    "title": "A Two Floors Dungeon",
+    "point": 450,
+    "source": "夏合宿2012:day4A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2447"
+  },
+  {
+    "title": "SIRO Challenge",
+    "point": 450,
+    "source": "模擬地区2013C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2567"
+  },
+  {
+    "title": "暗号化システム",
+    "point": 400,
+    "source": "国内予選2014D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1195&lang=jp"
+  },
+  {
+    "title": "Flowers",
+    "point": 450,
+    "source": "模擬地区2014D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2592"
+  },
+  {
+    "title": "Cookie Counter",
+    "point": 450,
+    "source": "模擬地区2014G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2595"
+  },
+  {
+    "title": "Concert Hall Scheduling",
+    "point": 450,
+    "source": "アジア地区予選2003G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1246"
+  },
+  {
+    "title": "Long Distance Taxi",
+    "point": 450,
+    "source": "アジア地区予選2011D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1318"
+  },
+  {
+    "title": "Swimming Jam",
+    "point": 450,
+    "source": "アジア地区予選2009C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1297"
+  },
+  {
+    "title": "Find the Outlier",
+    "point": 450,
+    "source": "アジア地区予選2012D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1328"
+  },
+  {
+    "title": "Let There Be Light",
+    "point": 450,
+    "source": "アジア地区予選2012G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1331"
+  },
+  {
+    "title": "Voronoi Island",
+    "point": 450,
+    "source": "夏合宿2009:day2F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2160"
+  },
+  {
+    "title": "Kaeru Jump",
+    "point": 400,
+    "source": "夏合宿2010:day4B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2223"
+  },
+  {
+    "title": "YAML",
+    "point": 450,
+    "source": "夏合宿2012:day3aE",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2438&lang=jp"
+  },
+  {
+    "title": "Reverse Roads",
+    "point": 450,
+    "source": "夏合宿2011:day3E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2304"
+  },
+  {
+    "title": "Substring",
+    "point": 450,
+    "source": "夏合宿2012:day3bE",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2444&lang=jp"
+  },
+  {
+    "title": "Traveling by Stagecoach",
+    "point": 350,
+    "source": "国内予選2005D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1138&lang=jp"
+  },
+  {
+    "title": "Dice Puzzle",
+    "point": 450,
+    "source": "アジア地区予選2004F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1253"
+  },
+  {
+    "title": "輪番停電計画",
+    "point": 450,
+    "source": "国内予選2011E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1176&lang=jp"
+  },
+  {
+    "title": "離散的速度",
+    "point": 350,
+    "source": "国内予選2009D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1162&lang=jp"
+  },
+  {
+    "title": "6÷2(1+2)",
+    "point": 450,
+    "source": "模擬国内2011D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2255&lang=jp"
+  },
+  {
+    "title": "ぐらぐら",
+    "point": 450,
+    "source": "国内予選2010D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1168&lang=jp"
+  },
+  {
+    "title": "Color the Map",
+    "point": 450,
+    "source": "アジア地区予選2004G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1254"
+  },
+  {
+    "title": "Area Separation",
+    "point": 450,
+    "source": "模擬国内2005D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2009&lang=jp"
+  },
+  {
+    "title": "Road Construction",
+    "point": 450,
+    "source": "模擬地区2010H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2249"
+  },
+  {
+    "title": "Space Golf",
+    "point": 450,
+    "source": "アジア地区予選2014D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1348"
+  },
+  {
+    "title": "Automotive Navigation",
+    "point": 450,
+    "source": "アジア地区予選2014E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1349"
+  },
+  {
+    "title": "There is No Alternative",
+    "point": 450,
+    "source": "アジア地区予選2014F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1350"
+  },
+  {
+    "title": "Cube Coloring",
+    "point": 450,
+    "source": "春コンテスト2014B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2678"
+  },
+  {
+    "title": "Clique Coloring",
+    "point": 450,
+    "source": "夏合宿2014:day2C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2631&lang=jp"
+  },
+  {
+    "title": "ブロック落とし",
+    "point": 500,
+    "source": "模擬国内2015C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2701&lang=jp"
+  },
+  {
+    "title": "Sibling Rivalry",
+    "point": 500,
+    "source": "アジア地区予選2015C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1358"
+  },
+  {
+    "title": "Wall Clocks",
+    "point": 450,
+    "source": "アジア地区予選2015D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1359"
+  },
+  {
+    "title": "Rabbit Party",
+    "point": 500,
+    "source": "夏合宿2011:day3G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2306"
+  },
+  {
+    "title": "Mr. リトー郵便局",
+    "point": 500,
+    "source": "模擬国内2010D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2200&lang=jp"
+  },
+  {
+    "title": "Alien's Counting",
+    "point": 500,
+    "source": "夏合宿2010:day4A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2222"
+  },
+  {
+    "title": "僕の友達は小さい",
+    "point": 500,
+    "source": "夏合宿2010:day2D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2333&lang=jp"
+  },
+  {
+    "title": "Most Distant Point from the Sea",
+    "point": 500,
+    "source": "アジア地区予選2007I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1283"
+  },
+  {
+    "title": "Never Wait for Weights",
+    "point": 500,
+    "source": "アジア地区予選2012F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1330"
+  },
+  {
+    "title": "Twenty Questions",
+    "point": 500,
+    "source": "アジア地区予選2009H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1302"
+  },
+  {
+    "title": "The Two Men of the Japanese Alps",
+    "point": 500,
+    "source": "アジア地区予選2010E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1309"
+  },
+  {
+    "title": "Dungeon Quest II",
+    "point": 500,
+    "source": "模擬地区2010C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2244"
+  },
+  {
+    "title": "The Castle",
+    "point": 500,
+    "source": "夏合宿2010:day3F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2237&lang=jp"
+  },
+  {
+    "title": "Number Sorting",
+    "point": 500,
+    "source": "模擬地区2011G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2326"
+  },
+  {
+    "title": "Beautiful Currency",
+    "point": 500,
+    "source": "夏合宿2011:day3F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2305"
+  },
+  {
+    "title": "薔薇園の魔女",
+    "point": 500,
+    "source": "夏合宿2011:day4A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2310&lang=jp"
+  },
+  {
+    "title": "全宇宙生命ゲノムデータベース",
+    "point": 500,
+    "source": "国内予選2006E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1145&lang=jp"
+  },
+  {
+    "title": "DNA",
+    "point": 500,
+    "source": "夏合宿2012:day3aD",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2437&lang=jp"
+  },
+  {
+    "title": "双子の読書感想文",
+    "point": 500,
+    "source": "模擬国内2013C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2510&lang=jp"
+  },
+  {
+    "title": "沈みゆく島",
+    "point": 500,
+    "source": "模擬国内2013D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2511&lang=jp"
+  },
+  {
+    "title": "Clock Hands",
+    "point": 500,
+    "source": "アジア地区予選2013D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1338"
+  },
+  {
+    "title": "橋の撤去",
+    "point": 500,
+    "source": "国内予選2014E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1196&lang=jp"
+  },
+  {
+    "title": "一日乗車券",
+    "point": 500,
+    "source": "模擬国内2014D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2585&lang=jp"
+  },
+  {
+    "title": "流れ星に願いを",
+    "point": 500,
+    "source": "模擬国内2014E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2586&lang=jp"
+  },
+  {
+    "title": "Test Case Tweaking",
+    "point": 500,
+    "source": "アジア地区予選2010G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1311"
+  },
+  {
+    "title": "Spherical Mirrors",
+    "point": 500,
+    "source": "アジア地区予選2008E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1289"
+  },
+  {
+    "title": "Infected Land",
+    "point": 500,
+    "source": "アジア地区予選2009J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1304"
+  },
+  {
+    "title": "街を駆ける道 ",
+    "point": 500,
+    "source": "夏合宿2010:day2E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2334&lang=jp"
+  },
+  {
+    "title": "Power of Power",
+    "point": 550,
+    "source": "夏合宿2011:day2F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2295&lang=jp"
+  },
+  {
+    "title": "カードゲーム",
+    "point": 400,
+    "source": "国内予選2009E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1163&lang=jp"
+  },
+  {
+    "title": "鉄道乗り継ぎ",
+    "point": 400,
+    "source": "国内予選2012D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1182&lang=jp"
+  },
+  {
+    "title": "TransferTrain",
+    "point": 500,
+    "source": "冬合宿2010:day3C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2371&lang=jp"
+  },
+  {
+    "title": "天の川",
+    "point": 400,
+    "source": "模擬国内2012D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2402&lang=jp"
+  },
+  {
+    "title": "Bubble Puzzle",
+    "point": 500,
+    "source": "冬合宿2010:day4B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2380"
+  },
+  {
+    "title": "Dice Room",
+    "point": 450,
+    "source": "模擬地区2010D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2245"
+  },
+  {
+    "title": "Two-Wheel Buggy",
+    "point": 500,
+    "source": "模擬地区2010F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2247"
+  },
+  {
+    "title": "Where's Wally",
+    "point": 500,
+    "source": "アジア地区予選2010H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1312"
+  },
+  {
+    "title": "Billiard ",
+    "point": 500,
+    "source": "模擬地区2012D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2537"
+  },
+  {
+    "title": "Perm Query",
+    "point": 550,
+    "source": "夏合宿2013:day2G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2606&lang=jp"
+  },
+  {
+    "title": "Wave Attack",
+    "point": 500,
+    "source": "夏合宿2013:day3C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2609&lang=jp"
+  },
+  {
+    "title": "Parentheses",
+    "point": 500,
+    "source": "春コンテスト2014E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2681"
+  },
+  {
+    "title": "Dense Amidakuji",
+    "point": 500,
+    "source": "夏合宿2014:day2D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2632&lang=jp"
+  },
+  {
+    "title": "AI",
+    "point": 450,
+    "source": "夏合宿2014:day4E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2643&lang=jp"
+  },
+  {
+    "title": "500 円玉貯金",
+    "point": 500,
+    "source": "国内予選2015D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1603&lang=jp"
+  },
+  {
+    "title": "Bringing Order to Disorder",
+    "point": 500,
+    "source": "アジア地区予選2015E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1360"
+  },
+  {
+    "title": "Save your cat",
+    "point": 550,
+    "source": "夏合宿2010:day4C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2224"
+  },
+  {
+    "title": "Luigi’s Tavern",
+    "point": 550,
+    "source": "夏合宿2009:day3D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2168"
+  },
+  {
+    "title": "Search of Concatenated Strings",
+    "point": 550,
+    "source": "アジア地区予選2008G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1291"
+  },
+  {
+    "title": "Digits on the Floor",
+    "point": 550,
+    "source": "アジア地区予選2008D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1288"
+  },
+  {
+    "title": "Tatami",
+    "point": 550,
+    "source": "夏合宿2009:day2I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2163"
+  },
+  {
+    "title": "Rabbit Plays Games!",
+    "point": 550,
+    "source": "夏合宿2010:day3E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2236&lang=jp"
+  },
+  {
+    "title": "Quest of Merchant",
+    "point": 550,
+    "source": "夏合宿2011:day2G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2296&lang=jp"
+  },
+  {
+    "title": "鎖中経路",
+    "point": 550,
+    "source": "国内予選2012E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1183&lang=jp"
+  },
+  {
+    "title": "Find the Multiples",
+    "point": 550,
+    "source": "アジア地区予選2010F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1310"
+  },
+  {
+    "title": "Stack Maze",
+    "point": 550,
+    "source": "模擬地区2012E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2538"
+  },
+  {
+    "title": "Confusing Login Names",
+    "point": 550,
+    "source": "アジア地区予選2004E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1252"
+  },
+  {
+    "title": "Water Tank",
+    "point": 550,
+    "source": "模擬地区2009F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2180"
+  },
+  {
+    "title": "Water Tank",
+    "point": 550,
+    "source": "国内予選2004E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1133&lang=jp"
+  },
+  {
+    "title": "つながれた風船",
+    "point": 550,
+    "source": "国内予選2013E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1190&lang=jp"
+  },
+  {
+    "title": "Shipura",
+    "point": 550,
+    "source": "模擬地区2013F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2570"
+  },
+  {
+    "title": "Venn Diagram",
+    "point": 550,
+    "source": "模擬地区2013H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2572"
+  },
+  {
+    "title": "Don't Burst the Balloon",
+    "point": 550,
+    "source": "アジア地区予選2013H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1342"
+  },
+  {
+    "title": "Points and Lines",
+    "point": 500,
+    "source": "模擬地区2014H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2596"
+  },
+  {
+    "title": "Area of Polygons",
+    "point": 550,
+    "source": "アジア地区予選2003C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1242"
+  },
+  {
+    "title": "Equals are Equals",
+    "point": 550,
+    "source": "アジア地区予選2002B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1233"
+  },
+  {
+    "title": "敵の敵は味方",
+    "point": 550,
+    "source": "模擬国内2012E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2403&lang=jp"
+  },
+  {
+    "title": "不死の宝石",
+    "point": 550,
+    "source": "模擬国内2010E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2201&lang=jp"
+  },
+  {
+    "title": "Bug Hunt",
+    "point": 450,
+    "source": "アジア地区予選2007H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1282"
+  },
+  {
+    "title": "Separate Points",
+    "point": 550,
+    "source": "アジア地区予選2009D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1298"
+  },
+  {
+    "title": "Awkward Lights",
+    "point": 550,
+    "source": "アジア地区予選2010D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1308"
+  },
+  {
+    "title": "Connect ",
+    "point": 550,
+    "source": "夏合宿2012:day4C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2449"
+  },
+  {
+    "title": "Find the Point",
+    "point": 550,
+    "source": "夏合宿2009:day3C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2167"
+  },
+  {
+    "title": "Entangled with Lottery",
+    "point": 550,
+    "source": "夏合宿2011:day2E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2294&lang=jp"
+  },
+  {
+    "title": "魔法少女さやかちゃん",
+    "point": 550,
+    "source": "夏合宿2011:day4C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2312&lang=jp"
+  },
+  {
+    "title": "失われし数",
+    "point": 550,
+    "source": "夏合宿2012:day2E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2428&lang=jp"
+  },
+  {
+    "title": "まるかいて",
+    "point": 550,
+    "source": "夏合宿2012:day2F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2429&lang=jp"
+  },
+  {
+    "title": "引越し",
+    "point": 550,
+    "source": "夏合宿2012:day2H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2431&lang=jp"
+  },
+  {
+    "title": "お姫様の日本語",
+    "point": 550,
+    "source": "模擬国内2008C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2020&lang=jp"
+  },
+  {
+    "title": "Audition ",
+    "point": 550,
+    "source": "夏合宿2012:day3aA",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2434&lang=jp"
+  },
+  {
+    "title": "Square Carpets",
+    "point": 550,
+    "source": "国内予選2003E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1128"
+  },
+  {
+    "title": "Galaxy Wide Web Service",
+    "point": 550,
+    "source": "夏合宿2009:day2H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2162"
+  },
+  {
+    "title": "Name the Crossing",
+    "point": 550,
+    "source": "国内予選2004F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1134&lang=jp"
+  },
+  {
+    "title": "Traveling Cube",
+    "point": 500,
+    "source": "アジア地区予選2008F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1290"
+  },
+  {
+    "title": "Texas Hold 'em",
+    "point": 550,
+    "source": "模擬地区2012B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2535"
+  },
+  {
+    "title": "Neko's Treasure",
+    "point": 550,
+    "source": "模擬地区2009G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2181"
+  },
+  {
+    "title": "Mysterious Maze",
+    "point": 550,
+    "source": "模擬地区2011F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2325"
+  },
+  {
+    "title": "Mobile Network",
+    "point": 550,
+    "source": "模擬地区2011I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2328"
+  },
+  {
+    "title": "The Morning after Halloween",
+    "point": 500,
+    "source": "アジア地区予選2007G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1281"
+  },
+  {
+    "title": "Social Monsters",
+    "point": 550,
+    "source": "夏合宿2013:day2F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2605&lang=jp"
+  },
+  {
+    "title": "Integer in Integer",
+    "point": 550,
+    "source": "春コンテスト2013B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2556"
+  },
+  {
+    "title": "順位付け",
+    "point": 550,
+    "source": "夏合宿2013:day3E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2611&lang=jp"
+  },
+  {
+    "title": "Graph Automata Player",
+    "point": 550,
+    "source": "夏合宿2013:day4F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2624"
+  },
+  {
+    "title": "Hyperrectangle",
+    "point": 550,
+    "source": "夏合宿2014:day2J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2638&lang=jp"
+  },
+  {
+    "title": "Phutball",
+    "point": 450,
+    "source": "夏合宿2013:day3F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2612&lang=jp"
+  },
+  {
+    "title": "Decoding Ancient Messages",
+    "point": 550,
+    "source": "春コンテスト2014C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2679"
+  },
+  {
+    "title": "夕食",
+    "point": 550,
+    "source": "夏合宿2014:day4D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2642&lang=jp"
+  },
+  {
+    "title": "Dictionary",
+    "point": 550,
+    "source": "夏合宿2014:day2B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2630&lang=jp"
+  },
+  {
+    "title": "JAG-channel II",
+    "point": 550,
+    "source": "春コンテスト2015G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2693"
+  },
+  {
+    "title": "Runner and Sniper",
+    "point": 550,
+    "source": "春コンテスト2015K",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2697"
+  },
+  {
+    "title": "Wall Making Game",
+    "point": 500,
+    "source": "春コンテスト2015L",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2698"
+  },
+  {
+    "title": "サイコロスタンプ",
+    "point": 550,
+    "source": "模擬国内2015E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2703&lang=jp"
+  },
+  {
+    "title": "デッドロック検出",
+    "point": 550,
+    "source": "国内予選2015E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1604&lang=jp"
+  },
+  {
+    "title": "Deadlock Detection",
+    "point": 550,
+    "source": "アジア地区予選2015F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1361"
+  },
+  {
+    "title": "Do Geese See God?",
+    "point": 550,
+    "source": "アジア地区予選2015G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1362"
+  },
+  {
+    "title": "ケーキ分割問題",
+    "point": 600,
+    "source": "模擬国内2011E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2256&lang=jp"
+  },
+  {
+    "title": "Three-way Branch",
+    "point": 550,
+    "source": "春コンテスト2012I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2397"
+  },
+  {
+    "title": "Sliding Block Puzzle",
+    "point": 600,
+    "source": "アジア地区予選2012E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1329"
+  },
+  {
+    "title": "箱根駅伝",
+    "point": 600,
+    "source": "夏合宿2012:day3aF",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2439&lang=jp"
+  },
+  {
+    "title": "舞台装置の魔女",
+    "point": 600,
+    "source": "夏合宿2011:day4I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2318&lang=jp"
+  },
+  {
+    "title": "Square in Circles",
+    "point": 600,
+    "source": "模擬地区2014E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2593"
+  },
+  {
+    "title": "Reverse a Road II",
+    "point": 600,
+    "source": "模擬地区2014F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2594"
+  },
+  {
+    "title": "Merry Christmas",
+    "point": 600,
+    "source": "模擬地区2010J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2251"
+  },
+  {
+    "title": "IkaNumber",
+    "point": 600,
+    "source": "冬合宿2010:day3D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2372&lang=jp"
+  },
+  {
+    "title": "１０歳の動的計画 ",
+    "point": 600,
+    "source": "夏合宿2010:day2F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2335&lang=jp"
+  },
+  {
+    "title": "スプリング・タイル ",
+    "point": 600,
+    "source": "夏合宿2010:day2G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2336&lang=jp"
+  },
+  {
+    "title": "Malfatti Circles",
+    "point": 600,
+    "source": "アジア地区予選2009G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1301"
+  },
+  {
+    "title": "Dangerous Tower",
+    "point": 600,
+    "source": "夏合宿2011:day2D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2293&lang=jp"
+  },
+  {
+    "title": "RabbitWalking",
+    "point": 600,
+    "source": "冬合宿2010:day3B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2370&lang=jp"
+  },
+  {
+    "title": "Driving an Icosahedral Rover",
+    "point": 600,
+    "source": "アジア地区予選2011E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1319"
+  },
+  {
+    "title": "Symmetry",
+    "point": 600,
+    "source": "夏合宿2009:day2E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2159"
+  },
+  {
+    "title": "Strange Couple",
+    "point": 600,
+    "source": "夏合宿2009:day3G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2171"
+  },
+  {
+    "title": "Card ",
+    "point": 600,
+    "source": "夏合宿2012:day3aC",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2436&lang=jp"
+  },
+  {
+    "title": "ハコの魔女",
+    "point": 600,
+    "source": "夏合宿2011:day4D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2313&lang=jp"
+  },
+  {
+    "title": "Reverse Sort",
+    "point": 600,
+    "source": "夏合宿2012:day3bD",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2443&lang=jp"
+  },
+  {
+    "title": "Enumeration",
+    "point": 600,
+    "source": "夏合宿2012:day3bG",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2446&lang=jp"
+  },
+  {
+    "title": "True Liars",
+    "point": 600,
+    "source": "アジア地区予選2002G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1238"
+  },
+  {
+    "title": "Flipping Parenthesis",
+    "point": 600,
+    "source": "アジア地区予選2014G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1351"
+  },
+  {
+    "title": "Pattern Language",
+    "point": 600,
+    "source": "夏合宿2013:day2E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2604&lang=jp"
+  },
+  {
+    "title": "Medical Inspection",
+    "point": 600,
+    "source": "春コンテスト2013D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2558"
+  },
+  {
+    "title": "Almost Same Substring",
+    "point": 600,
+    "source": "夏合宿2013:day3H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2614&lang=jp"
+  },
+  {
+    "title": "Snake",
+    "point": 600,
+    "source": "夏合宿2014:day2G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2635&lang=jp"
+  },
+  {
+    "title": "トーナメント",
+    "point": 600,
+    "source": "夏合宿2014:day4H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2646&lang=jp"
+  },
+  {
+    "title": "Tree Reconstruction",
+    "point": 600,
+    "source": "春コンテスト2013J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2564"
+  },
+  {
+    "title": "Safe Area",
+    "point": 600,
+    "source": "模擬地区2009E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2179"
+  },
+  {
+    "title": "Optimal alpha beta pruning",
+    "point": 600,
+    "source": "夏合宿2013:day4E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2623"
+  },
+  {
+    "title": "Content Delivery",
+    "point": 600,
+    "source": "春コンテスト2015D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2690"
+  },
+  {
+    "title": "ICPC Teams",
+    "point": 600,
+    "source": "春コンテスト2015F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2692"
+  },
+  {
+    "title": "アリスハウス",
+    "point": 600,
+    "source": "模擬国内2015D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2702&lang=jp"
+  },
+  {
+    "title": "Wind Passages",
+    "point": 700,
+    "source": "夏合宿2009:day3I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2173"
+  },
+  {
+    "title": "DisconnectedGame",
+    "point": 600,
+    "source": "冬合宿2010:day3H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2376&lang=jp"
+  },
+  {
+    "title": "最強の呪文",
+    "point": 700,
+    "source": "国内予選2010E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1169&lang=jp"
+  },
+  {
+    "title": "閘門式運河: 上下に動く水面",
+    "point": 700,
+    "source": "模擬国内2010F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2202&lang=jp"
+  },
+  {
+    "title": "Round Trip",
+    "point": 600,
+    "source": "アジア地区予選2011J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1324"
+  },
+  {
+    "title": "Network Reliability",
+    "point": 700,
+    "source": "冬コンテスト2011F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2345"
+  },
+  {
+    "title": "桜詩 ～願はくは花の下にて春死なむ～",
+    "point": 700,
+    "source": "模擬国内2011F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2257&lang=jp"
+  },
+  {
+    "title": "Magical Bridges",
+    "point": 600,
+    "source": "模擬地区2012H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2541"
+  },
+  {
+    "title": "影の魔女",
+    "point": 700,
+    "source": "夏合宿2011:day4F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2315&lang=jp"
+  },
+  {
+    "title": "Sports Days 2.0",
+    "point": 700,
+    "source": "夏合宿2012:day2I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2432&lang=jp"
+  },
+  {
+    "title": "RabbitLunch",
+    "point": 700,
+    "source": "冬合宿2010:day3F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2374&lang=jp"
+  },
+  {
+    "title": "Beautiful Spacing",
+    "point": 600,
+    "source": "アジア地区予選2012I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1333"
+  },
+  {
+    "title": "Matrix Operation ",
+    "point": 700,
+    "source": "冬コンテスト2011D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2343"
+  },
+  {
+    "title": "Geometric Map",
+    "point": 600,
+    "source": "アジア地区予選2007E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1279"
+  },
+  {
+    "title": "Multi Ending Story",
+    "point": 700,
+    "source": "冬コンテスト2011E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2344"
+  },
+  {
+    "title": "Vector Compression ",
+    "point": 600,
+    "source": "夏合宿2011:day3J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2309"
+  },
+  {
+    "title": "Repairing",
+    "point": 700,
+    "source": "夏合宿2012:day4H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2454"
+  },
+  {
+    "title": "Weaker than Planned",
+    "point": 700,
+    "source": "アジア地区予選2011C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1317"
+  },
+  {
+    "title": "Revenge of the Round Table ",
+    "point": 700,
+    "source": "夏合宿2009:day2J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2164"
+  },
+  {
+    "title": "Bicube",
+    "point": 600,
+    "source": "冬合宿2010:day4A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2379"
+  },
+  {
+    "title": "Inherit the Spheres",
+    "point": 600,
+    "source": "アジア地区予選2004H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1255"
+  },
+  {
+    "title": "Shelter",
+    "point": 700,
+    "source": "冬合宿2010:day4G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2385"
+  },
+  {
+    "title": "AYBABTU",
+    "point": 700,
+    "source": "春コンテスト2012B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2390"
+  },
+  {
+    "title": "Nearest Station",
+    "point": 600,
+    "source": "夏合宿2010:day3H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2239&lang=jp"
+  },
+  {
+    "title": "小野小町の編集合戦",
+    "point": 700,
+    "source": "模擬国内2013E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2512&lang=jp"
+  },
+  {
+    "title": "Polygon Guards",
+    "point": 700,
+    "source": "春コンテスト2014F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2682"
+  },
+  {
+    "title": "Rings",
+    "point": 700,
+    "source": "春コンテスト2013H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2562"
+  },
+  {
+    "title": "Operator",
+    "point": 600,
+    "source": "模擬地区2010I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2250"
+  },
+  {
+    "title": "Website Tour",
+    "point": 700,
+    "source": "模擬地区2014J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2598"
+  },
+  {
+    "title": "A + B",
+    "point": 700,
+    "source": "夏合宿2013:day3I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2615&lang=jp"
+  },
+  {
+    "title": "Balanced Paths",
+    "point": 800,
+    "source": "春コンテスト2015A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2687"
+  },
+  {
+    "title": "からくり人形",
+    "point": 700,
+    "source": "模擬国内2007F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2017&lang=jp"
+  },
+  {
+    "title": "Graph Construction",
+    "point": 700,
+    "source": "夏合宿2010:day3D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2235&lang=jp"
+  },
+  {
+    "title": "ASCII Expression",
+    "point": 700,
+    "source": "アジア地区予選2011H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1322"
+  },
+  {
+    "title": "Matrix Calculator",
+    "point": 700,
+    "source": "アジア地区予選2010J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1314"
+  },
+  {
+    "title": "Putter",
+    "point": 700,
+    "source": "模擬地区2013E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2569"
+  },
+  {
+    "title": "Floating Islands",
+    "point": 800,
+    "source": "模擬地区2013G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2571"
+  },
+  {
+    "title": "六角沼の六角大蛇",
+    "point": 700,
+    "source": "国内予選2006C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1143&lang=jp"
+  },
+  {
+    "title": "HullMarathon",
+    "point": 700,
+    "source": "冬合宿2010:day3E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2373&lang=jp"
+  },
+  {
+    "title": "部陪博士，あるいは，われわれはいかにして左右非対称になったか",
+    "point": 700,
+    "source": "国内予選2007F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1152&lang=jp"
+  },
+  {
+    "title": "Revenge of Champernowne Constant ",
+    "point": 700,
+    "source": "模擬地区2011D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2323"
+  },
+  {
+    "title": "エレベーターホール・ナンバー",
+    "point": 700,
+    "source": "模擬国内2014F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2587&lang=jp"
+  },
+  {
+    "title": "Spotlight Movement",
+    "point": 700,
+    "source": "夏合宿2013:day4G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2625"
+  },
+  {
+    "title": "Gravity Point",
+    "point": 700,
+    "source": "夏合宿2013:day4H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2626"
+  },
+  {
+    "title": "Unfair Game",
+    "point": 600,
+    "source": "春コンテスト2014J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2686"
+  },
+  {
+    "title": "Longest Match",
+    "point": 700,
+    "source": "夏合宿2014:day4F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2644&lang=jp"
+  },
+  {
+    "title": "Tokyo Olympics Center",
+    "point": 700,
+    "source": "春コンテスト2014I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2685"
+  },
+  {
+    "title": "Iyasugigappa",
+    "point": 700,
+    "source": "春コンテスト2013C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2557"
+  },
+  {
+    "title": "お姫様は戦略家",
+    "point": 700,
+    "source": "模擬国内2008F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2023&lang=jp"
+  },
+  {
+    "title": "Cost Performance Flow",
+    "point": 700,
+    "source": "春コンテスト2015E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2691"
+  },
+  {
+    "title": "橋の建造計画",
+    "point": 700,
+    "source": "国内予選2015F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1605&lang=jp"
+  },
+  {
+    "title": "複雑な折り紙",
+    "point": 700,
+    "source": "国内予選2015G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1606&lang=jp"
+  },
+  {
+    "title": "小型飛行ロボット開発",
+    "point": 700,
+    "source": "国内予選2015H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1607&lang=jp"
+  },
+  {
+    "title": "Intersection of Two Prisms",
+    "point": 700,
+    "source": "アジア地区予選2010I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1313"
+  },
+  {
+    "title": "ほそながいところ",
+    "point": 800,
+    "source": "夏合宿2012:day2D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2427&lang=jp"
+  },
+  {
+    "title": "Area Folding",
+    "point": 800,
+    "source": "夏合宿2012:day4B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2448"
+  },
+  {
+    "title": "Towns along a Highway",
+    "point": 800,
+    "source": "アジア地区予選2010C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1307"
+  },
+  {
+    "title": "最長増加列問題",
+    "point": 800,
+    "source": "夏合宿2012:day2G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2430&lang=jp"
+  },
+  {
+    "title": "Encircling Circles",
+    "point": 800,
+    "source": "アジア地区予選2011I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1323"
+  },
+  {
+    "title": "Earth Observation with a Mobile Robot Team",
+    "point": 700,
+    "source": "国内予選2005E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1139&lang=jp"
+  },
+  {
+    "title": "回転と書換",
+    "point": 800,
+    "source": "国内予選2013F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1191&lang=jp"
+  },
+  {
+    "title": "Longest Chain",
+    "point": 800,
+    "source": "アジア地区予選2013G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1341"
+  },
+  {
+    "title": "サイコロ職人",
+    "point": 800,
+    "source": "国内予選2014F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1197&lang=jp"
+  },
+  {
+    "title": "MinimumCostPath",
+    "point": 800,
+    "source": "夏合宿2012:day3bF",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2445&lang=jp"
+  },
+  {
+    "title": "Move on Dice",
+    "point": 800,
+    "source": "夏合宿2012:day4E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2451"
+  },
+  {
+    "title": "Full Text Search",
+    "point": 800,
+    "source": "模擬地区2011E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2324"
+  },
+  {
+    "title": "レーザー光の反射",
+    "point": 800,
+    "source": "国内予選2010G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1171&lang=jp"
+  },
+  {
+    "title": "Common Polynomial",
+    "point": 800,
+    "source": "アジア地区予選2008I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1293"
+  },
+  {
+    "title": "人魚の魔女",
+    "point": 800,
+    "source": "夏合宿2011:day4G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2316&lang=jp"
+  },
+  {
+    "title": "Overwriting Game",
+    "point": 800,
+    "source": "模擬地区2013I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2573"
+  },
+  {
+    "title": "Hidden Tree",
+    "point": 800,
+    "source": "アジア地区予選2013I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1343"
+  },
+  {
+    "title": "TiMe Table",
+    "point": 800,
+    "source": "夏合宿2013:day2D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2603&lang=jp"
+  },
+  {
+    "title": "Multi Path Story",
+    "point": 800,
+    "source": "夏合宿2013:day4I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2627"
+  },
+  {
+    "title": "円を横切るな!",
+    "point": 800,
+    "source": "国内予選2014G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1198&lang=jp"
+  },
+  {
+    "title": "Minimum Spanning Tree",
+    "point": 800,
+    "source": "春コンテスト2013E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2559"
+  },
+  {
+    "title": "スタンプラリー",
+    "point": 800,
+    "source": "模擬国内2015F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2704&lang=jp"
+  },
+  {
+    "title": "Sky Jump",
+    "point": 800,
+    "source": "模擬地区2011H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2327"
+  },
+  {
+    "title": "White Bird",
+    "point": 800,
+    "source": "夏合宿2011:day3I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2308"
+  },
+  {
+    "title": "Zigzag",
+    "point": 800,
+    "source": "アジア地区予選2008J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1294"
+  },
+  {
+    "title": "Chemist's Math",
+    "point": 800,
+    "source": "アジア地区予選2009F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1300"
+  },
+  {
+    "title": "Queen’s Case",
+    "point": 700,
+    "source": "夏合宿2009:day3H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2172"
+  },
+  {
+    "title": "Usagitobi",
+    "point": 900,
+    "source": "夏合宿2010:day3C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2234&lang=jp"
+  },
+  {
+    "title": "Attack the Moles",
+    "point": 900,
+    "source": "夏合宿2011:day2A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2290&lang=jp"
+  },
+  {
+    "title": "Directional Resemblance",
+    "point": 900,
+    "source": "アジア地区予選2013F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1340"
+  },
+  {
+    "title": "京都旅行",
+    "point": 700,
+    "source": "夏合宿2013:day3L",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2618&lang=jp"
+  },
+  {
+    "title": "Removing Magical Tiles",
+    "point": 900,
+    "source": "夏合宿2013:day4D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2622"
+  },
+  {
+    "title": "Directions",
+    "point": 800,
+    "source": "夏合宿2014:day2F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2634&lang=jp"
+  },
+  {
+    "title": "首都",
+    "point": 800,
+    "source": "夏合宿2014:day4I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2647&lang=jp"
+  },
+  {
+    "title": "Speedrun",
+    "point": 800,
+    "source": "模擬地区2014C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2591"
+  },
+  {
+    "title": "ICPC: チョコレートの知的合同分割",
+    "point": 800,
+    "source": "国内予選2008F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1158&lang=jp"
+  },
+  {
+    "title": "Apples",
+    "point": 800,
+    "source": "夏合宿2013:day2C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2602&lang=jp"
+  },
+  {
+    "title": "壊れたドア",
+    "point": 800,
+    "source": "国内予選2011G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1178&lang=jp"
+  },
+  {
+    "title": "The Teacher's Side of Math",
+    "point": 800,
+    "source": "アジア地区予選2007J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1284"
+  },
+  {
+    "title": "Cornering at Poles",
+    "point": 800,
+    "source": "アジア地区予選2014H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1352"
+  },
+  {
+    "title": "Vongress",
+    "point": 800,
+    "source": "夏合宿2014:day4J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2648&lang=jp"
+  },
+  {
+    "title": "鏡の迷路",
+    "point": 800,
+    "source": "模擬国内2013G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2514&lang=jp"
+  },
+  {
+    "title": "テトラ姫のパズル",
+    "point": 900,
+    "source": "模擬国内2013F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2513&lang=jp"
+  },
+  {
+    "title": "Ancient Commemorative Monolith",
+    "point": 800,
+    "source": "模擬地区2012G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2540"
+  },
+  {
+    "title": "Revenge of Minimum Cost Flow",
+    "point": 800,
+    "source": "春コンテスト2013G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2561"
+  },
+  {
+    "title": "Kth Sentence ",
+    "point": 900,
+    "source": "冬コンテスト2011B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2341"
+  },
+  {
+    "title": "Counting 1's ",
+    "point": 900,
+    "source": "模擬地区2012F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2539"
+  },
+  {
+    "title": "落書きの魔女",
+    "point": 900,
+    "source": "夏合宿2011:day4E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2314&lang=jp"
+  },
+  {
+    "title": "Company Organization",
+    "point": 900,
+    "source": "アジア地区予選2012H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1332"
+  },
+  {
+    "title": "Captain Q's Treasure",
+    "point": 900,
+    "source": "アジア地区予選2011G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1321"
+  },
+  {
+    "title": "Dungeon Creation",
+    "point": 900,
+    "source": "春コンテスト2012E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2393"
+  },
+  {
+    "title": "Sweet War",
+    "point": 900,
+    "source": "アジア地区予選2014I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1353"
+  },
+  {
+    "title": "Magical Switches",
+    "point": 900,
+    "source": "模擬地区2013J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2574"
+  },
+  {
+    "title": "Rotation Game",
+    "point": 900,
+    "source": "夏合宿2013:day4J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2628"
+  },
+  {
+    "title": "The J-th Number",
+    "point": 1000,
+    "source": "春コンテスト2013I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2563"
+  },
+  {
+    "title": "Ancient Scrolls",
+    "point": 900,
+    "source": "模擬地区2012J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2543"
+  },
+  {
+    "title": "Top Spinning",
+    "point": 800,
+    "source": "アジア地区予選2008H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1292"
+  },
+  {
+    "title": "Psychic Accelerator",
+    "point": 800,
+    "source": "夏合宿2010:day4E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2226"
+  },
+  {
+    "title": "Skyland",
+    "point": 900,
+    "source": "春コンテスト2012H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2396"
+  },
+  {
+    "title": "くるくるドア",
+    "point": 900,
+    "source": "模擬国内2015G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2705&lang=jp"
+  },
+  {
+    "title": "Brilliant Stars",
+    "point": 1000,
+    "source": "夏合宿2011:day2B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2291&lang=jp"
+  },
+  {
+    "title": "姉妹港",
+    "point": 900,
+    "source": "模擬国内2012G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2405&lang=jp"
+  },
+  {
+    "title": "ドッグフード",
+    "point": 1000,
+    "source": "模擬国内2012F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2404&lang=jp"
+  },
+  {
+    "title": "ねこ鍋改造計画（仮） ",
+    "point": 1000,
+    "source": "夏合宿2010:day2H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2337&lang=jp"
+  },
+  {
+    "title": "Palindrome Generator",
+    "point": 900,
+    "source": "夏合宿2011:day3H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2307"
+  },
+  {
+    "title": "影の秘密",
+    "point": 1000,
+    "source": "国内予選2006F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1146&lang=jp"
+  },
+  {
+    "title": "一般化ポーカー",
+    "point": 1000,
+    "source": "国内予選2012F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1184&lang=jp"
+  },
+  {
+    "title": "Color the Map Extreme",
+    "point": 900,
+    "source": "模擬地区2014I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2597"
+  },
+  {
+    "title": "Do use segment tree",
+    "point": 1000,
+    "source": "夏合宿2012:day4D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2450"
+  },
+  {
+    "title": "Lowest Pyramid",
+    "point": 900,
+    "source": "アジア地区予選2007D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1278"
+  },
+  {
+    "title": "Cubic Colonies",
+    "point": 1000,
+    "source": "アジア地区予選2012J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1334"
+  },
+  {
+    "title": "CarrotBreeding",
+    "point": 1000,
+    "source": "冬合宿2010:day3G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2375&lang=jp"
+  },
+  {
+    "title": "Lapin Noir",
+    "point": 1000,
+    "source": "夏合宿2010:day3I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2240&lang=jp"
+  },
+  {
+    "title": "DON'T PANIC! ",
+    "point": 1000,
+    "source": "夏合宿2010:day4G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2228"
+  },
+  {
+    "title": "Crossing Prisms",
+    "point": 1000,
+    "source": "アジア地区予選2004I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1256"
+  },
+  {
+    "title": "番犬派遣会社",
+    "point": 1000,
+    "source": "国内予選2011F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1177&lang=jp"
+  },
+  {
+    "title": "よくわかる二重魔法 ",
+    "point": 900,
+    "source": "夏合宿2010:day2I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2338&lang=jp"
+  },
+  {
+    "title": "Exhibition",
+    "point": 1000,
+    "source": "アジア地区予選2014J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1354"
+  },
+  {
+    "title": "Point Distance",
+    "point": 900,
+    "source": "春コンテスト2013F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2560"
+  },
+  {
+    "title": "Air Pollution",
+    "point": 900,
+    "source": "夏合宿2013:day3K",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2617&lang=jp"
+  },
+  {
+    "title": "Common Palindromes",
+    "point": 900,
+    "source": "夏合宿2011:day2C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2292&lang=jp"
+  },
+  {
+    "title": "Bouldering",
+    "point": 1000,
+    "source": "夏合宿2010:day4F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2227"
+  },
+  {
+    "title": "ACM洋菓子店",
+    "point": 1000,
+    "source": "国内予選2012G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1185&lang=jp"
+  },
+  {
+    "title": "Presentation",
+    "point": 1000,
+    "source": "夏合宿2012:day4G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2453"
+  },
+  {
+    "title": "How to Create a Good Game",
+    "point": 1100,
+    "source": "夏合宿2010:day4I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2230"
+  },
+  {
+    "title": "Camera Control",
+    "point": 1000,
+    "source": "模擬地区2010G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2248"
+  },
+  {
+    "title": "Hobby on Rails",
+    "point": 1000,
+    "source": "アジア地区予選2009I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1303"
+  },
+  {
+    "title": "古い記憶",
+    "point": 1100,
+    "source": "国内予選2010F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1170&lang=jp"
+  },
+  {
+    "title": "魔法島物語2",
+    "point": 1100,
+    "source": "模擬国内2010G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2203&lang=jp"
+  },
+  {
+    "title": "海岸線の浸食",
+    "point": 1000,
+    "source": "模擬国内2009F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2154&lang=jp"
+  },
+  {
+    "title": "Rabbit Jumping",
+    "point": 1000,
+    "source": "冬合宿2010:day4F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2384"
+  },
+  {
+    "title": "プールの監視員",
+    "point": 1000,
+    "source": "模擬国内2007E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2016&lang=jp"
+  },
+  {
+    "title": "Sunny Graph",
+    "point": 1000,
+    "source": "冬コンテスト2011H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2347"
+  },
+  {
+    "title": "締まっていこう",
+    "point": 1000,
+    "source": "国内予選2009F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1164&lang=jp"
+  },
+  {
+    "title": "Alice and Bomb",
+    "point": 1100,
+    "source": "模擬地区2010E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2246"
+  },
+  {
+    "title": "Cave Explorer",
+    "point": 1000,
+    "source": "模擬地区2009J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2184"
+  },
+  {
+    "title": "ThreeRooks",
+    "point": 1000,
+    "source": "冬合宿2010:day3I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2377&lang=jp"
+  },
+  {
+    "title": "くるくる",
+    "point": 1000,
+    "source": "国内予選2007E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1151&lang=jp"
+  },
+  {
+    "title": "問題文担当者は働かない！",
+    "point": 1100,
+    "source": "夏合宿2010:day2J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2339&lang=jp"
+  },
+  {
+    "title": "最終防衛線",
+    "point": 1000,
+    "source": "夏合宿2012:day2J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2433&lang=jp"
+  },
+  {
+    "title": "ゴルフ",
+    "point": 1100,
+    "source": "模擬国内2014G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2588&lang=jp"
+  },
+  {
+    "title": "Nurie",
+    "point": 1000,
+    "source": "夏合宿2010:day3G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2238&lang=jp"
+  },
+  {
+    "title": "L Jumps",
+    "point": 1100,
+    "source": "アジア地区予選2014K",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1355"
+  },
+  {
+    "title": "Distance Sum",
+    "point": 1000,
+    "source": "夏合宿2014:day2H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2636&lang=jp"
+  },
+  {
+    "title": "Cellular Automaton",
+    "point": 1100,
+    "source": "夏合宿2014:day2E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2633&lang=jp"
+  },
+  {
+    "title": "Rotating Cutter Bits",
+    "point": 1100,
+    "source": "アジア地区予選2015H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1363"
+  },
+  {
+    "title": "全自動円形掃除機",
+    "point": 1100,
+    "source": "模擬国内2011G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2258&lang=jp"
+  },
+  {
+    "title": "Cruel Bingo",
+    "point": 1100,
+    "source": "夏合宿2010:day4J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2231"
+  },
+  {
+    "title": "ソウルジェムゲーム",
+    "point": 1200,
+    "source": "夏合宿2011:day4J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2319&lang=jp"
+  },
+  {
+    "title": "SolveMe",
+    "point": 1200,
+    "source": "冬合宿2010:day3J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2378&lang=jp"
+  },
+  {
+    "title": "Hashigo Sama",
+    "point": 1100,
+    "source": "模擬地区2012I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2542"
+  },
+  {
+    "title": "Origami Through-Hole",
+    "point": 1100,
+    "source": "アジア地区予選2009E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1299"
+  },
+  {
+    "title": "Tampopo Machine",
+    "point": 1200,
+    "source": "冬合宿2010:day4I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2387"
+  },
+  {
+    "title": "Digit",
+    "point": 1100,
+    "source": "春コンテスト2012D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2392"
+  },
+  {
+    "title": "World Trip",
+    "point": 1100,
+    "source": "冬コンテスト2011J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2349"
+  },
+  {
+    "title": "Proportional Representation",
+    "point": 1200,
+    "source": "春コンテスト2014G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2683"
+  },
+  {
+    "title": "Substring Pairs",
+    "point": 1200,
+    "source": "夏合宿2014:day2I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2637&lang=jp"
+  },
+  {
+    "title": "Kimagure Cleaner",
+    "point": 1200,
+    "source": "春コンテスト2015H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2694"
+  },
+  {
+    "title": "Card Game Strategy",
+    "point": 1200,
+    "source": "春コンテスト2015B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2688"
+  },
+  {
+    "title": "New Game AI",
+    "point": 1200,
+    "source": "春コンテスト2015J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2696"
+  },
+  {
+    "title": "Casino",
+    "point": 1100,
+    "source": "春コンテスト2015C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2689"
+  },
+  {
+    "title": "Midpoint",
+    "point": 900,
+    "source": "春コンテスト2015I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2695"
+  },
+  {
+    "title": "幾何問題を解こう",
+    "point": 200,
+    "source": "夏合宿2015:day2A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2706&lang=jp"
+  },
+  {
+    "title": "監獄",
+    "point": 300,
+    "source": "夏合宿2015:day2B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2707&lang=jp"
+  },
+  {
+    "title": "ABC Gene",
+    "point": 300,
+    "source": "夏合宿2015:day2C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2708&lang=jp"
+  },
+  {
+    "title": "真っ暗な部屋",
+    "point": 300,
+    "source": "夏合宿2015:day2D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2709&lang=jp"
+  },
+  {
+    "title": "坑道数式",
+    "point": 400,
+    "source": "夏合宿2015:day2E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2710&lang=jp"
+  },
+  {
+    "title": "ほぼ周期文字列",
+    "point": 600,
+    "source": "夏合宿2015:day2F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2711&lang=jp"
+  },
+  {
+    "title": "Escape",
+    "point": 500,
+    "source": "夏合宿2015:day2G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2712&lang=jp"
+  },
+  {
+    "title": "Bit Operation Game",
+    "point": 550,
+    "source": "夏合宿2015:day2H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2713&lang=jp"
+  },
+  {
+    "title": "ツインリバース",
+    "point": 800,
+    "source": "夏合宿2015:day2I",
+    "url": "http://jag2015summer-day2.contest.atcoder.jp/tasks/icpc2015summer_day2_i"
+  },
+  {
+    "title": "連結",
+    "point": 800,
+    "source": "夏合宿2015:day2J",
+    "url": "http://jag2015summer-day2.contest.atcoder.jp/tasks/icpc2015summer_day2_j"
+  },
+  {
+    "title": "Leapfrog",
+    "point": 800,
+    "source": "夏合宿2015:day2K",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2716&lang=jp"
+  },
+  {
+    "title": "Where is the Boundary",
+    "point": 250,
+    "source": "夏合宿2015:day4A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2717"
+  },
+  {
+    "title": "Vector Field",
+    "point": 500,
+    "source": "夏合宿2015:day4B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2718"
+  },
+  {
+    "title": "Kuru Kuru Sushi",
+    "point": 1100,
+    "source": "夏合宿2015:day4C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2719"
+  },
+  {
+    "title": "Identity Function",
+    "point": 450,
+    "source": "夏合宿2015:day4D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2720"
+  },
+  {
+    "title": "Enclose Points",
+    "point": 800,
+    "source": "夏合宿2015:day4E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2721"
+  },
+  {
+    "title": "Marching Course",
+    "point": 700,
+    "source": "夏合宿2015:day4F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2722"
+  },
+  {
+    "title": "Surface Area of Cubes",
+    "point": 350,
+    "source": "夏合宿2015:day4G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2723"
+  },
+  {
+    "title": "Laser Cutter",
+    "point": 700,
+    "source": "夏合宿2015:day4H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2724"
+  },
+  {
+    "title": "Live Programming",
+    "point": 800,
+    "source": "夏合宿2015:day4I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2725"
+  },
+  {
+    "title": "Black Company",
+    "point": 450,
+    "source": "夏合宿2015:day4J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2726"
+  },
+  {
+    "title": "M and A",
+    "point": 200,
+    "source": "模擬地区2015A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2727"
+  },
+  {
+    "title": "Change a Password",
+    "point": 250,
+    "source": "模擬地区2015B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2728"
+  },
+  {
+    "title": "Delete Files",
+    "point": 500,
+    "source": "模擬地区2015C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2729"
+  },
+  {
+    "title": "Line Gimmick",
+    "point": 300,
+    "source": "模擬地区2015D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2730"
+  },
+  {
+    "title": "Shifting a Matrix",
+    "point": 500,
+    "source": "模擬地区2015E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2731"
+  },
+  {
+    "title": "Modern Annouce Network",
+    "point": 550,
+    "source": "模擬地区2015F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2732"
+  },
+  {
+    "title": "Cube Dividing",
+    "point": 800,
+    "source": "模擬地区2015G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2733"
+  },
+  {
+    "title": "Donut Decoration",
+    "point": 500,
+    "source": "模擬地区2015H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2734"
+  },
+  {
+    "title": "Shortest Bridge",
+    "point": 1100,
+    "source": "模擬地区2015I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2735"
+  },
+  {
+    "title": "Longest Shortest Path",
+    "point": 1000,
+    "source": "模擬地区2015J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2736"
+  },
+  {
+    "title": "Optimal Tournament",
+    "point": 900,
+    "source": "模擬地区2015K",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2737"
+  },
+  {
+    "title": "Routing a Marathon Race",
+    "point": 900,
+    "source": "アジア地区予選2015I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1364"
+  },
+  {
+    "title": "Post Office Investigation",
+    "point": 1000,
+    "source": "アジア地区予選2015J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1365"
+  },
+  {
+    "title": "Min-Max Distance Game",
+    "point": 1100,
+    "source": "アジア地区予選2015K",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1366"
+  },
+  {
+    "title": "阿吽の呼吸",
+    "point": 100,
+    "source": "模擬国内2016a:A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2738&lang=jp"
+  },
+  {
+    "title": " 豪邸と宅配便 ",
+    "point": 150,
+    "source": "模擬国内2016a:B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2739&lang=jp"
+  },
+  {
+    "title": "みさわさんの根付き木",
+    "point": 350,
+    "source": "模擬国内2016a:C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2740&lang=jp"
+  },
+  {
+    "title": "インビジブル",
+    "point": 400,
+    "source": "模擬国内2016a:D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2741&lang=jp"
+  },
+  {
+    "title": " 選挙活動 ",
+    "point": 600,
+    "source": "模擬国内2016a:E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2742&lang=jp"
+  },
+  {
+    "title": "土地相続",
+    "point": 600,
+    "source": "模擬国内2016a:F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2743&lang=jp"
+  },
+  {
+    "title": " リングと紐 ",
+    "point": 900,
+    "source": "模擬国内2016a:G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2744&lang=jp"
+  },
+  {
+    "title": "カレー作り",
+    "point": 100,
+    "source": "模擬国内2016b:A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2745&lang=jp"
+  },
+  {
+    "title": "jfen",
+    "point": 250,
+    "source": "模擬国内2016b:B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2746&lang=jp"
+  },
+  {
+    "title": "カーテン",
+    "point": 450,
+    "source": "模擬国内2016b:C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2747&lang=jp"
+  },
+  {
+    "title": "夏合宿の朝は早い",
+    "point": 450,
+    "source": "模擬国内2016b:D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2748&lang=jp"
+  },
+  {
+    "title": "ぼくのかんがえたさいきょうのおふとん",
+    "point": 550,
+    "source": "模擬国内2016b:E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2749&lang=jp"
+  },
+  {
+    "title": "百人一首",
+    "point": 900,
+    "source": "模擬国内2016b:F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2750&lang=jp"
+  },
+  {
+    "title": "野球観戦",
+    "point": 550,
+    "source": "模擬国内2016b:G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2751&lang=jp"
+  },
+  {
+    "title": "被験者の選定",
+    "point": 100,
+    "source": "国内予選2016A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1608&lang=jp"
+  },
+  {
+    "title": "当選者を探せ！",
+    "point": 150,
+    "source": "国内予選2016B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1609&lang=jp"
+  },
+  {
+    "title": "竹の花",
+    "point": 200,
+    "source": "国内予選2016C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1610&lang=jp"
+  },
+  {
+    "title": "ダルマ落とし",
+    "point": 400,
+    "source": "国内予選2016D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1611&lang=jp"
+  },
+  {
+    "title": "3Dプリント",
+    "point": 500,
+    "source": "国内予選2016E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1612&lang=jp"
+  },
+  {
+    "title": "文字解読",
+    "point": 550,
+    "source": "国内予選2016F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1613&lang=jp"
+  },
+  {
+    "title": "ワープ航法",
+    "point": 900,
+    "source": "国内予選2016G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1614&lang=jp"
+  },
+  {
+    "title": "プレゼント交換会",
+    "point": 700,
+    "source": "国内予選2016H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1615&lang=jp"
+  },
+  {
+    "title": "Pipeline Plans",
+    "point": 900,
+    "source": "夏合宿2012:day4F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2452"
+  },
+  {
+    "title": "Longest Lane",
+    "point": 800,
+    "source": "春コンテスト2012F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2394"
+  },
+  {
+    "title": "Tree Allocation",
+    "point": 800,
+    "source": "春コンテスト2012J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2398"
+  },
+  {
+    "title": "GIGA Universe Cup",
+    "point": 400,
+    "source": "アジア地区予選2002C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1234"
+  },
+  {
+    "title": "Poor Mail Forwarding",
+    "point": 600,
+    "source": "模擬国内2005E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2010&lang=jp"
+  },
+  {
+    "title": "Best Matched Pair",
+    "point": 150,
+    "source": "模擬地区2016A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2780"
+  },
+  {
+    "title": "Help the Princess!",
+    "point": 250,
+    "source": "模擬地区2016B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2781"
+  },
+  {
+    "title": "We don't wanna work!",
+    "point": 550,
+    "source": "模擬地区2016C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2782"
+  },
+  {
+    "title": "Parentheses",
+    "point": 350,
+    "source": "模擬地区2016D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2783"
+  },
+  {
+    "title": "Similarity of Subtrees",
+    "point": 450,
+    "source": "模擬地区2016E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2784"
+  },
+  {
+    "title": "Escape from the Hell",
+    "point": 600,
+    "source": "模擬地区2016F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2785"
+  },
+  {
+    "title": "Share the Ruins Preservation",
+    "point": 600,
+    "source": "模擬地区2016G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2786"
+  },
+  {
+    "title": "Pipe Fitter and the Fierce Dogs",
+    "point": 600,
+    "source": "模擬地区2016H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2787"
+  },
+  {
+    "title": "Multisect",
+    "point": 700,
+    "source": "模擬地区2016I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2788"
+  },
+  {
+    "title": "Compressed Formula",
+    "point": 700,
+    "source": "模擬地区2016J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2789"
+  },
+  {
+    "title": "Non-redundant Drive",
+    "point": 800,
+    "source": "模擬地区2016K",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2790"
+  },
+  {
+    "title": "Rearranging a Sequence",
+    "point": 200,
+    "source": "アジア地区予選2016A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1367"
+  },
+  {
+    "title": "Quality of Check Digits",
+    "point": 200,
+    "source": "アジア地区予選2016B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1368"
+  },
+  {
+    "title": "Distribution Center",
+    "point": 250,
+    "source": "アジア地区予選2016C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1369"
+  },
+  {
+    "title": "Hidden Anagrams",
+    "point": 400,
+    "source": "アジア地区予選2016D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1370"
+  },
+  {
+    "title": "Infallibly Crack Perplexing Cryptarithm",
+    "point": 550,
+    "source": "アジア地区予選2016E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1371"
+  },
+  {
+    "title": "Three Kingdoms of Bourdelot",
+    "point": 800,
+    "source": "アジア地区予選2016F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1372"
+  },
+  {
+    "title": "Placing Medals on a Binary Tree",
+    "point": 500,
+    "source": "アジア地区予選2016G",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1373"
+  },
+  {
+    "title": "Animal Companion in Maze",
+    "point": 900,
+    "source": "アジア地区予選2016H",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1374"
+  },
+  {
+    "title": "Skinny Polygon",
+    "point": 800,
+    "source": "アジア地区予選2016I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1375"
+  },
+  {
+    "title": "Cover the Polygon with Your Disk",
+    "point": 800,
+    "source": "アジア地区予選2016J",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1376"
+  },
+  {
+    "title": "Black and White Boxes",
+    "point": 1000,
+    "source": "アジア地区予選2016K",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1377"
+  },
+  {
+    "title": "所得格差",
+    "point": 100,
+    "source": "国内予選2018A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1624&lang=jp"
+  },
+  {
+    "title": "太郎君の買物",
+    "point": 100,
+    "source": "国内予選2017A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1616&lang=jp"
+  },
+  {
+    "title": "ほとんど同じプログラム",
+    "point": 200,
+    "source": "国内予選2017B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1617&lang=jp"
+  },
+  {
+    "title": "池のある庭園",
+    "point": 150,
+    "source": "国内予選2017C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1618&lang=jp"
+  },
+  {
+    "title": "弁当作り",
+    "point": 500,
+    "source": "国内予選2017D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1619&lang=jp"
+  },
+  {
+    "title": "論理式圧縮機",
+    "point": 500,
+    "source": "国内予選2017E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1620&lang=jp"
+  },
+  {
+    "title": "リボンたたみ",
+    "point": 500,
+    "source": "国内予選2017F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1621&lang=jp"
+  },
+  {
+    "title": "折り紙",
+    "point": 250,
+    "source": "国内予選2018B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1625&lang=jp"
+  },
+  {
+    "title": "超高層ビル「みなとハルカス」",
+    "point": 200,
+    "source": "国内予選2018C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1626&lang=jp"
+  },
+  {
+    "title": "全チームによるプレーオフ",
+    "point": 350,
+    "source": "国内予選2018D",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1627&lang=jp"
+  },
+  {
+    "title": "浮動小数点数",
+    "point": 450,
+    "source": "国内予選2018E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1628&lang=jp"
+  },
+  {
+    "title": "Secret of Chocolate Poles",
+    "point": 200,
+    "source": "アジア地区予選2017A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1378"
+  },
+  {
+    "title": "Parallel Lines",
+    "point": 350,
+    "source": "アジア地区予選2017B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1379"
+  },
+  {
+    "title": "Medical Checkup",
+    "point": 300,
+    "source": "アジア地区予選2017C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1380"
+  },
+  {
+    "title": "Pizza Delivery",
+    "point": 550,
+    "source": "アジア地区予選2017F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1383"
+  },
+  {
+    "title": "Starting a Scenic Railroad Service",
+    "point": 400,
+    "source": "アジア地区予選2017I",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1386"
+  },
+  {
+    "title": "JAG 模擬予選練習会",
+    "point": 150,
+    "source": "模擬国内2017A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2823&lang=jp"
+  },
+  {
+    "title": "海岸線",
+    "point": 150,
+    "source": "模擬国内2017B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2824&lang=jp"
+  },
+  {
+    "title": "クイズ",
+    "point": 300,
+    "source": "模擬国内2017C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2825&lang=jp"
+  },
+  {
+    "title": "マトリョーシカ",
+    "point": 550,
+    "source": "模擬国内2017F",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2828&lang=jp"
+  },
+  {
+    "title": "改元",
+    "point": 100,
+    "source": "模擬国内2018A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2881&lang=jp"
+  },
+  {
+    "title": "一般化うるう年",
+    "point": 150,
+    "source": "模擬国内2018B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2882&lang=jp"
+  },
+  {
+    "title": "知識の証明",
+    "point": 350,
+    "source": "模擬国内2018C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2883&lang=jp"
+  },
+  {
+    "title": "分割統治",
+    "point": 300,
+    "source": "模擬国内2018E",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2885&lang=jp"
+  },
+  {
+    "title": "Window",
+    "point": 150,
+    "source": "模擬地区2017A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2856"
+  },
+  {
+    "title": "Prime-Factor Prime",
+    "point": 350,
+    "source": "模擬地区2017C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2858"
+  },
+  {
+    "title": "Star in Parentheses",
+    "point": 150,
+    "source": "夏合宿2017:day3A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2845"
+  },
+  {
+    "title": "Ninja Map",
+    "point": 300,
+    "source": "夏合宿2017:day3C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2847"
+  },
+  {
+    "title": "GuruGuru",
+    "point": 200,
+    "source": "夏合宿2018:day3A",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2904"
+  },
+  {
+    "title": "Colorful Drink",
+    "point": 250,
+    "source": "夏合宿2018:day3B",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2905"
+  },
+  {
+    "title": "Santa's Gift",
+    "point": 300,
+    "source": "夏合宿2018:day3C",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2906"
+  }
+]

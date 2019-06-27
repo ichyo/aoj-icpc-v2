@@ -28,6 +28,7 @@ services:
     # command: cargo watch -x run --bin aoj-icpc-api-server
     volumes:
       - ./api/src:/app/src
+      - ./api/resources:/app/resources
       - ./api/migrations:/app/migrations
       - ./api/Cargo.lock:/app/Cargo.lock
       - ./api/Cargo.toml:/app/Cargo.toml
