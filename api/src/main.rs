@@ -46,7 +46,8 @@ fn aoj_user(_db: web::Data<db::Pool>, _aoj_user_id: web::Path<String>) -> impl R
 }
 
 fn main() -> std::io::Result<()> {
-    env_logger::init();
+    env_logger::init_from_env("AOJICPC_LOG");
+
     let database_url = std::env::var("DATABASE_URL").expect("DATABASE_URL is required");
     let pool = db::create_pool(&database_url);
 

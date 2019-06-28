@@ -10,8 +10,10 @@ path = "src/lib.rs"
 
 [dependencies]
 actix-web = "1.0"
-serde = { version = "1.0", features = ["derive"] }
-serde_json = "1.0"
 diesel = { version = "1.0", features = ["postgres", "r2d2"] }
 env_logger = "0.6.1"
+failure = "0.1.5"
 log = "0.4.6"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+url = "1.0"
