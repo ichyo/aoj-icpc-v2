@@ -22,7 +22,7 @@ struct AojUser {
 
 fn problems(db: web::Data<db::Pool>) -> impl Responder {
     let connection = db.get().expect("Failed to get connection from pool");
-    let problems = db::get_problems(&connection);
+    let problems = db::get_all_problems(&connection);
     web::Json(
         problems
             .into_iter()

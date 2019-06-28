@@ -9,6 +9,8 @@ name = "aoj_icpc"
 path = "src/lib.rs"
 
 [dependencies]
+aoj-client = { git = "https://github.com/ichyo/aoj-client" }
+
 actix-web = "1.0"
 diesel = { version = "1.0", features = ["postgres", "r2d2"] }
 env_logger = "0.6.1"

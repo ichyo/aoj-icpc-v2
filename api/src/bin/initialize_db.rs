@@ -1,9 +1,9 @@
 use aoj_icpc::db;
 use log::info;
 use serde::Deserialize;
-use url::Url;
-use std::str::FromStr;
 
+use std::str::FromStr;
+use url::Url;
 
 #[derive(Deserialize)]
 struct Problem {
