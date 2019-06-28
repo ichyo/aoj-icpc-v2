@@ -35,7 +35,7 @@ services:
       - ./api/diesel.toml:/app/diesel.toml
     environment:
       DATABASE_URL: "postgres://aojicpc:aojicpc@db/aojicpc"
-      AOJICPC_LOG: "info"
+      AOJICPC_LOG: "debug"
     depends_on:
       - db
 

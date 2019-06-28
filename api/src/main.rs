@@ -20,8 +20,8 @@ struct AojUser {
     solutions: Vec<i32>,
 }
 
-fn problems(db: web::Data<db::Pool>) -> impl Responder {
-    let connection = db.get().expect("Failed to get connection from pool");
+fn problems(pool: web::Data<db::Pool>) -> impl Responder {
+    let connection = pool.get().expect("Failed to get connection from pool");
     let problems = db::get_all_problems(&connection);
     web::Json(
         problems
@@ -39,10 +39,20 @@ fn problems(db: web::Data<db::Pool>) -> impl Responder {
     )
 }
 
-fn aoj_user(_db: web::Data<db::Pool>, _aoj_user_id: web::Path<String>) -> impl Responder {
-    web::Json(AojUser {
-        solutions: vec![1, 3, 5, 645, 663],
-    })
+fn aoj_user(pool: web::Data<db::Pool>, aoj_user_id: web::Path<String>) -> impl Responder {
+    let connection = pool.get().expect("Failed to get connection from pool");
+    let aoj_user_id = aoj_user_id.into_inner();
+    let users = db::get_aoj_users_by_aoj_ids(&connection, &[aoj_user_id]);
+    let solutions_by_users = db::get_aoj_solutions_by_aoj_user(&connection, &users);
+    match solutions_by_users.get(0) {
+        Some((_, solutions)) => web::HttpResponse::Ok().json(AojUser {
+            solutions: solutions
+                .iter()
+                .map(|s| s.aoj_problem_id)
+                .collect::<Vec<_>>(),
+        }),
+        None => web::HttpResponse::NotFound().finish(),
+    }
 }
 
 fn main() -> std::io::Result<()> {

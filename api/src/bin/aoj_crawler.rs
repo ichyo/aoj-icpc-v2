@@ -1,8 +1,9 @@
 use aoj_client::solution::FindAllRequest;
 use aoj_client::Client;
 use failure::Error;
-use log::info;
 
+use log::debug;
+use log::info;
 use aoj_icpc::db;
 use std::collections::HashMap;
 
@@ -34,9 +35,10 @@ fn main() -> Result<(), Error> {
         .collect::<Vec<_>>();
 
     info!("Inserting {} users", users.len());
+    debug!("{:?}", users);
 
     db::upsert_aoj_users(&connection, &users);
-    let users = db::get_aoj_users(
+    let users = db::get_aoj_users_by_aoj_ids(
         &connection,
         &users.into_iter().map(|u| u.aoj_id).collect::<Vec<_>>(),
     );
@@ -62,6 +64,7 @@ fn main() -> Result<(), Error> {
         .collect::<Vec<_>>();
 
     info!("Inserting {} solutions", solutions.len());
+    debug!("{:?}", solutions);
     db::upsert_aoj_solutions(&connection, &solutions);
 
     Ok(())

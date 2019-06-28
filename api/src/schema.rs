@@ -6,9 +6,9 @@ table! {
 }
 
 table! {
-    aoj_solutions (aoj_problem_id, aoj_user_id) {
-        aoj_problem_id -> Int4,
+    aoj_solutions (aoj_user_id, aoj_problem_id) {
         aoj_user_id -> Int4,
+        aoj_problem_id -> Int4,
     }
 }
 

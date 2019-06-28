@@ -104,7 +104,7 @@ const App: React.FC = () => {
     if (data.aojUserId) {
       fetch("/api/v1/aoj_users/" + data.aojUserId)
         .then(res => res.json())
-        .then(res => setUser(res));
+        .then(res => setUser(res), err => console.log(err)); // TODO: error handling
     }
   };
 

@@ -1,12 +1,13 @@
-use crate::schema::problems;
 use crate::schema::aoj_problems;
 use crate::schema::aoj_solutions;
 use crate::schema::aoj_users;
+use crate::schema::problems;
+use diesel::prelude::*;
 use diesel::r2d2::{self, ConnectionManager};
 use diesel::Connection as _;
-use diesel::prelude::*;
 
-#[derive(Queryable)]
+
+#[derive(Queryable, Debug)]
 pub struct Problem {
     pub id: i32,
     pub title: String,
@@ -15,7 +16,7 @@ pub struct Problem {
     pub url: String,
 }
 
-#[derive(Insertable)]
+#[derive(Insertable, Debug)]
 #[table_name = "problems"]
 pub struct NewProblem {
     pub title: String,
@@ -24,41 +25,50 @@ pub struct NewProblem {
     pub url: String,
 }
 
-#[derive(Queryable, Insertable)]
+#[derive(Queryable, Insertable, Debug)]
 #[table_name = "aoj_problems"]
 pub struct AojProblem {
     pub problem_id: i32,
     pub aoj_id: String,
 }
 
-#[derive(Insertable)]
+#[derive(Insertable, Debug)]
 #[table_name = "aoj_problems"]
 pub struct NewAojProblem {
     pub problem_id: i32,
     pub aoj_id: String,
 }
 
-#[derive(Insertable)]
+#[derive(Insertable, Debug)]
 #[table_name = "aoj_solutions"]
 pub struct NewSolution {
     pub aoj_user_id: i32,
     pub aoj_problem_id: i32,
 }
 
-#[derive(Queryable, Identifiable)]
+#[derive(Queryable, Identifiable, Debug)]
 #[table_name = "aoj_users"]
 pub struct AojUser {
     pub id: i32,
     pub aoj_id: String,
 }
 
-#[derive(Insertable)]
+#[derive(Insertable, Debug)]
 #[table_name = "aoj_users"]
 pub struct NewAojUser {
     pub aoj_id: String,
 }
 
-#[derive(Insertable)]
+#[derive(Queryable, Associations, Identifiable, Debug)]
+#[table_name = "aoj_solutions"]
+#[belongs_to(AojUser)]
+#[primary_key(aoj_user_id, aoj_problem_id)]
+pub struct AojSolution {
+    pub aoj_user_id: i32,
+    pub aoj_problem_id: i32,
+}
+
+#[derive(Insertable, Debug)]
 #[table_name = "aoj_solutions"]
 pub struct NewAojSolution {
     pub aoj_problem_id: i32,
@@ -109,7 +119,7 @@ pub fn initialize_aoj_problems(connection: &Connection, new_aoj_problems: &[NewA
         .expect("Failed to save new aoj_problems");
 }
 
-pub fn get_aoj_users(connection: &Connection, aoj_ids: &[String]) -> Vec<AojUser> {
+pub fn get_aoj_users_by_aoj_ids(connection: &Connection, aoj_ids: &[String]) -> Vec<AojUser> {
     use crate::schema::aoj_users::dsl::*;
     aoj_users
         .filter(aoj_id.eq_any(aoj_ids))
@@ -138,4 +148,15 @@ pub fn upsert_aoj_solutions(connection: &Connection, solutions: &[NewAojSolution
         .on_conflict_do_nothing()
         .execute(connection)
         .expect("Failed to insert aoj solutions");
+}
+
+pub fn get_aoj_solutions_by_aoj_user<'a>(
+    connection: &'_ Connection,
+    users: &'a [AojUser],
+) -> Vec<(&'a AojUser, Vec<AojSolution>)> {
+    let solutions = AojSolution::belonging_to(users)
+        .load::<AojSolution>(connection)
+        .expect("Failed to load solutions")
+        .grouped_by(users);
+    users.iter().zip(solutions).collect::<Vec<_>>()
 }
