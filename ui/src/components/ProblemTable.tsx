@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck, faCheckCircle, faStar } from '@fortawesome/free-solid-svg-icons'
+import React from 'react';
 
 interface Problem {
     id: number,
