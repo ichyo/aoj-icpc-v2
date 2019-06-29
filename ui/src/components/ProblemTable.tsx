@@ -1,24 +1,31 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck, faCheckCircle, faStar } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
-
-interface Problem {
-    id: number,
-    point: number,
-    title: string,
-    source: string,
-    solutions: number,
-    url: string,
-    stars: number,
-}
-
-interface User {
-    solutions: Array<number>,
-}
+import { Problem, User } from '../model';
 
 interface Props {
     problems: Array<Problem>,
-    user: User | null,
+    user: User | null
+}
+
+interface RowProps {
+    problem: Problem,
+    solved: boolean,
+}
+
+const ProblemRow: React.FC<RowProps> = ({ problem, solved }) => {
+    return (
+        <tr key={problem.id}>
+            <td className="text-center text-success">
+                {solved ? <FontAwesomeIcon icon={faCheckCircle} /> : null}
+            </td>
+            <td className="text-center">{problem.point}</td>
+            <td><a href={problem.url} target="_blank" rel="noopener noreferrer">{problem.title}</a></td>
+            <td>{problem.source}</td>
+            <td className="text-center">{problem.stars}</td>
+            <td>{problem.solutions}</td>
+        </tr>
+    );
 }
 
 const ProblemTable: React.FC<Props> = ({ problems, user }) => {
@@ -38,18 +45,7 @@ const ProblemTable: React.FC<Props> = ({ problems, user }) => {
             <tbody>
                 {problems.map(p => {
                     const solved = solutions.has(p.id);
-                    return (
-                        <tr key={p.id}>
-                            <td className="text-center text-success">
-                                {solved ? <FontAwesomeIcon icon={faCheckCircle} /> : null}
-                            </td>
-                            <td className="text-center">{p.point}</td>
-                            <td><a href={p.url} target="_blank" rel="noopener noreferrer">{p.title}</a></td>
-                            <td>{p.source}</td>
-                            <td className="text-center">{p.stars}</td>
-                            <td>{p.solutions}</td>
-                        </tr>
-                    );
+                    return <ProblemRow problem={p} solved={solved} />
                 })}
             </tbody>
         </table>
