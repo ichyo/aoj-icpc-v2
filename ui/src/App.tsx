@@ -1,7 +1,7 @@
 import React, { useState, useEffect, FormEventHandler, FormEvent } from 'react';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCheckCircle, faStar, faUserInjured } from '@fortawesome/free-solid-svg-icons'
+import { faCheck, faCheckCircle, faStar, faUserInjured } from '@fortawesome/free-solid-svg-icons'
 
 interface Problem {
   id: number,
@@ -61,7 +61,7 @@ const Table: React.FC<TableProps> = ({ problems, user }) => {
     <table className="table table-sm">
       <thead>
         <tr>
-          <th></th>
+          <th><FontAwesomeIcon icon={faCheck} /></th>
           <th scope="col" className="text-center">Point</th>
           <th scope="col">Title</th>
           <th scope="col">Source</th>
