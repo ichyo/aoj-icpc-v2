@@ -33,4 +33,4 @@ RUN apt-get update && apt-get install -y libpq-dev
 # Copy bin from builder to this new image
 COPY --from=build /app/target/release/aoj-icpc-api-server /bin/
 # Default command, run app
-CMD ["/bin/aoj-icpc-api-server"]
+CMD ["/bin/aoj-icpc-api-server", "--port", "80"]

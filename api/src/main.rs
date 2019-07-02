@@ -59,9 +59,24 @@ fn main() -> std::io::Result<()> {
     env_logger::init_from_env("AOJICPC_LOG");
 
     let database_url = std::env::var("DATABASE_URL").expect("DATABASE_URL is required");
+
+    let matches = clap::App::new("AOJ ICPC API Server")
+        .version("0.1.0")
+        .arg(
+            clap::Arg::with_name("port")
+                .short("p")
+                .long("port")
+                .takes_value(true)
+                .help("port number"),
+        )
+        .get_matches();
+
+    let port = matches.value_of("port").unwrap_or("8000");
+    let addr = format!("0.0.0.0:{}", port);
+
     let pool = db::create_pool(&database_url);
 
-    info!("Running 0.0.0.0:8080");
+    info!("Running {}", addr);
 
     HttpServer::new(move || {
         App::new()
@@ -69,6 +84,6 @@ fn main() -> std::io::Result<()> {
             .service(web::resource("/api/v1/problems").to(problems))
             .service(web::resource("/api/v1/aoj_users/{id}").to(aoj_user))
     })
-    .bind("0.0.0.0:8080")?
+    .bind(addr)?
     .run()
 }
