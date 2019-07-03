@@ -1,0 +1,15 @@
+[build]
+    base = "ui/"
+    command = "npm run build"
+    publish = "ui/public/"
+
+[[redirects]]
+  from = "/api/*"
+  to = "https://api.aoj-icpc.ichyo.net/api/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
