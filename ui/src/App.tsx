@@ -13,14 +13,14 @@ const App: React.FC = () => {
   const [problemFilter, setProblemFilter] = useState(ProblemFilter.default());
 
   useEffect(() => {
-    fetch("/api/v1/problems")
+    fetch("https://api.aoj-icpc.ichyo.net/api/v1/problems")
       .then(res => res.json())
       .then(res => setProblems(res));
   }, []);
 
   const handleSubmit = (data: FormData) => {
     if (data.aojUserId) {
-      fetch("/api/v1/aoj_users/" + data.aojUserId)
+      fetch("https://api.aoj-icpc.ichyo.net/api/v1/aoj_users/" + data.aojUserId) // TODO: configuration API
         .then(res => res.json())
         .then(res => setUser(res), err => console.log(err)); // TODO: error handling
     }
