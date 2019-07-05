@@ -1,4 +1,7 @@
 table! {
+    use diesel::sql_types::*;
+    use crate::db::Pstatus;
+
     aoj_problems (problem_id) {
         problem_id -> Int4,
         aoj_id -> Varchar,
@@ -6,6 +9,9 @@ table! {
 }
 
 table! {
+    use diesel::sql_types::*;
+    use crate::db::Pstatus;
+
     aoj_solutions (aoj_user_id, aoj_problem_id) {
         aoj_user_id -> Int4,
         aoj_problem_id -> Int4,
@@ -13,6 +19,9 @@ table! {
 }
 
 table! {
+    use diesel::sql_types::*;
+    use crate::db::Pstatus;
+
     aoj_users (id) {
         id -> Int4,
         aoj_id -> Varchar,
@@ -20,12 +29,16 @@ table! {
 }
 
 table! {
+    use diesel::sql_types::*;
+    use crate::db::Pstatus;
+
     problems (id) {
         id -> Int4,
         title -> Varchar,
         source -> Varchar,
         point -> Int4,
         url -> Varchar,
+        status -> Pstatus,
     }
 }
 

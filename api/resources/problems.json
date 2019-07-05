@@ -1,3848 +1,5754 @@
 [
   {
-    "title": "ICPC 得点集計ソフトウェア",
+    "id": 1,
     "point": 100,
     "source": "国内予選2007A",
+    "status": "active",
+    "title": "ICPC 得点集計ソフトウェア",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1147&lang=jp"
   },
   {
-    "title": "等しい合計点",
+    "id": 2,
     "point": 100,
     "source": "国内予選2008A",
+    "status": "active",
+    "title": "等しい合計点",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1153&lang=jp"
   },
   {
-    "title": "When Can We Meet?",
+    "id": 3,
     "point": 100,
     "source": "国内予選2003A",
+    "status": "active",
+    "title": "When Can We Meet?",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1124"
   },
   {
-    "title": "Get Many Persimmon Trees",
+    "id": 4,
     "point": 100,
     "source": "国内予選2003B",
+    "status": "active",
+    "title": "Get Many Persimmon Trees",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1125"
   },
   {
-    "title": "Hanafuda Shuffle",
+    "id": 5,
     "point": 100,
     "source": "国内予選2004A",
+    "status": "active",
+    "title": "Hanafuda Shuffle",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1129&lang=jp"
   },
   {
-    "title": "次期町長",
+    "id": 6,
     "point": 100,
     "source": "国内予選2009A",
+    "status": "active",
+    "title": "次期町長",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1159&lang=jp"
   },
   {
-    "title": "ミレニアム",
+    "id": 7,
     "point": 100,
     "source": "国内予選2012A",
+    "status": "active",
+    "title": "ミレニアム",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1179&lang=jp"
   },
   {
-    "title": "税率変更",
+    "id": 8,
     "point": 100,
     "source": "国内予選2014A",
+    "status": "active",
+    "title": "税率変更",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1192&lang=jp"
   },
   {
-    "title": "踏み台昇降",
+    "id": 9,
     "point": 100,
     "source": "模擬国内2014A",
+    "status": "active",
+    "title": "踏み台昇降",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2582&lang=jp"
   },
   {
-    "title": "Keitai Message",
+    "id": 10,
     "point": 100,
     "source": "模擬国内2005A",
+    "status": "active",
+    "title": "Keitai Message",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2006&lang=jp"
   },
   {
-    "title": "Misterious Gems",
+    "id": 11,
     "point": 100,
     "source": "模擬国内2006A",
+    "status": "active",
+    "title": "Misterious Gems",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2000&lang=jp"
   },
   {
-    "title": "お姫様のギャンブル",
+    "id": 12,
     "point": 100,
     "source": "模擬国内2008A",
+    "status": "active",
+    "title": "お姫様のギャンブル",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2018&lang=jp"
   },
   {
-    "title": "幸運の操作者",
+    "id": 13,
     "point": 100,
     "source": "模擬国内2009A",
+    "status": "active",
+    "title": "幸運の操作者",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2149&lang=jp"
   },
   {
-    "title": "連続する整数の和",
+    "id": 14,
     "point": 100,
     "source": "模擬国内2010A",
+    "status": "active",
+    "title": "連続する整数の和",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2197&lang=jp"
   },
   {
-    "title": "koukyoukoukokukikou",
+    "id": 15,
     "point": 100,
     "source": "模擬国内2011A",
+    "status": "active",
+    "title": "koukyoukoukokukikou",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2252&lang=jp"
   },
   {
-    "title": "Kagisys",
+    "id": 16,
     "point": 100,
     "source": "夏合宿2012:day3bA",
+    "status": "active",
+    "title": "Kagisys",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2440&lang=jp"
   },
   {
-    "title": "入学試験",
+    "id": 17,
     "point": 100,
     "source": "国内予選2015A",
+    "status": "active",
+    "title": "入学試験",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1600&lang=jp"
   },
   {
-    "title": "列車の編成パートII",
+    "id": 18,
     "point": 150,
     "source": "国内予選2006B",
+    "status": "active",
+    "title": "列車の編成パートII",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1142&lang=jp"
   },
   {
-    "title": "かけざん",
+    "id": 19,
     "point": 150,
     "source": "夏合宿2012:day2A",
+    "status": "active",
+    "title": "かけざん",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2424&lang=jp"
   },
   {
-    "title": "整長方形",
+    "id": 20,
     "point": 150,
     "source": "国内予選2013A",
+    "status": "active",
+    "title": "整長方形",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1186&lang=jp"
   },
   {
-    "title": "ICPCの順位付け",
+    "id": 21,
     "point": 150,
     "source": "国内予選2013B",
+    "status": "active",
+    "title": "ICPCの順位付け",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1187&lang=jp"
   },
   {
-    "title": "王様の視察",
+    "id": 22,
     "point": 150,
     "source": "模擬国内2013A",
+    "status": "active",
+    "title": "王様の視察",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2508&lang=jp"
   },
   {
-    "title": "Equal Sum Sets",
+    "id": 23,
     "point": 150,
     "source": "アジア地区予選2013A",
+    "status": "active",
+    "title": "Equal Sum Sets",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1335"
   },
   {
-    "title": "North North West",
+    "id": 24,
     "point": 150,
     "source": "模擬地区2014A",
+    "status": "active",
+    "title": "North North West",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2589"
   },
   {
-    "title": "Unreliable Message",
+    "id": 25,
     "point": 150,
     "source": "アジア地区予選2003A",
+    "status": "active",
+    "title": "Unreliable Message",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1240"
   },
   {
-    "title": "Make Purse Light",
+    "id": 26,
     "point": 150,
     "source": "模擬国内2005B",
+    "status": "active",
+    "title": "Make Purse Light",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2007&lang=jp"
   },
   {
-    "title": "お姫様の嫁入り",
+    "id": 27,
     "point": 150,
     "source": "模擬国内2008B",
+    "status": "active",
+    "title": "お姫様の嫁入り",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2019&lang=jp"
   },
   {
-    "title": "宇宙ヤシガニ",
+    "id": 28,
     "point": 150,
     "source": "模擬国内2007A",
+    "status": "active",
+    "title": "宇宙ヤシガニ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2012&lang=jp"
   },
   {
-    "title": "君のプライバシーを守れ！",
+    "id": 29,
     "point": 150,
     "source": "模擬国内2012A",
+    "status": "active",
+    "title": "君のプライバシーを守れ！",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2399&lang=jp"
   },
   {
-    "title": "世界の天秤",
+    "id": 30,
     "point": 150,
     "source": "国内予選2011B",
+    "status": "active",
+    "title": "世界の天秤",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1173&lang=jp"
   },
   {
-    "title": "Prime Gap",
+    "id": 31,
     "point": 150,
     "source": "アジア地区予選2007B",
+    "status": "active",
+    "title": "Prime Gap",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1276"
   },
   {
-    "title": "Numeral System",
+    "id": 32,
     "point": 150,
     "source": "国内予選2005C",
+    "status": "active",
+    "title": "Numeral System",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1137&lang=jp"
   },
   {
-    "title": "ディリクレの算術級数定理",
+    "id": 33,
     "point": 150,
     "source": "国内予選2006A",
+    "status": "active",
+    "title": "ディリクレの算術級数定理",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1141&lang=jp"
   },
   {
-    "title": "島はいくつある？",
+    "id": 34,
     "point": 150,
     "source": "国内予選2009B",
+    "status": "active",
+    "title": "島はいくつある？",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1160&lang=jp"
   },
   {
-    "title": "角角画伯，かく悩みき",
+    "id": 35,
     "point": 150,
     "source": "国内予選2010A",
+    "status": "active",
+    "title": "角角画伯，かく悩みき",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1165&lang=jp"
   },
   {
-    "title": "チェビシェフの定理",
+    "id": 36,
     "point": 150,
     "source": "国内予選2011A",
+    "status": "active",
+    "title": "チェビシェフの定理",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1172&lang=jp"
   },
   {
-    "title": "Amida, the City of Miracle",
+    "id": 37,
     "point": 150,
     "source": "模擬国内2006B",
+    "status": "active",
+    "title": "Amida, the City of Miracle",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2001&lang=jp"
   },
   {
-    "title": "Matsuzaki 数",
+    "id": 38,
     "point": 150,
     "source": "模擬国内2009B",
+    "status": "active",
+    "title": "Matsuzaki 数",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2150&lang=jp"
   },
   {
-    "title": "Red and Black",
+    "id": 39,
     "point": 150,
     "source": "国内予選2004B",
+    "status": "active",
+    "title": "Red and Black",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1130&lang=jp"
   },
   {
-    "title": "繰り返す10進数",
+    "id": 40,
     "point": 150,
     "source": "国内予選2012B",
+    "status": "active",
+    "title": "繰り返す10進数",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1180&lang=jp"
   },
   {
-    "title": "審判は君だ！",
+    "id": 41,
     "point": 150,
     "source": "模擬国内2012B",
+    "status": "active",
+    "title": "審判は君だ！",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2400&lang=jp"
   },
   {
-    "title": "山手線",
+    "id": 42,
     "point": 150,
     "source": "夏合宿2014:day4A",
+    "status": "active",
+    "title": "山手線",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2639&lang=jp"
   },
   {
-    "title": "Koto市営地下鉄",
+    "id": 43,
     "point": 100,
     "source": "模擬国内2015A",
+    "status": "active",
+    "title": "Koto市営地下鉄",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2699&lang=jp"
   },
   {
-    "title": "短句",
+    "id": 44,
     "point": 150,
     "source": "国内予選2015B",
+    "status": "active",
+    "title": "短句",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1601&lang=jp"
   },
   {
-    "title": "Decimal Sequences",
+    "id": 45,
     "point": 150,
     "source": "アジア地区予選2015A",
+    "status": "active",
+    "title": "Decimal Sequences",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1356"
   },
   {
-    "title": "Calling Extraterrestrial Intelligence Again",
+    "id": 46,
     "point": 200,
     "source": "アジア地区予選2002A",
+    "status": "active",
+    "title": "Calling Extraterrestrial Intelligence Again",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1232"
   },
   {
-    "title": "大崎",
+    "id": 47,
     "point": 200,
     "source": "模擬国内2007B",
+    "status": "active",
+    "title": "大崎",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2013&lang=jp"
   },
   {
-    "title": "Broken Audio Signal",
+    "id": 48,
     "point": 200,
     "source": "模擬地区2013A",
+    "status": "active",
+    "title": "Broken Audio Signal",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2565"
   },
   {
-    "title": "連鎖消滅パズル",
+    "id": 49,
     "point": 200,
     "source": "国内予選2014B",
+    "status": "active",
+    "title": "連鎖消滅パズル",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1193&lang=jp"
   },
   {
-    "title": "Unknown Switches",
+    "id": 50,
     "point": 250,
     "source": "模擬地区2014B",
+    "status": "active",
+    "title": "Unknown Switches",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2590"
   },
   {
-    "title": "And Then There Was One",
+    "id": 51,
     "point": 200,
     "source": "アジア地区予選2007A",
+    "status": "active",
+    "title": "And Then There Was One",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1275"
   },
   {
-    "title": "Grey Area",
+    "id": 52,
     "point": 200,
     "source": "アジア地区予選2008A",
+    "status": "active",
+    "title": "Grey Area",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1285"
   },
   {
-    "title": "Make a Sequence",
+    "id": 53,
     "point": 200,
     "source": "アジア地区予選2004B",
+    "status": "active",
+    "title": "Make a Sequence",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1249"
   },
   {
-    "title": "Infected Computer",
+    "id": 54,
     "point": 150,
     "source": "夏合宿2009:day2A",
+    "status": "active",
+    "title": "Infected Computer",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2155"
   },
   {
-    "title": "Strange String Manipulation",
+    "id": 55,
     "point": 200,
     "source": "夏合宿2009:day3A",
+    "status": "active",
+    "title": "Strange String Manipulation",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2165"
   },
   {
-    "title": "雅先生の地球侵略日誌",
+    "id": 56,
     "point": 200,
     "source": "夏合宿2010:day2A",
+    "status": "active",
+    "title": "雅先生の地球侵略日誌",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2330&lang=jp"
   },
   {
-    "title": "Calender Colors",
+    "id": 57,
     "point": 200,
     "source": "夏合宿2011:day3A",
+    "status": "active",
+    "title": "Calender Colors",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2300"
   },
   {
-    "title": "Lagrange's Four-Square Theorem",
+    "id": 58,
     "point": 200,
     "source": "アジア地区予選2003B",
+    "status": "active",
+    "title": "Lagrange's Four-Square Theorem",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1241"
   },
   {
-    "title": "ログイン/ログアウト記録の解析",
+    "id": 59,
     "point": 200,
     "source": "国内予選2007B",
+    "status": "active",
+    "title": "ログイン/ログアウト記録の解析",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1148&lang=jp"
   },
   {
-    "title": "月曜土曜素因数",
+    "id": 60,
     "point": 200,
     "source": "国内予選2008B",
+    "status": "active",
+    "title": "月曜土曜素因数",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1154&lang=jp"
   },
   {
-    "title": "迷図と命ず",
+    "id": 61,
     "point": 200,
     "source": "国内予選2010B",
+    "status": "active",
+    "title": "迷図と命ず",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1166&lang=jp"
   },
   {
-    "title": "土地囲い",
+    "id": 62,
     "point": 200,
     "source": "模擬国内2007C",
+    "status": "active",
+    "title": "土地囲い",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2014&lang=jp"
   },
   {
-    "title": "ムーンライト牧場",
+    "id": 63,
     "point": 200,
     "source": "模擬国内2010B",
+    "status": "active",
+    "title": "ムーンライト牧場",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2198&lang=jp"
   },
   {
-    "title": "ブレイブ・フォース・ストーリー",
+    "id": 64,
     "point": 200,
     "source": "模擬国内2011B",
+    "status": "active",
+    "title": "ブレイブ・フォース・ストーリー",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2253&lang=jp"
   },
   {
-    "title": "Era Name",
+    "id": 65,
     "point": 200,
     "source": "模擬地区2010A",
+    "status": "active",
+    "title": "Era Name",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2242"
   },
   {
-    "title": "Miscalculation",
+    "id": 66,
     "point": 200,
     "source": "アジア地区予選2014B",
+    "status": "active",
+    "title": "Miscalculation",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1346"
   },
   {
-    "title": "Fast Division",
+    "id": 67,
     "point": 250,
     "source": "夏合宿2013:day3D",
+    "status": "active",
+    "title": "Fast Division",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2610&lang=jp"
   },
   {
-    "title": "Thread Tree",
+    "id": 68,
     "point": 200,
     "source": "夏合宿2013:day4A",
+    "status": "active",
+    "title": "Thread Tree",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2619"
   },
   {
-    "title": "空港コード",
+    "id": 69,
     "point": 200,
     "source": "模擬国内2015B",
+    "status": "active",
+    "title": "空港コード",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2700&lang=jp"
   },
   {
-    "title": "Cubist Artwork",
+    "id": 70,
     "point": 250,
     "source": "アジア地区予選2009A",
+    "status": "active",
+    "title": "Cubist Artwork",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1295"
   },
   {
-    "title": "スクウェア・ルート",
+    "id": 71,
     "point": 250,
     "source": "模擬国内2007D",
+    "status": "active",
+    "title": "スクウェア・ルート",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2015&lang=jp"
   },
   {
-    "title": "Sightseeing Tour",
+    "id": 72,
     "point": 250,
     "source": "冬合宿2010:day4H",
+    "status": "active",
+    "title": "Sightseeing Tour",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2386"
   },
   {
-    "title": "Minimal Backgammon",
+    "id": 73,
     "point": 250,
     "source": "アジア地区予選2007C",
+    "status": "active",
+    "title": "Minimal Backgammon",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1277"
   },
   {
-    "title": "Carpenters' Language",
+    "id": 74,
     "point": 200,
     "source": "冬コンテスト2011A",
+    "status": "active",
+    "title": "Carpenters' Language",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2340"
   },
   {
-    "title": "JAG-channel",
+    "id": 75,
     "point": 250,
     "source": "模擬国内2014B",
+    "status": "active",
+    "title": "JAG-channel",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2583&lang=jp"
   },
   {
-    "title": "Expected Allowance",
+    "id": 76,
     "point": 250,
     "source": "アジア地区予選2008B",
+    "status": "active",
+    "title": "Expected Allowance",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1286"
   },
   {
-    "title": "Ginkgo Numbers",
+    "id": 77,
     "point": 250,
     "source": "アジア地区予選2012A",
+    "status": "active",
+    "title": "Ginkgo Numbers",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1325"
   },
   {
-    "title": "Butterfly",
+    "id": 78,
     "point": 250,
     "source": "模擬地区2011B",
+    "status": "active",
+    "title": "Butterfly",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2321"
   },
   {
-    "title": "The Sorcerer's Donut",
+    "id": 79,
     "point": 250,
     "source": "アジア地区予選2011B",
+    "status": "active",
+    "title": "The Sorcerer's Donut",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1316"
   },
   {
-    "title": "Shredding Company",
+    "id": 80,
     "point": 250,
     "source": "アジア地区予選2002F",
+    "status": "active",
+    "title": "Shredding Company",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1237"
   },
   {
-    "title": "Ennichi",
+    "id": 81,
     "point": 250,
     "source": "夏合宿2010:day3A",
+    "status": "active",
+    "title": "Ennichi",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2232&lang=jp"
   },
   {
-    "title": "お菓子の魔女",
+    "id": 82,
     "point": 250,
     "source": "夏合宿2011:day4B",
+    "status": "active",
+    "title": "お菓子の魔女",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2311&lang=jp"
   },
   {
-    "title": "Leaky Cryptography",
+    "id": 83,
     "point": 250,
     "source": "アジア地区予選2004C",
+    "status": "active",
+    "title": "Leaky Cryptography",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1250"
   },
   {
-    "title": "The Secret Number",
+    "id": 84,
     "point": 250,
     "source": "国内予選2003C",
+    "status": "active",
+    "title": "The Secret Number",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1126"
   },
   {
-    "title": "Polygonal Line Search",
+    "id": 85,
     "point": 250,
     "source": "国内予選2005B",
+    "status": "active",
+    "title": "Polygonal Line Search",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1136&lang=jp"
   },
   {
-    "title": "ポロック予想",
+    "id": 86,
     "point": 250,
     "source": "国内予選2010C",
+    "status": "active",
+    "title": "ポロック予想",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1167&lang=jp"
   },
   {
-    "title": "差分パルス符号変調",
+    "id": 87,
     "point": 250,
     "source": "模擬国内2010C",
+    "status": "active",
+    "title": "差分パルス符号変調",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2199&lang=jp"
   },
   {
-    "title": "最短ルート",
+    "id": 88,
     "point": 250,
     "source": "模擬国内2011C",
+    "status": "active",
+    "title": "最短ルート",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2254&lang=jp"
   },
   {
-    "title": "Whist",
+    "id": 89,
     "point": 250,
     "source": "模擬地区2009A",
+    "status": "active",
+    "title": "Whist",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2175"
   },
   {
-    "title": "Step Step Evolution",
+    "id": 90,
     "point": 250,
     "source": "模擬地区2010B",
+    "status": "active",
+    "title": "Step Step Evolution",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2243"
   },
   {
-    "title": "The Last Ant",
+    "id": 91,
     "point": 250,
     "source": "アジア地区予選2013B",
+    "status": "active",
+    "title": "The Last Ant",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1336"
   },
   {
-    "title": "Bit String Reordering",
+    "id": 92,
     "point": 250,
     "source": "アジア地区予選2014A",
+    "status": "active",
+    "title": "Bit String Reordering",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1345"
   },
   {
-    "title": "Koto Distance",
+    "id": 93,
     "point": 250,
     "source": "夏合宿2013:day2A",
+    "status": "active",
+    "title": "Koto Distance",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2600&lang=jp"
   },
   {
-    "title": "Magic Bullet",
+    "id": 94,
     "point": 250,
     "source": "夏合宿2014:day4C",
+    "status": "active",
+    "title": "Magic Bullet",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2641&lang=jp"
   },
   {
-    "title": "友だちの誘い方",
+    "id": 95,
     "point": 200,
     "source": "夏合宿2010:day2B",
+    "status": "active",
+    "title": "友だちの誘い方",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2331&lang=jp"
   },
   {
-    "title": "Squeeze the Cylinders",
+    "id": 96,
     "point": 250,
     "source": "アジア地区予選2015B",
+    "status": "active",
+    "title": "Squeeze the Cylinders",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1357"
   },
   {
-    "title": "CatChecker",
+    "id": 97,
     "point": 300,
     "source": "冬合宿2010:day3A",
+    "status": "active",
+    "title": "CatChecker",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2369&lang=jp"
   },
   {
-    "title": "Membership Management",
+    "id": 98,
     "point": 300,
     "source": "アジア地区予選2010A",
+    "status": "active",
+    "title": "Membership Management",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1305"
   },
   {
-    "title": "カーリング 2.0",
+    "id": 99,
     "point": 350,
     "source": "国内予選2006D",
+    "status": "active",
+    "title": "カーリング 2.0",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1144&lang=jp"
   },
   {
-    "title": "X-Ray Screening System",
+    "id": 100,
     "point": 300,
     "source": "模擬国内2006C",
+    "status": "active",
+    "title": "X-Ray Screening System",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2002&lang=jp"
   },
   {
-    "title": "Repeated Substitution with Sed",
+    "id": 101,
     "point": 300,
     "source": "アジア地区予選2009B",
+    "status": "active",
+    "title": "Repeated Substitution with Sed",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1296"
   },
   {
-    "title": "Balloon Collecting",
+    "id": 102,
     "point": 300,
     "source": "アジア地区予選2010B",
+    "status": "active",
+    "title": "Balloon Collecting",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1306"
   },
   {
-    "title": "Gift from the Goddess of Program...",
+    "id": 103,
     "point": 300,
     "source": "アジア地区予選2011A",
+    "status": "active",
+    "title": "Gift from the Goddess of Program...",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1315"
   },
   {
-    "title": "Stylish",
+    "id": 104,
     "point": 300,
     "source": "アジア地区予選2012B",
+    "status": "active",
+    "title": "Stylish",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1326"
   },
   {
-    "title": "階層民主主義",
+    "id": 105,
     "point": 300,
     "source": "国内予選2013C",
+    "status": "active",
+    "title": "階層民主主義",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1188&lang=jp"
   },
   {
-    "title": "One-Dimensional Cellular Automaton",
+    "id": 106,
     "point": 300,
     "source": "アジア地区予選2012C",
+    "status": "active",
+    "title": "One-Dimensional Cellular Automaton",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1327"
   },
   {
-    "title": "Erratic Sleep Habits",
+    "id": 107,
     "point": 300,
     "source": "夏合宿2009:day3B",
+    "status": "active",
+    "title": "Erratic Sleep Habits",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2166"
   },
   {
-    "title": "Building a Space Station",
+    "id": 108,
     "point": 300,
     "source": "国内予選2003D",
+    "status": "active",
+    "title": "Building a Space Station",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1127"
   },
   {
-    "title": "ケーキカット",
+    "id": 109,
     "point": 300,
     "source": "国内予選2007C",
+    "status": "active",
+    "title": "ケーキカット",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1149&lang=jp"
   },
   {
-    "title": "Gather the Maps",
+    "id": 110,
     "point": 300,
     "source": "模擬国内2005F",
+    "status": "active",
+    "title": "Gather the Maps",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2011&lang=jp"
   },
   {
-    "title": "The Balance",
+    "id": 111,
     "point": 300,
     "source": "アジア地区予選2004A",
+    "status": "active",
+    "title": "The Balance",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1248"
   },
   {
-    "title": "お姫様の危機",
+    "id": 112,
     "point": 300,
     "source": "模擬国内2008D",
+    "status": "active",
+    "title": "お姫様の危機",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2021&lang=jp"
   },
   {
-    "title": "バンパイア",
+    "id": 113,
     "point": 300,
     "source": "国内予選2014C",
+    "status": "active",
+    "title": "バンパイア",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1194&lang=jp"
   },
   {
-    "title": "Shopping",
+    "id": 114,
     "point": 300,
     "source": "アジア地区予選2014C",
+    "status": "active",
+    "title": "Shopping",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1347"
   },
   {
-    "title": "Fox Observation",
+    "id": 115,
     "point": 300,
     "source": "夏合宿2013:day4C",
+    "status": "active",
+    "title": "Fox Observation",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2621"
   },
   {
-    "title": "Manhattan",
+    "id": 116,
     "point": 250,
     "source": "夏合宿2014:day2A",
+    "status": "active",
+    "title": "Manhattan",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2629&lang=jp"
   },
   {
-    "title": "Invest Master",
+    "id": 117,
     "point": 300,
     "source": "夏合宿2013:day3A",
+    "status": "active",
+    "title": "Invest Master",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2607&lang=jp"
   },
   {
-    "title": "ICPC 計算機",
+    "id": 118,
     "point": 250,
     "source": "国内予選2015C",
+    "status": "active",
+    "title": "ICPC 計算機",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1602&lang=jp"
   },
   {
-    "title": "Sleeping Time",
+    "id": 119,
     "point": 350,
     "source": "夏合宿2011:day3B",
+    "status": "active",
+    "title": "Sleeping Time",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2301"
   },
   {
-    "title": "Rabbit Game Playing",
+    "id": 120,
     "point": 350,
     "source": "冬合宿2010:day4E",
+    "status": "active",
+    "title": "Rabbit Game Playing",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2383"
   },
   {
-    "title": "For the Peace",
+    "id": 121,
     "point": 350,
     "source": "模擬地区2009B",
+    "status": "active",
+    "title": "For the Peace",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2176"
   },
   {
-    "title": "Slim Span",
+    "id": 122,
     "point": 350,
     "source": "アジア地区予選2007F",
+    "status": "active",
+    "title": "Slim Span",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1280"
   },
   {
-    "title": "Infinity Maze",
+    "id": 123,
     "point": 350,
     "source": "模擬地区2011A",
+    "status": "active",
+    "title": "Infinity Maze",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2320"
   },
   {
-    "title": "時空のスゴロク・ロード",
+    "id": 124,
     "point": 350,
     "source": "夏合宿2010:day2C",
+    "status": "active",
+    "title": "時空のスゴロク・ロード",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2332&lang=jp"
   },
   {
-    "title": "Usaneko Matrix",
+    "id": 125,
     "point": 350,
     "source": "夏合宿2010:day3J",
+    "status": "active",
+    "title": "Usaneko Matrix",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2241&lang=jp"
   },
   {
-    "title": "Restore Calculation",
+    "id": 126,
     "point": 350,
     "source": "模擬地区2013B",
+    "status": "active",
+    "title": "Restore Calculation",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2566"
   },
   {
-    "title": "Dictionary",
+    "id": 127,
     "point": 350,
     "source": "模擬地区2012A",
+    "status": "active",
+    "title": "Dictionary",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2534"
   },
   {
-    "title": "如何に汝を満足せしめむ？ いざ数え上げむ…",
+    "id": 128,
     "point": 350,
     "source": "国内予選2008C",
+    "status": "active",
+    "title": "如何に汝を満足せしめむ？ いざ数え上げむ…",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1155&lang=jp"
   },
   {
-    "title": "同色パネル結合",
+    "id": 129,
     "point": 350,
     "source": "国内予選2011C",
+    "status": "active",
+    "title": "同色パネル結合",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1174&lang=jp"
   },
   {
-    "title": "偏りのあるサイコロ",
+    "id": 130,
     "point": 350,
     "source": "国内予選2012C",
+    "status": "active",
+    "title": "偏りのあるサイコロ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1181&lang=jp"
   },
   {
-    "title": "Tiles are Colorful",
+    "id": 131,
     "point": 350,
     "source": "夏合宿2011:day2J",
+    "status": "active",
+    "title": "Tiles are Colorful",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2299&lang=jp"
   },
   {
-    "title": "Railroad Conflict",
+    "id": 132,
     "point": 350,
     "source": "模擬国内2006D",
+    "status": "active",
+    "title": "Railroad Conflict",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2003&lang=jp"
   },
   {
-    "title": "Water Pipe Construction",
+    "id": 133,
     "point": 350,
     "source": "模擬国内2006F",
+    "status": "active",
+    "title": "Water Pipe Construction",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2005&lang=jp"
   },
   {
-    "title": "鏡の洞窟",
+    "id": 134,
     "point": 300,
     "source": "模擬国内2009E",
+    "status": "active",
+    "title": "鏡の洞窟",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2153&lang=jp"
   },
   {
-    "title": "そして，いくつになった？",
+    "id": 135,
     "point": 350,
     "source": "国内予選2011D",
+    "status": "active",
+    "title": "そして，いくつになった？",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1175&lang=jp"
   },
   {
-    "title": "宝探し",
+    "id": 136,
     "point": 350,
     "source": "夏合宿2012:day2C",
+    "status": "active",
+    "title": "宝探し",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2426&lang=jp"
   },
   {
-    "title": "Futon",
+    "id": 137,
+    "point": 0,
+    "source": "模擬国内2012C",
+    "status": "hidden",
+    "title": "恒等式",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2401&lang=jp"
+  },
+  {
+    "id": 138,
     "point": 350,
     "source": "模擬地区2009D",
+    "status": "active",
+    "title": "Futon",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2178"
   },
   {
-    "title": "Everlasting Zero",
+    "id": 139,
     "point": 350,
     "source": "春コンテスト2013A",
+    "status": "active",
+    "title": "Everlasting Zero",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2555"
   },
   {
-    "title": "Minus One",
+    "id": 140,
     "point": 350,
     "source": "夏合宿2013:day3B",
+    "status": "active",
+    "title": "Minus One",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2608&lang=jp"
   },
   {
-    "title": "RLE Replacement",
+    "id": 141,
     "point": 350,
     "source": "春コンテスト2014H",
+    "status": "active",
+    "title": "RLE Replacement",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2684"
   },
   {
-    "title": "不審者",
+    "id": 142,
     "point": 350,
     "source": "夏合宿2014:day4B",
+    "status": "active",
+    "title": "不審者",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2640&lang=jp"
   },
   {
-    "title": "Idempotent Filter",
+    "id": 143,
     "point": 350,
     "source": "模擬地区2014K",
+    "status": "active",
+    "title": "Idempotent Filter",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2599"
   },
   {
-    "title": "Dial Lock",
+    "id": 144,
+    "point": 0,
+    "source": "夏合宿2013:day4B",
+    "status": "hidden",
+    "title": "Trodden Cable",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2620"
+  },
+  {
+    "id": 145,
     "point": 400,
     "source": "夏合宿2009:day2C",
+    "status": "active",
+    "title": "Dial Lock",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2157"
   },
   {
-    "title": "Carrot Tour",
+    "id": 146,
     "point": 400,
     "source": "夏合宿2010:day3B",
+    "status": "active",
+    "title": "Carrot Tour",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2233&lang=jp"
   },
   {
-    "title": "Starting Line",
+    "id": 147,
     "point": 350,
     "source": "夏合宿2011:day2I",
+    "status": "active",
+    "title": "Starting Line",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2298&lang=jp"
   },
   {
-    "title": "Convex-Cut",
+    "id": 148,
     "point": 400,
     "source": "夏合宿2012:day3bC",
+    "status": "active",
+    "title": "Convex-Cut",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2442&lang=jp"
   },
   {
-    "title": "City Merger",
+    "id": 149,
     "point": 400,
     "source": "アジア地区予選2011F",
+    "status": "active",
+    "title": "City Merger",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1320"
   },
   {
-    "title": "Weather Forecast",
+    "id": 150,
     "point": 400,
     "source": "アジア地区予選2003D",
+    "status": "active",
+    "title": "Weather Forecast",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1243"
   },
   {
-    "title": "Eleven Lover",
+    "id": 151,
+    "point": 0,
+    "source": "夏合宿2011:day4H",
+    "status": "hidden",
+    "title": "委員長の魔女",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2317&lang=jp"
+  },
+  {
+    "id": 152,
     "point": 400,
     "source": "模擬地区2009H",
+    "status": "active",
+    "title": "Eleven Lover",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2182"
   },
   {
-    "title": "Unit Fraction Partition",
+    "id": 153,
     "point": 400,
     "source": "国内予選2004C",
+    "status": "active",
+    "title": "Unit Fraction Partition",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1131&lang=jp"
   },
   {
-    "title": "制限されたファイルシステム",
+    "id": 154,
     "point": 400,
     "source": "模擬国内2009D",
+    "status": "active",
+    "title": "制限されたファイルシステム",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2152&lang=jp"
   },
   {
-    "title": "ちょろちょろロボット",
+    "id": 155,
     "point": 350,
     "source": "国内予選2008D",
+    "status": "active",
+    "title": "ちょろちょろロボット",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1156&lang=jp"
   },
   {
-    "title": "On or Off",
+    "id": 156,
     "point": 400,
     "source": "夏合宿2011:day3C",
+    "status": "active",
+    "title": "On or Off",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2302"
   },
   {
-    "title": "勇敢なお姫様またも現る",
+    "id": 157,
     "point": 400,
     "source": "模擬国内2009C",
+    "status": "active",
+    "title": "勇敢なお姫様またも現る",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2151&lang=jp"
   },
   {
-    "title": "素数洞穴",
+    "id": 158,
+    "point": 0,
+    "source": "模擬国内2008E",
+    "status": "hidden",
+    "title": "お姫様の暗号解読",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2022&lang=jp"
+  },
+  {
+    "id": 159,
     "point": 400,
     "source": "国内予選2013D",
+    "status": "active",
+    "title": "素数洞穴",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1189&lang=jp"
   },
   {
-    "title": "Everlasting -One-",
+    "id": 160,
     "point": 450,
     "source": "模擬地区2013D",
+    "status": "active",
+    "title": "Everlasting -One-",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2568"
   },
   {
-    "title": "Count the Regions",
+    "id": 161,
     "point": 400,
     "source": "アジア地区予選2013C",
+    "status": "active",
+    "title": "Count the Regions",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1337"
   },
   {
-    "title": "壊れた暗号生成器",
+    "id": 162,
     "point": 400,
     "source": "模擬国内2014C",
+    "status": "active",
+    "title": "壊れた暗号生成器",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2584&lang=jp"
   },
   {
-    "title": "Magic Slayer",
+    "id": 163,
+    "point": 0,
+    "source": "夏合宿2009:day2G",
+    "status": "hidden",
+    "title": "Defend the Bases",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2161"
+  },
+  {
+    "id": 164,
     "point": 400,
     "source": "夏合宿2009:day2B",
+    "status": "active",
+    "title": "Magic Slayer",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2156"
   },
   {
-    "title": "Colored Octahedra",
+    "id": 165,
     "point": 400,
     "source": "夏合宿2009:day3E",
+    "status": "active",
+    "title": "Colored Octahedra",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2169"
   },
   {
-    "title": "Marathon Match",
+    "id": 166,
     "point": 400,
     "source": "夏合宿2011:day3D",
+    "status": "active",
+    "title": "Marathon Match",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2303"
   },
   {
-    "title": "Median Tree",
+    "id": 167,
     "point": 400,
     "source": "模擬地区2012C",
+    "status": "active",
+    "title": "Median Tree",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2536"
   },
   {
-    "title": "Life Line",
+    "id": 168,
     "point": 400,
     "source": "アジア地区予選2002D",
+    "status": "active",
+    "title": "Life Line",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1235"
   },
   {
-    "title": "Zero division checker",
+    "id": 169,
     "point": 400,
     "source": "夏合宿2012:day3aB",
+    "status": "active",
+    "title": "Zero division checker",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2435&lang=jp"
   },
   {
-    "title": "Molecular Formula",
+    "id": 170,
     "point": 400,
     "source": "アジア地区予選2003E",
+    "status": "active",
+    "title": "Molecular Formula",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1244"
   },
   {
-    "title": "崖登り",
+    "id": 171,
     "point": 350,
     "source": "国内予選2007D",
+    "status": "active",
+    "title": "崖登り",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1150&lang=jp"
   },
   {
-    "title": "覆面算",
+    "id": 172,
     "point": 400,
     "source": "国内予選2009C",
+    "status": "active",
+    "title": "覆面算",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1161&lang=jp"
   },
   {
-    "title": "Champernowne Constant",
+    "id": 173,
     "point": 400,
     "source": "模擬地区2009C",
+    "status": "active",
+    "title": "Champernowne Constant",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2177"
   },
   {
-    "title": "Evacuation Route",
+    "id": 174,
     "point": 350,
     "source": "夏合宿2013:day2B",
+    "status": "active",
+    "title": "Evacuation Route",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2601&lang=jp"
   },
   {
-    "title": "Unordered Operators",
+    "id": 175,
     "point": 350,
     "source": "夏合宿2013:day3G",
+    "status": "active",
+    "title": "Unordered Operators",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2613&lang=jp"
   },
   {
-    "title": "Breadth-First Search by Foxpower",
+    "id": 176,
     "point": 400,
     "source": "春コンテスト2014A",
+    "status": "active",
+    "title": "Breadth-First Search by Foxpower",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2677"
   },
   {
-    "title": "LR",
+    "id": 177,
     "point": 400,
     "source": "春コンテスト2014D",
+    "status": "active",
+    "title": "LR",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2680"
   },
   {
-    "title": "Marked Ancestor",
+    "id": 178,
     "point": 450,
     "source": "夏合宿2009:day3F",
+    "status": "active",
+    "title": "Marked Ancestor",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2170"
   },
   {
-    "title": "Rectangular Stamps",
+    "id": 179,
     "point": 450,
     "source": "夏合宿2011:day2H",
+    "status": "active",
+    "title": "Rectangular Stamps",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2297&lang=jp"
   },
   {
-    "title": "Stopped Watches",
+    "id": 180,
     "point": 450,
     "source": "アジア地区予選2008C",
+    "status": "active",
+    "title": "Stopped Watches",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1287"
   },
   {
-    "title": "King Slime",
+    "id": 181,
     "point": 450,
     "source": "冬合宿2010:day4D",
+    "status": "active",
+    "title": "King Slime",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2382"
   },
   {
-    "title": "Light Road",
+    "id": 182,
     "point": 450,
     "source": "冬コンテスト2011C",
+    "status": "active",
+    "title": "Light Road",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2342"
   },
   {
-    "title": "Map of Ninja House",
+    "id": 183,
     "point": 450,
     "source": "アジア地区予選2002E",
+    "status": "active",
+    "title": "Map of Ninja House",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1236"
   },
   {
-    "title": "FizzBuzz",
+    "id": 184,
     "point": 450,
     "source": "夏合宿2012:day3bB",
+    "status": "active",
+    "title": "FizzBuzz",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2441&lang=jp"
   },
   {
-    "title": "全探索お姉さんの休日",
+    "id": 185,
     "point": 450,
     "source": "夏合宿2012:day2B",
+    "status": "active",
+    "title": "全探索お姉さんの休日",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2425&lang=jp"
   },
   {
-    "title": "Circle and Points",
+    "id": 186,
     "point": 450,
     "source": "国内予選2004D",
+    "status": "active",
+    "title": "Circle and Points",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1132&lang=jp"
   },
   {
-    "title": "大玉転がし",
+    "id": 187,
     "point": 450,
     "source": "国内予選2008E",
+    "status": "active",
+    "title": "大玉転がし",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1157&lang=jp"
   },
   {
-    "title": "Cleaning Robot",
+    "id": 188,
     "point": 450,
     "source": "国内予選2005F",
+    "status": "active",
+    "title": "Cleaning Robot",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1140&lang=jp"
   },
   {
-    "title": "A Two Floors Dungeon",
+    "id": 189,
     "point": 450,
     "source": "夏合宿2012:day4A",
+    "status": "active",
+    "title": "A Two Floors Dungeon",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2447"
   },
   {
-    "title": "SIRO Challenge",
+    "id": 190,
     "point": 450,
     "source": "模擬地区2013C",
+    "status": "active",
+    "title": "SIRO Challenge",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2567"
   },
   {
-    "title": "暗号化システム",
+    "id": 191,
+    "point": 0,
+    "source": "アジア地区予選2013E",
+    "status": "hidden",
+    "title": "Dragon's Cruller",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1339"
+  },
+  {
+    "id": 192,
     "point": 400,
     "source": "国内予選2014D",
+    "status": "active",
+    "title": "暗号化システム",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1195&lang=jp"
   },
   {
-    "title": "Flowers",
+    "id": 193,
     "point": 450,
     "source": "模擬地区2014D",
+    "status": "active",
+    "title": "Flowers",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2592"
   },
   {
-    "title": "Cookie Counter",
+    "id": 194,
     "point": 450,
     "source": "模擬地区2014G",
+    "status": "active",
+    "title": "Cookie Counter",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2595"
   },
   {
-    "title": "Concert Hall Scheduling",
+    "id": 195,
     "point": 450,
     "source": "アジア地区予選2003G",
+    "status": "active",
+    "title": "Concert Hall Scheduling",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1246"
   },
   {
-    "title": "Long Distance Taxi",
+    "id": 196,
     "point": 450,
     "source": "アジア地区予選2011D",
+    "status": "active",
+    "title": "Long Distance Taxi",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1318"
   },
   {
-    "title": "Swimming Jam",
+    "id": 197,
     "point": 450,
     "source": "アジア地区予選2009C",
+    "status": "active",
+    "title": "Swimming Jam",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1297"
   },
   {
-    "title": "Find the Outlier",
+    "id": 198,
     "point": 450,
     "source": "アジア地区予選2012D",
+    "status": "active",
+    "title": "Find the Outlier",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1328"
   },
   {
-    "title": "Let There Be Light",
+    "id": 199,
     "point": 450,
     "source": "アジア地区予選2012G",
+    "status": "active",
+    "title": "Let There Be Light",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1331"
   },
   {
-    "title": "Voronoi Island",
+    "id": 200,
     "point": 450,
     "source": "夏合宿2009:day2F",
+    "status": "active",
+    "title": "Voronoi Island",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2160"
   },
   {
-    "title": "Kaeru Jump",
+    "id": 201,
     "point": 400,
     "source": "夏合宿2010:day4B",
+    "status": "active",
+    "title": "Kaeru Jump",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2223"
   },
   {
-    "title": "YAML",
+    "id": 202,
     "point": 450,
     "source": "夏合宿2012:day3aE",
+    "status": "active",
+    "title": "YAML",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2438&lang=jp"
   },
   {
-    "title": "Reverse Roads",
+    "id": 203,
     "point": 450,
     "source": "夏合宿2011:day3E",
+    "status": "active",
+    "title": "Reverse Roads",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2304"
   },
   {
-    "title": "Substring",
+    "id": 204,
     "point": 450,
     "source": "夏合宿2012:day3bE",
+    "status": "active",
+    "title": "Substring",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2444&lang=jp"
   },
   {
-    "title": "Traveling by Stagecoach",
+    "id": 205,
     "point": 350,
     "source": "国内予選2005D",
+    "status": "active",
+    "title": "Traveling by Stagecoach",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1138&lang=jp"
   },
   {
-    "title": "Dice Puzzle",
+    "id": 206,
     "point": 450,
     "source": "アジア地区予選2004F",
+    "status": "active",
+    "title": "Dice Puzzle",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1253"
   },
   {
-    "title": "輪番停電計画",
+    "id": 207,
     "point": 450,
     "source": "国内予選2011E",
+    "status": "active",
+    "title": "輪番停電計画",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1176&lang=jp"
   },
   {
-    "title": "離散的速度",
+    "id": 208,
     "point": 350,
     "source": "国内予選2009D",
+    "status": "active",
+    "title": "離散的速度",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1162&lang=jp"
   },
   {
-    "title": "6÷2(1+2)",
+    "id": 209,
     "point": 450,
     "source": "模擬国内2011D",
+    "status": "active",
+    "title": "6÷2(1+2)",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2255&lang=jp"
   },
   {
-    "title": "ぐらぐら",
+    "id": 210,
     "point": 450,
     "source": "国内予選2010D",
+    "status": "active",
+    "title": "ぐらぐら",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1168&lang=jp"
   },
   {
-    "title": "Color the Map",
+    "id": 211,
     "point": 450,
     "source": "アジア地区予選2004G",
+    "status": "active",
+    "title": "Color the Map",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1254"
   },
   {
-    "title": "Area Separation",
+    "id": 212,
     "point": 450,
     "source": "模擬国内2005D",
+    "status": "active",
+    "title": "Area Separation",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2009&lang=jp"
   },
   {
-    "title": "Road Construction",
+    "id": 213,
     "point": 450,
     "source": "模擬地区2010H",
+    "status": "active",
+    "title": "Road Construction",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2249"
   },
   {
-    "title": "Space Golf",
+    "id": 214,
+    "point": 0,
+    "source": "アジア地区予選2003F",
+    "status": "hidden",
+    "title": "Gap",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1245"
+  },
+  {
+    "id": 215,
     "point": 450,
     "source": "アジア地区予選2014D",
+    "status": "active",
+    "title": "Space Golf",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1348"
   },
   {
-    "title": "Automotive Navigation",
+    "id": 216,
     "point": 450,
     "source": "アジア地区予選2014E",
+    "status": "active",
+    "title": "Automotive Navigation",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1349"
   },
   {
-    "title": "There is No Alternative",
+    "id": 217,
     "point": 450,
     "source": "アジア地区予選2014F",
+    "status": "active",
+    "title": "There is No Alternative",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1350"
   },
   {
-    "title": "Cube Coloring",
+    "id": 218,
     "point": 450,
     "source": "春コンテスト2014B",
+    "status": "active",
+    "title": "Cube Coloring",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2678"
   },
   {
-    "title": "Clique Coloring",
+    "id": 219,
     "point": 450,
     "source": "夏合宿2014:day2C",
+    "status": "active",
+    "title": "Clique Coloring",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2631&lang=jp"
   },
   {
-    "title": "ブロック落とし",
+    "id": 220,
     "point": 500,
     "source": "模擬国内2015C",
+    "status": "active",
+    "title": "ブロック落とし",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2701&lang=jp"
   },
   {
-    "title": "Sibling Rivalry",
+    "id": 221,
     "point": 500,
     "source": "アジア地区予選2015C",
+    "status": "active",
+    "title": "Sibling Rivalry",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1358"
   },
   {
-    "title": "Wall Clocks",
+    "id": 222,
     "point": 450,
     "source": "アジア地区予選2015D",
+    "status": "active",
+    "title": "Wall Clocks",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1359"
   },
   {
-    "title": "Rabbit Party",
+    "id": 223,
     "point": 500,
     "source": "夏合宿2011:day3G",
+    "status": "active",
+    "title": "Rabbit Party",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2306"
   },
   {
-    "title": "Mr. リトー郵便局",
+    "id": 224,
     "point": 500,
     "source": "模擬国内2010D",
+    "status": "active",
+    "title": "Mr. リトー郵便局",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2200&lang=jp"
   },
   {
-    "title": "Alien's Counting",
+    "id": 225,
     "point": 500,
     "source": "夏合宿2010:day4A",
+    "status": "active",
+    "title": "Alien's Counting",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2222"
   },
   {
-    "title": "僕の友達は小さい",
+    "id": 226,
     "point": 500,
     "source": "夏合宿2010:day2D",
+    "status": "active",
+    "title": "僕の友達は小さい",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2333&lang=jp"
   },
   {
-    "title": "Most Distant Point from the Sea",
+    "id": 227,
     "point": 500,
     "source": "アジア地区予選2007I",
+    "status": "active",
+    "title": "Most Distant Point from the Sea",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1283"
   },
   {
-    "title": "Never Wait for Weights",
+    "id": 228,
     "point": 500,
     "source": "アジア地区予選2012F",
+    "status": "active",
+    "title": "Never Wait for Weights",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1330"
   },
   {
-    "title": "Twenty Questions",
+    "id": 229,
     "point": 500,
     "source": "アジア地区予選2009H",
+    "status": "active",
+    "title": "Twenty Questions",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1302"
   },
   {
-    "title": "The Two Men of the Japanese Alps",
+    "id": 230,
     "point": 500,
     "source": "アジア地区予選2010E",
+    "status": "active",
+    "title": "The Two Men of the Japanese Alps",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1309"
   },
   {
-    "title": "Dungeon Quest II",
+    "id": 231,
     "point": 500,
     "source": "模擬地区2010C",
+    "status": "active",
+    "title": "Dungeon Quest II",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2244"
   },
   {
-    "title": "The Castle",
+    "id": 232,
     "point": 500,
     "source": "夏合宿2010:day3F",
+    "status": "active",
+    "title": "The Castle",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2237&lang=jp"
   },
   {
-    "title": "Number Sorting",
+    "id": 233,
     "point": 500,
     "source": "模擬地区2011G",
+    "status": "active",
+    "title": "Number Sorting",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2326"
   },
   {
-    "title": "Beautiful Currency",
+    "id": 234,
     "point": 500,
     "source": "夏合宿2011:day3F",
+    "status": "active",
+    "title": "Beautiful Currency",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2305"
   },
   {
-    "title": "薔薇園の魔女",
+    "id": 235,
     "point": 500,
     "source": "夏合宿2011:day4A",
+    "status": "active",
+    "title": "薔薇園の魔女",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2310&lang=jp"
   },
   {
-    "title": "全宇宙生命ゲノムデータベース",
+    "id": 236,
     "point": 500,
     "source": "国内予選2006E",
+    "status": "active",
+    "title": "全宇宙生命ゲノムデータベース",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1145&lang=jp"
   },
   {
-    "title": "DNA",
+    "id": 237,
     "point": 500,
     "source": "夏合宿2012:day3aD",
+    "status": "active",
+    "title": "DNA",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2437&lang=jp"
   },
   {
-    "title": "双子の読書感想文",
+    "id": 238,
     "point": 500,
     "source": "模擬国内2013C",
+    "status": "active",
+    "title": "双子の読書感想文",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2510&lang=jp"
   },
   {
-    "title": "沈みゆく島",
+    "id": 239,
     "point": 500,
     "source": "模擬国内2013D",
+    "status": "active",
+    "title": "沈みゆく島",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2511&lang=jp"
   },
   {
-    "title": "Clock Hands",
+    "id": 240,
     "point": 500,
     "source": "アジア地区予選2013D",
+    "status": "active",
+    "title": "Clock Hands",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1338"
   },
   {
-    "title": "橋の撤去",
+    "id": 241,
     "point": 500,
     "source": "国内予選2014E",
+    "status": "active",
+    "title": "橋の撤去",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1196&lang=jp"
   },
   {
-    "title": "一日乗車券",
+    "id": 242,
     "point": 500,
     "source": "模擬国内2014D",
+    "status": "active",
+    "title": "一日乗車券",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2585&lang=jp"
   },
   {
-    "title": "流れ星に願いを",
+    "id": 243,
     "point": 500,
     "source": "模擬国内2014E",
+    "status": "active",
+    "title": "流れ星に願いを",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2586&lang=jp"
   },
   {
-    "title": "Test Case Tweaking",
+    "id": 244,
     "point": 500,
     "source": "アジア地区予選2010G",
+    "status": "active",
+    "title": "Test Case Tweaking",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1311"
   },
   {
-    "title": "Spherical Mirrors",
+    "id": 245,
     "point": 500,
     "source": "アジア地区予選2008E",
+    "status": "active",
+    "title": "Spherical Mirrors",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1289"
   },
   {
-    "title": "Infected Land",
+    "id": 246,
     "point": 500,
     "source": "アジア地区予選2009J",
+    "status": "active",
+    "title": "Infected Land",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1304"
   },
   {
-    "title": "街を駆ける道 ",
+    "id": 247,
     "point": 500,
     "source": "夏合宿2010:day2E",
+    "status": "active",
+    "title": "街を駆ける道 ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2334&lang=jp"
   },
   {
-    "title": "Power of Power",
+    "id": 248,
+    "point": 0,
+    "source": "夏合宿2010:day4D",
+    "status": "hidden",
+    "title": "Dungeon Wall",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2225"
+  },
+  {
+    "id": 249,
     "point": 550,
     "source": "夏合宿2011:day2F",
+    "status": "active",
+    "title": "Power of Power",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2295&lang=jp"
   },
   {
-    "title": "カードゲーム",
+    "id": 250,
     "point": 400,
     "source": "国内予選2009E",
+    "status": "active",
+    "title": "カードゲーム",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1163&lang=jp"
   },
   {
-    "title": "鉄道乗り継ぎ",
+    "id": 251,
     "point": 400,
     "source": "国内予選2012D",
+    "status": "active",
+    "title": "鉄道乗り継ぎ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1182&lang=jp"
   },
   {
-    "title": "TransferTrain",
+    "id": 252,
     "point": 500,
     "source": "冬合宿2010:day3C",
+    "status": "active",
+    "title": "TransferTrain",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2371&lang=jp"
   },
   {
-    "title": "天の川",
+    "id": 253,
     "point": 400,
     "source": "模擬国内2012D",
+    "status": "active",
+    "title": "天の川",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2402&lang=jp"
   },
   {
-    "title": "Bubble Puzzle",
+    "id": 254,
     "point": 500,
     "source": "冬合宿2010:day4B",
+    "status": "active",
+    "title": "Bubble Puzzle",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2380"
   },
   {
-    "title": "Dice Room",
+    "id": 255,
     "point": 450,
     "source": "模擬地区2010D",
+    "status": "active",
+    "title": "Dice Room",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2245"
   },
   {
-    "title": "Two-Wheel Buggy",
+    "id": 256,
     "point": 500,
     "source": "模擬地区2010F",
+    "status": "active",
+    "title": "Two-Wheel Buggy",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2247"
   },
   {
-    "title": "Where's Wally",
+    "id": 257,
     "point": 500,
     "source": "アジア地区予選2010H",
+    "status": "active",
+    "title": "Where's Wally",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1312"
   },
   {
-    "title": "Billiard ",
+    "id": 258,
     "point": 500,
     "source": "模擬地区2012D",
+    "status": "active",
+    "title": "Billiard ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2537"
   },
   {
-    "title": "Perm Query",
+    "id": 259,
     "point": 550,
     "source": "夏合宿2013:day2G",
+    "status": "active",
+    "title": "Perm Query",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2606&lang=jp"
   },
   {
-    "title": "Wave Attack",
+    "id": 260,
     "point": 500,
     "source": "夏合宿2013:day3C",
+    "status": "active",
+    "title": "Wave Attack",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2609&lang=jp"
   },
   {
-    "title": "Parentheses",
+    "id": 261,
     "point": 500,
     "source": "春コンテスト2014E",
+    "status": "active",
+    "title": "Parentheses",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2681"
   },
   {
-    "title": "Dense Amidakuji",
+    "id": 262,
     "point": 500,
     "source": "夏合宿2014:day2D",
+    "status": "active",
+    "title": "Dense Amidakuji",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2632&lang=jp"
   },
   {
-    "title": "AI",
+    "id": 263,
     "point": 450,
     "source": "夏合宿2014:day4E",
+    "status": "active",
+    "title": "AI",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2643&lang=jp"
   },
   {
-    "title": "500 円玉貯金",
+    "id": 264,
     "point": 500,
     "source": "国内予選2015D",
+    "status": "active",
+    "title": "500 円玉貯金",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1603&lang=jp"
   },
   {
-    "title": "Bringing Order to Disorder",
+    "id": 265,
     "point": 500,
     "source": "アジア地区予選2015E",
+    "status": "active",
+    "title": "Bringing Order to Disorder",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1360"
   },
   {
-    "title": "Save your cat",
+    "id": 266,
     "point": 550,
     "source": "夏合宿2010:day4C",
+    "status": "active",
+    "title": "Save your cat",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2224"
   },
   {
-    "title": "Luigi’s Tavern",
+    "id": 267,
     "point": 550,
     "source": "夏合宿2009:day3D",
+    "status": "active",
+    "title": "Luigi’s Tavern",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2168"
   },
   {
-    "title": "Search of Concatenated Strings",
+    "id": 268,
     "point": 550,
     "source": "アジア地区予選2008G",
+    "status": "active",
+    "title": "Search of Concatenated Strings",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1291"
   },
   {
-    "title": "Digits on the Floor",
+    "id": 269,
     "point": 550,
     "source": "アジア地区予選2008D",
+    "status": "active",
+    "title": "Digits on the Floor",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1288"
   },
   {
-    "title": "Tatami",
+    "id": 270,
     "point": 550,
     "source": "夏合宿2009:day2I",
+    "status": "active",
+    "title": "Tatami",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2163"
   },
   {
-    "title": "Rabbit Plays Games!",
+    "id": 271,
     "point": 550,
     "source": "夏合宿2010:day3E",
+    "status": "active",
+    "title": "Rabbit Plays Games!",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2236&lang=jp"
   },
   {
-    "title": "Quest of Merchant",
+    "id": 272,
     "point": 550,
     "source": "夏合宿2011:day2G",
+    "status": "active",
+    "title": "Quest of Merchant",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2296&lang=jp"
   },
   {
-    "title": "鎖中経路",
+    "id": 273,
     "point": 550,
     "source": "国内予選2012E",
+    "status": "active",
+    "title": "鎖中経路",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1183&lang=jp"
   },
   {
-    "title": "Find the Multiples",
+    "id": 274,
     "point": 550,
     "source": "アジア地区予選2010F",
+    "status": "active",
+    "title": "Find the Multiples",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1310"
   },
   {
-    "title": "Stack Maze",
+    "id": 275,
     "point": 550,
     "source": "模擬地区2012E",
+    "status": "active",
+    "title": "Stack Maze",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2538"
   },
   {
-    "title": "Confusing Login Names",
+    "id": 276,
     "point": 550,
     "source": "アジア地区予選2004E",
+    "status": "active",
+    "title": "Confusing Login Names",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1252"
   },
   {
-    "title": "Water Tank",
+    "id": 277,
     "point": 550,
     "source": "模擬地区2009F",
+    "status": "active",
+    "title": "Water Tank",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2180"
   },
   {
-    "title": "Water Tank",
+    "id": 278,
     "point": 550,
     "source": "国内予選2004E",
+    "status": "active",
+    "title": "Water Tank",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1133&lang=jp"
   },
   {
-    "title": "つながれた風船",
+    "id": 279,
     "point": 550,
     "source": "国内予選2013E",
+    "status": "active",
+    "title": "つながれた風船",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1190&lang=jp"
   },
   {
-    "title": "Shipura",
+    "id": 280,
     "point": 550,
     "source": "模擬地区2013F",
+    "status": "active",
+    "title": "Shipura",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2570"
   },
   {
-    "title": "Venn Diagram",
+    "id": 281,
     "point": 550,
     "source": "模擬地区2013H",
+    "status": "active",
+    "title": "Venn Diagram",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2572"
   },
   {
-    "title": "Don't Burst the Balloon",
+    "id": 282,
     "point": 550,
     "source": "アジア地区予選2013H",
+    "status": "active",
+    "title": "Don't Burst the Balloon",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1342"
   },
   {
-    "title": "Points and Lines",
+    "id": 283,
     "point": 500,
     "source": "模擬地区2014H",
+    "status": "active",
+    "title": "Points and Lines",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2596"
   },
   {
-    "title": "Area of Polygons",
+    "id": 284,
     "point": 550,
     "source": "アジア地区予選2003C",
+    "status": "active",
+    "title": "Area of Polygons",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1242"
   },
   {
-    "title": "Equals are Equals",
+    "id": 285,
     "point": 550,
     "source": "アジア地区予選2002B",
+    "status": "active",
+    "title": "Equals are Equals",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1233"
   },
   {
-    "title": "敵の敵は味方",
+    "id": 286,
     "point": 550,
     "source": "模擬国内2012E",
+    "status": "active",
+    "title": "敵の敵は味方",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2403&lang=jp"
   },
   {
-    "title": "不死の宝石",
+    "id": 287,
     "point": 550,
     "source": "模擬国内2010E",
+    "status": "active",
+    "title": "不死の宝石",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2201&lang=jp"
   },
   {
-    "title": "Bug Hunt",
+    "id": 288,
     "point": 450,
     "source": "アジア地区予選2007H",
+    "status": "active",
+    "title": "Bug Hunt",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1282"
   },
   {
-    "title": "Separate Points",
+    "id": 289,
     "point": 550,
     "source": "アジア地区予選2009D",
+    "status": "active",
+    "title": "Separate Points",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1298"
   },
   {
-    "title": "Awkward Lights",
+    "id": 290,
     "point": 550,
     "source": "アジア地区予選2010D",
+    "status": "active",
+    "title": "Awkward Lights",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1308"
   },
   {
-    "title": "Connect ",
+    "id": 291,
     "point": 550,
     "source": "夏合宿2012:day4C",
+    "status": "active",
+    "title": "Connect ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2449"
   },
   {
-    "title": "Find the Point",
+    "id": 292,
     "point": 550,
     "source": "夏合宿2009:day3C",
+    "status": "active",
+    "title": "Find the Point",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2167"
   },
   {
-    "title": "Entangled with Lottery",
+    "id": 293,
     "point": 550,
     "source": "夏合宿2011:day2E",
+    "status": "active",
+    "title": "Entangled with Lottery",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2294&lang=jp"
   },
   {
-    "title": "魔法少女さやかちゃん",
+    "id": 294,
     "point": 550,
     "source": "夏合宿2011:day4C",
+    "status": "active",
+    "title": "魔法少女さやかちゃん",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2312&lang=jp"
   },
   {
-    "title": "失われし数",
+    "id": 295,
     "point": 550,
     "source": "夏合宿2012:day2E",
+    "status": "active",
+    "title": "失われし数",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2428&lang=jp"
   },
   {
-    "title": "まるかいて",
+    "id": 296,
     "point": 550,
     "source": "夏合宿2012:day2F",
+    "status": "active",
+    "title": "まるかいて",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2429&lang=jp"
   },
   {
-    "title": "引越し",
+    "id": 297,
     "point": 550,
     "source": "夏合宿2012:day2H",
+    "status": "active",
+    "title": "引越し",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2431&lang=jp"
   },
   {
-    "title": "お姫様の日本語",
+    "id": 298,
     "point": 550,
     "source": "模擬国内2008C",
+    "status": "active",
+    "title": "お姫様の日本語",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2020&lang=jp"
   },
   {
-    "title": "Audition ",
+    "id": 299,
     "point": 550,
     "source": "夏合宿2012:day3aA",
+    "status": "active",
+    "title": "Audition ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2434&lang=jp"
   },
   {
-    "title": "Square Carpets",
+    "id": 300,
     "point": 550,
     "source": "国内予選2003E",
+    "status": "active",
+    "title": "Square Carpets",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1128"
   },
   {
-    "title": "Galaxy Wide Web Service",
+    "id": 301,
     "point": 550,
     "source": "夏合宿2009:day2H",
+    "status": "active",
+    "title": "Galaxy Wide Web Service",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2162"
   },
   {
-    "title": "Name the Crossing",
+    "id": 302,
     "point": 550,
     "source": "国内予選2004F",
+    "status": "active",
+    "title": "Name the Crossing",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1134&lang=jp"
   },
   {
-    "title": "Traveling Cube",
+    "id": 303,
     "point": 500,
     "source": "アジア地区予選2008F",
+    "status": "active",
+    "title": "Traveling Cube",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1290"
   },
   {
-    "title": "Texas Hold 'em",
+    "id": 304,
     "point": 550,
     "source": "模擬地区2012B",
+    "status": "active",
+    "title": "Texas Hold 'em",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2535"
   },
   {
-    "title": "Neko's Treasure",
+    "id": 305,
     "point": 550,
     "source": "模擬地区2009G",
+    "status": "active",
+    "title": "Neko's Treasure",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2181"
   },
   {
-    "title": "Mysterious Maze",
+    "id": 306,
     "point": 550,
     "source": "模擬地区2011F",
+    "status": "active",
+    "title": "Mysterious Maze",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2325"
   },
   {
-    "title": "Mobile Network",
+    "id": 307,
     "point": 550,
     "source": "模擬地区2011I",
+    "status": "active",
+    "title": "Mobile Network",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2328"
   },
   {
-    "title": "The Morning after Halloween",
+    "id": 308,
+    "point": 0,
+    "source": "夏合宿2012:day4J",
+    "status": "hidden",
+    "title": "Usoperanto",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2456"
+  },
+  {
+    "id": 309,
     "point": 500,
     "source": "アジア地区予選2007G",
+    "status": "active",
+    "title": "The Morning after Halloween",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1281"
   },
   {
-    "title": "Social Monsters",
+    "id": 310,
     "point": 550,
     "source": "夏合宿2013:day2F",
+    "status": "active",
+    "title": "Social Monsters",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2605&lang=jp"
   },
   {
-    "title": "Integer in Integer",
+    "id": 311,
     "point": 550,
     "source": "春コンテスト2013B",
+    "status": "active",
+    "title": "Integer in Integer",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2556"
   },
   {
-    "title": "順位付け",
+    "id": 312,
     "point": 550,
     "source": "夏合宿2013:day3E",
+    "status": "active",
+    "title": "順位付け",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2611&lang=jp"
   },
   {
-    "title": "Graph Automata Player",
+    "id": 313,
     "point": 550,
     "source": "夏合宿2013:day4F",
+    "status": "active",
+    "title": "Graph Automata Player",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2624"
   },
   {
-    "title": "Hyperrectangle",
+    "id": 314,
     "point": 550,
     "source": "夏合宿2014:day2J",
+    "status": "active",
+    "title": "Hyperrectangle",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2638&lang=jp"
   },
   {
-    "title": "Phutball",
+    "id": 315,
     "point": 450,
     "source": "夏合宿2013:day3F",
+    "status": "active",
+    "title": "Phutball",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2612&lang=jp"
   },
   {
-    "title": "Decoding Ancient Messages",
+    "id": 316,
     "point": 550,
     "source": "春コンテスト2014C",
+    "status": "active",
+    "title": "Decoding Ancient Messages",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2679"
   },
   {
-    "title": "夕食",
+    "id": 317,
     "point": 550,
     "source": "夏合宿2014:day4D",
+    "status": "active",
+    "title": "夕食",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2642&lang=jp"
   },
   {
-    "title": "Dictionary",
+    "id": 318,
     "point": 550,
     "source": "夏合宿2014:day2B",
+    "status": "active",
+    "title": "Dictionary",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2630&lang=jp"
   },
   {
-    "title": "JAG-channel II",
+    "id": 319,
     "point": 550,
     "source": "春コンテスト2015G",
+    "status": "active",
+    "title": "JAG-channel II",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2693"
   },
   {
-    "title": "Runner and Sniper",
+    "id": 320,
     "point": 550,
     "source": "春コンテスト2015K",
+    "status": "active",
+    "title": "Runner and Sniper",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2697"
   },
   {
-    "title": "Wall Making Game",
+    "id": 321,
     "point": 500,
     "source": "春コンテスト2015L",
+    "status": "active",
+    "title": "Wall Making Game",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2698"
   },
   {
-    "title": "サイコロスタンプ",
+    "id": 322,
     "point": 550,
     "source": "模擬国内2015E",
+    "status": "active",
+    "title": "サイコロスタンプ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2703&lang=jp"
   },
   {
-    "title": "デッドロック検出",
+    "id": 323,
     "point": 550,
     "source": "国内予選2015E",
+    "status": "active",
+    "title": "デッドロック検出",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1604&lang=jp"
   },
   {
-    "title": "Deadlock Detection",
+    "id": 324,
     "point": 550,
     "source": "アジア地区予選2015F",
+    "status": "active",
+    "title": "Deadlock Detection",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1361"
   },
   {
-    "title": "Do Geese See God?",
+    "id": 325,
     "point": 550,
     "source": "アジア地区予選2015G",
+    "status": "active",
+    "title": "Do Geese See God?",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1362"
   },
   {
-    "title": "ケーキ分割問題",
+    "id": 326,
     "point": 600,
     "source": "模擬国内2011E",
+    "status": "active",
+    "title": "ケーキ分割問題",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2256&lang=jp"
   },
   {
-    "title": "Three-way Branch",
+    "id": 327,
     "point": 550,
     "source": "春コンテスト2012I",
+    "status": "active",
+    "title": "Three-way Branch",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2397"
   },
   {
-    "title": "Sliding Block Puzzle",
+    "id": 328,
     "point": 600,
     "source": "アジア地区予選2012E",
+    "status": "active",
+    "title": "Sliding Block Puzzle",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1329"
   },
   {
-    "title": "箱根駅伝",
+    "id": 329,
     "point": 600,
     "source": "夏合宿2012:day3aF",
+    "status": "active",
+    "title": "箱根駅伝",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2439&lang=jp"
   },
   {
-    "title": "舞台装置の魔女",
+    "id": 330,
     "point": 600,
     "source": "夏合宿2011:day4I",
+    "status": "active",
+    "title": "舞台装置の魔女",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2318&lang=jp"
   },
   {
-    "title": "Square in Circles",
+    "id": 331,
     "point": 600,
     "source": "模擬地区2014E",
+    "status": "active",
+    "title": "Square in Circles",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2593"
   },
   {
-    "title": "Reverse a Road II",
+    "id": 332,
     "point": 600,
     "source": "模擬地区2014F",
+    "status": "active",
+    "title": "Reverse a Road II",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2594"
   },
   {
-    "title": "Merry Christmas",
+    "id": 333,
+    "point": 0,
+    "source": "冬コンテスト2011G",
+    "status": "hidden",
+    "title": "Runaway Domino ",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2346"
+  },
+  {
+    "id": 334,
     "point": 600,
     "source": "模擬地区2010J",
+    "status": "active",
+    "title": "Merry Christmas",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2251"
   },
   {
-    "title": "IkaNumber",
+    "id": 335,
     "point": 600,
     "source": "冬合宿2010:day3D",
+    "status": "active",
+    "title": "IkaNumber",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2372&lang=jp"
   },
   {
-    "title": "１０歳の動的計画 ",
+    "id": 336,
     "point": 600,
     "source": "夏合宿2010:day2F",
+    "status": "active",
+    "title": "１０歳の動的計画 ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2335&lang=jp"
   },
   {
-    "title": "スプリング・タイル ",
+    "id": 337,
     "point": 600,
     "source": "夏合宿2010:day2G",
+    "status": "active",
+    "title": "スプリング・タイル ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2336&lang=jp"
   },
   {
-    "title": "Malfatti Circles",
+    "id": 338,
     "point": 600,
     "source": "アジア地区予選2009G",
+    "status": "active",
+    "title": "Malfatti Circles",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1301"
   },
   {
-    "title": "Dangerous Tower",
+    "id": 339,
     "point": 600,
     "source": "夏合宿2011:day2D",
+    "status": "active",
+    "title": "Dangerous Tower",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2293&lang=jp"
   },
   {
-    "title": "RabbitWalking",
+    "id": 340,
     "point": 600,
     "source": "冬合宿2010:day3B",
+    "status": "active",
+    "title": "RabbitWalking",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2370&lang=jp"
   },
   {
-    "title": "Driving an Icosahedral Rover",
+    "id": 341,
     "point": 600,
     "source": "アジア地区予選2011E",
+    "status": "active",
+    "title": "Driving an Icosahedral Rover",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1319"
   },
   {
-    "title": "Symmetry",
+    "id": 342,
     "point": 600,
     "source": "夏合宿2009:day2E",
+    "status": "active",
+    "title": "Symmetry",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2159"
   },
   {
-    "title": "Strange Couple",
+    "id": 343,
     "point": 600,
     "source": "夏合宿2009:day3G",
+    "status": "active",
+    "title": "Strange Couple",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2171"
   },
   {
-    "title": "Card ",
+    "id": 344,
+    "point": 0,
+    "source": "冬コンテスト2011I",
+    "status": "hidden",
+    "title": "Testing Circuits",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2348"
+  },
+  {
+    "id": 345,
     "point": 600,
     "source": "夏合宿2012:day3aC",
+    "status": "active",
+    "title": "Card ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2436&lang=jp"
   },
   {
-    "title": "ハコの魔女",
+    "id": 346,
+    "point": 0,
+    "source": "夏合宿2010:day4H",
+    "status": "hidden",
+    "title": "Ropeway",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2229"
+  },
+  {
+    "id": 347,
     "point": 600,
     "source": "夏合宿2011:day4D",
+    "status": "active",
+    "title": "ハコの魔女",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2313&lang=jp"
   },
   {
-    "title": "Reverse Sort",
+    "id": 348,
     "point": 600,
     "source": "夏合宿2012:day3bD",
+    "status": "active",
+    "title": "Reverse Sort",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2443&lang=jp"
   },
   {
-    "title": "Enumeration",
+    "id": 349,
     "point": 600,
     "source": "夏合宿2012:day3bG",
+    "status": "active",
+    "title": "Enumeration",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2446&lang=jp"
   },
   {
-    "title": "True Liars",
+    "id": 350,
     "point": 600,
     "source": "アジア地区予選2002G",
+    "status": "active",
+    "title": "True Liars",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1238"
   },
   {
-    "title": "Flipping Parenthesis",
+    "id": 351,
     "point": 600,
     "source": "アジア地区予選2014G",
+    "status": "active",
+    "title": "Flipping Parenthesis",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1351"
   },
   {
-    "title": "Pattern Language",
+    "id": 352,
     "point": 600,
     "source": "夏合宿2013:day2E",
+    "status": "active",
+    "title": "Pattern Language",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2604&lang=jp"
   },
   {
-    "title": "Medical Inspection",
+    "id": 353,
     "point": 600,
     "source": "春コンテスト2013D",
+    "status": "active",
+    "title": "Medical Inspection",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2558"
   },
   {
-    "title": "Almost Same Substring",
+    "id": 354,
     "point": 600,
     "source": "夏合宿2013:day3H",
+    "status": "active",
+    "title": "Almost Same Substring",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2614&lang=jp"
   },
   {
-    "title": "Snake",
+    "id": 355,
     "point": 600,
     "source": "夏合宿2014:day2G",
+    "status": "active",
+    "title": "Snake",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2635&lang=jp"
   },
   {
-    "title": "トーナメント",
+    "id": 356,
     "point": 600,
     "source": "夏合宿2014:day4H",
+    "status": "active",
+    "title": "トーナメント",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2646&lang=jp"
   },
   {
-    "title": "Tree Reconstruction",
+    "id": 357,
     "point": 600,
     "source": "春コンテスト2013J",
+    "status": "active",
+    "title": "Tree Reconstruction",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2564"
   },
   {
-    "title": "Safe Area",
+    "id": 358,
     "point": 600,
     "source": "模擬地区2009E",
+    "status": "active",
+    "title": "Safe Area",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2179"
   },
   {
-    "title": "Optimal alpha beta pruning",
+    "id": 359,
     "point": 600,
     "source": "夏合宿2013:day4E",
+    "status": "active",
+    "title": "Optimal alpha beta pruning",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2623"
   },
   {
-    "title": "Content Delivery",
+    "id": 360,
     "point": 600,
     "source": "春コンテスト2015D",
+    "status": "active",
+    "title": "Content Delivery",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2690"
   },
   {
-    "title": "ICPC Teams",
+    "id": 361,
     "point": 600,
     "source": "春コンテスト2015F",
+    "status": "active",
+    "title": "ICPC Teams",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2692"
   },
   {
-    "title": "アリスハウス",
+    "id": 362,
     "point": 600,
     "source": "模擬国内2015D",
+    "status": "active",
+    "title": "アリスハウス",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2702&lang=jp"
   },
   {
-    "title": "Wind Passages",
+    "id": 363,
     "point": 700,
     "source": "夏合宿2009:day3I",
+    "status": "active",
+    "title": "Wind Passages",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2173"
   },
   {
-    "title": "DisconnectedGame",
+    "id": 364,
     "point": 600,
     "source": "冬合宿2010:day3H",
+    "status": "active",
+    "title": "DisconnectedGame",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2376&lang=jp"
   },
   {
-    "title": "最強の呪文",
+    "id": 365,
     "point": 700,
     "source": "国内予選2010E",
+    "status": "active",
+    "title": "最強の呪文",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1169&lang=jp"
   },
   {
-    "title": "閘門式運河: 上下に動く水面",
+    "id": 366,
     "point": 700,
     "source": "模擬国内2010F",
+    "status": "active",
+    "title": "閘門式運河: 上下に動く水面",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2202&lang=jp"
   },
   {
-    "title": "Round Trip",
+    "id": 367,
     "point": 600,
     "source": "アジア地区予選2011J",
+    "status": "active",
+    "title": "Round Trip",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1324"
   },
   {
-    "title": "Network Reliability",
+    "id": 368,
     "point": 700,
     "source": "冬コンテスト2011F",
+    "status": "active",
+    "title": "Network Reliability",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2345"
   },
   {
-    "title": "桜詩 ～願はくは花の下にて春死なむ～",
+    "id": 369,
     "point": 700,
     "source": "模擬国内2011F",
+    "status": "active",
+    "title": "桜詩 ～願はくは花の下にて春死なむ～",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2257&lang=jp"
   },
   {
-    "title": "Magical Bridges",
+    "id": 370,
     "point": 600,
     "source": "模擬地区2012H",
+    "status": "active",
+    "title": "Magical Bridges",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2541"
   },
   {
-    "title": "影の魔女",
+    "id": 371,
     "point": 700,
     "source": "夏合宿2011:day4F",
+    "status": "active",
+    "title": "影の魔女",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2315&lang=jp"
   },
   {
-    "title": "Sports Days 2.0",
+    "id": 372,
     "point": 700,
     "source": "夏合宿2012:day2I",
+    "status": "active",
+    "title": "Sports Days 2.0",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2432&lang=jp"
   },
   {
-    "title": "RabbitLunch",
+    "id": 373,
     "point": 700,
     "source": "冬合宿2010:day3F",
+    "status": "active",
+    "title": "RabbitLunch",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2374&lang=jp"
   },
   {
-    "title": "Beautiful Spacing",
+    "id": 374,
     "point": 600,
     "source": "アジア地区予選2012I",
+    "status": "active",
+    "title": "Beautiful Spacing",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1333"
   },
   {
-    "title": "Matrix Operation ",
+    "id": 375,
     "point": 700,
     "source": "冬コンテスト2011D",
+    "status": "active",
+    "title": "Matrix Operation ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2343"
   },
   {
-    "title": "Geometric Map",
+    "id": 376,
     "point": 600,
     "source": "アジア地区予選2007E",
+    "status": "active",
+    "title": "Geometric Map",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1279"
   },
   {
-    "title": "Multi Ending Story",
+    "id": 377,
     "point": 700,
     "source": "冬コンテスト2011E",
+    "status": "active",
+    "title": "Multi Ending Story",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2344"
   },
   {
-    "title": "Vector Compression ",
+    "id": 378,
     "point": 600,
     "source": "夏合宿2011:day3J",
+    "status": "active",
+    "title": "Vector Compression ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2309"
   },
   {
-    "title": "Repairing",
+    "id": 379,
     "point": 700,
     "source": "夏合宿2012:day4H",
+    "status": "active",
+    "title": "Repairing",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2454"
   },
   {
-    "title": "Weaker than Planned",
+    "id": 380,
     "point": 700,
     "source": "アジア地区予選2011C",
+    "status": "active",
+    "title": "Weaker than Planned",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1317"
   },
   {
-    "title": "Revenge of the Round Table ",
+    "id": 381,
     "point": 700,
     "source": "夏合宿2009:day2J",
+    "status": "active",
+    "title": "Revenge of the Round Table ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2164"
   },
   {
-    "title": "Bicube",
+    "id": 382,
     "point": 600,
     "source": "冬合宿2010:day4A",
+    "status": "active",
+    "title": "Bicube",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2379"
   },
   {
-    "title": "Inherit the Spheres",
+    "id": 383,
     "point": 600,
     "source": "アジア地区予選2004H",
+    "status": "active",
+    "title": "Inherit the Spheres",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1255"
   },
   {
-    "title": "Shelter",
+    "id": 384,
     "point": 700,
     "source": "冬合宿2010:day4G",
+    "status": "active",
+    "title": "Shelter",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2385"
   },
   {
-    "title": "AYBABTU",
+    "id": 385,
     "point": 700,
     "source": "春コンテスト2012B",
+    "status": "active",
+    "title": "AYBABTU",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2390"
   },
   {
-    "title": "Nearest Station",
+    "id": 386,
     "point": 600,
     "source": "夏合宿2010:day3H",
+    "status": "active",
+    "title": "Nearest Station",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2239&lang=jp"
   },
   {
-    "title": "小野小町の編集合戦",
+    "id": 387,
     "point": 700,
     "source": "模擬国内2013E",
+    "status": "active",
+    "title": "小野小町の編集合戦",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2512&lang=jp"
   },
   {
-    "title": "Polygon Guards",
+    "id": 388,
     "point": 700,
     "source": "春コンテスト2014F",
+    "status": "active",
+    "title": "Polygon Guards",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2682"
   },
   {
-    "title": "Rings",
+    "id": 389,
     "point": 700,
     "source": "春コンテスト2013H",
+    "status": "active",
+    "title": "Rings",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2562"
   },
   {
-    "title": "Operator",
+    "id": 390,
     "point": 600,
     "source": "模擬地区2010I",
+    "status": "active",
+    "title": "Operator",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2250"
   },
   {
-    "title": "Website Tour",
+    "id": 391,
     "point": 700,
     "source": "模擬地区2014J",
+    "status": "active",
+    "title": "Website Tour",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2598"
   },
   {
-    "title": "A + B",
+    "id": 392,
     "point": 700,
     "source": "夏合宿2013:day3I",
+    "status": "active",
+    "title": "A + B",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2615&lang=jp"
   },
   {
-    "title": "Balanced Paths",
+    "id": 393,
     "point": 800,
     "source": "春コンテスト2015A",
+    "status": "active",
+    "title": "Balanced Paths",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2687"
   },
   {
-    "title": "からくり人形",
+    "id": 394,
     "point": 700,
     "source": "模擬国内2007F",
+    "status": "active",
+    "title": "からくり人形",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2017&lang=jp"
   },
   {
-    "title": "Graph Construction",
+    "id": 395,
     "point": 700,
     "source": "夏合宿2010:day3D",
+    "status": "active",
+    "title": "Graph Construction",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2235&lang=jp"
   },
   {
-    "title": "ASCII Expression",
+    "id": 396,
     "point": 700,
     "source": "アジア地区予選2011H",
+    "status": "active",
+    "title": "ASCII Expression",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1322"
   },
   {
-    "title": "Matrix Calculator",
+    "id": 397,
     "point": 700,
     "source": "アジア地区予選2010J",
+    "status": "active",
+    "title": "Matrix Calculator",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1314"
   },
   {
-    "title": "Putter",
+    "id": 398,
     "point": 700,
     "source": "模擬地区2013E",
+    "status": "active",
+    "title": "Putter",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2569"
   },
   {
-    "title": "Floating Islands",
+    "id": 399,
     "point": 800,
     "source": "模擬地区2013G",
+    "status": "active",
+    "title": "Floating Islands",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2571"
   },
   {
-    "title": "六角沼の六角大蛇",
+    "id": 400,
+    "point": 0,
+    "source": "模擬地区2011J",
+    "status": "hidden",
+    "title": "Blue Forest",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2329"
+  },
+  {
+    "id": 401,
     "point": 700,
     "source": "国内予選2006C",
+    "status": "active",
+    "title": "六角沼の六角大蛇",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1143&lang=jp"
   },
   {
-    "title": "HullMarathon",
+    "id": 402,
     "point": 700,
     "source": "冬合宿2010:day3E",
+    "status": "active",
+    "title": "HullMarathon",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2373&lang=jp"
   },
   {
-    "title": "部陪博士，あるいは，われわれはいかにして左右非対称になったか",
+    "id": 403,
     "point": 700,
     "source": "国内予選2007F",
+    "status": "active",
+    "title": "部陪博士，あるいは，われわれはいかにして左右非対称になったか",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1152&lang=jp"
   },
   {
-    "title": "Revenge of Champernowne Constant ",
+    "id": 404,
     "point": 700,
     "source": "模擬地区2011D",
+    "status": "active",
+    "title": "Revenge of Champernowne Constant ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2323"
   },
   {
-    "title": "エレベーターホール・ナンバー",
+    "id": 405,
     "point": 700,
     "source": "模擬国内2014F",
+    "status": "active",
+    "title": "エレベーターホール・ナンバー",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2587&lang=jp"
   },
   {
-    "title": "Spotlight Movement",
+    "id": 406,
     "point": 700,
     "source": "夏合宿2013:day4G",
+    "status": "active",
+    "title": "Spotlight Movement",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2625"
   },
   {
-    "title": "Gravity Point",
+    "id": 407,
     "point": 700,
     "source": "夏合宿2013:day4H",
+    "status": "active",
+    "title": "Gravity Point",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2626"
   },
   {
-    "title": "Unfair Game",
+    "id": 408,
     "point": 600,
     "source": "春コンテスト2014J",
+    "status": "active",
+    "title": "Unfair Game",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2686"
   },
   {
-    "title": "Longest Match",
+    "id": 409,
     "point": 700,
     "source": "夏合宿2014:day4F",
+    "status": "active",
+    "title": "Longest Match",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2644&lang=jp"
   },
   {
-    "title": "Tokyo Olympics Center",
+    "id": 410,
     "point": 700,
     "source": "春コンテスト2014I",
+    "status": "active",
+    "title": "Tokyo Olympics Center",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2685"
   },
   {
-    "title": "Iyasugigappa",
+    "id": 411,
     "point": 700,
     "source": "春コンテスト2013C",
+    "status": "active",
+    "title": "Iyasugigappa",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2557"
   },
   {
-    "title": "お姫様は戦略家",
+    "id": 412,
     "point": 700,
     "source": "模擬国内2008F",
+    "status": "active",
+    "title": "お姫様は戦略家",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2023&lang=jp"
   },
   {
-    "title": "Cost Performance Flow",
+    "id": 413,
     "point": 700,
     "source": "春コンテスト2015E",
+    "status": "active",
+    "title": "Cost Performance Flow",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2691"
   },
   {
-    "title": "橋の建造計画",
+    "id": 414,
     "point": 700,
     "source": "国内予選2015F",
+    "status": "active",
+    "title": "橋の建造計画",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1605&lang=jp"
   },
   {
-    "title": "複雑な折り紙",
+    "id": 415,
     "point": 700,
     "source": "国内予選2015G",
+    "status": "active",
+    "title": "複雑な折り紙",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1606&lang=jp"
   },
   {
-    "title": "小型飛行ロボット開発",
+    "id": 416,
     "point": 700,
     "source": "国内予選2015H",
+    "status": "active",
+    "title": "小型飛行ロボット開発",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1607&lang=jp"
   },
   {
-    "title": "Intersection of Two Prisms",
+    "id": 417,
     "point": 700,
     "source": "アジア地区予選2010I",
+    "status": "active",
+    "title": "Intersection of Two Prisms",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1313"
   },
   {
-    "title": "ほそながいところ",
+    "id": 418,
     "point": 800,
     "source": "夏合宿2012:day2D",
+    "status": "active",
+    "title": "ほそながいところ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2427&lang=jp"
   },
   {
-    "title": "Area Folding",
+    "id": 419,
     "point": 800,
     "source": "夏合宿2012:day4B",
+    "status": "active",
+    "title": "Area Folding",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2448"
   },
   {
-    "title": "Towns along a Highway",
+    "id": 420,
     "point": 800,
     "source": "アジア地区予選2010C",
+    "status": "active",
+    "title": "Towns along a Highway",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1307"
   },
   {
-    "title": "最長増加列問題",
+    "id": 421,
     "point": 800,
     "source": "夏合宿2012:day2G",
+    "status": "active",
+    "title": "最長増加列問題",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2430&lang=jp"
   },
   {
-    "title": "Encircling Circles",
+    "id": 422,
     "point": 800,
     "source": "アジア地区予選2011I",
+    "status": "active",
+    "title": "Encircling Circles",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1323"
   },
   {
-    "title": "Earth Observation with a Mobile Robot Team",
+    "id": 423,
     "point": 700,
     "source": "国内予選2005E",
+    "status": "active",
+    "title": "Earth Observation with a Mobile Robot Team",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1139&lang=jp"
   },
   {
-    "title": "回転と書換",
+    "id": 424,
     "point": 800,
     "source": "国内予選2013F",
+    "status": "active",
+    "title": "回転と書換",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1191&lang=jp"
   },
   {
-    "title": "Longest Chain",
+    "id": 425,
     "point": 800,
     "source": "アジア地区予選2013G",
+    "status": "active",
+    "title": "Longest Chain",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1341"
   },
   {
-    "title": "サイコロ職人",
+    "id": 426,
     "point": 800,
     "source": "国内予選2014F",
+    "status": "active",
+    "title": "サイコロ職人",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1197&lang=jp"
   },
   {
-    "title": "MinimumCostPath",
+    "id": 427,
     "point": 800,
     "source": "夏合宿2012:day3bF",
+    "status": "active",
+    "title": "MinimumCostPath",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2445&lang=jp"
   },
   {
-    "title": "Move on Dice",
+    "id": 428,
     "point": 800,
     "source": "夏合宿2012:day4E",
+    "status": "active",
+    "title": "Move on Dice",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2451"
   },
   {
-    "title": "Full Text Search",
+    "id": 429,
     "point": 800,
     "source": "模擬地区2011E",
+    "status": "active",
+    "title": "Full Text Search",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2324"
   },
   {
-    "title": "レーザー光の反射",
+    "id": 430,
     "point": 800,
     "source": "国内予選2010G",
+    "status": "active",
+    "title": "レーザー光の反射",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1171&lang=jp"
   },
   {
-    "title": "Common Polynomial",
+    "id": 431,
     "point": 800,
     "source": "アジア地区予選2008I",
+    "status": "active",
+    "title": "Common Polynomial",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1293"
   },
   {
-    "title": "人魚の魔女",
+    "id": 432,
     "point": 800,
     "source": "夏合宿2011:day4G",
+    "status": "active",
+    "title": "人魚の魔女",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2316&lang=jp"
   },
   {
-    "title": "Overwriting Game",
+    "id": 433,
     "point": 800,
     "source": "模擬地区2013I",
+    "status": "active",
+    "title": "Overwriting Game",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2573"
   },
   {
-    "title": "Hidden Tree",
+    "id": 434,
     "point": 800,
     "source": "アジア地区予選2013I",
+    "status": "active",
+    "title": "Hidden Tree",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1343"
   },
   {
-    "title": "TiMe Table",
+    "id": 435,
     "point": 800,
     "source": "夏合宿2013:day2D",
+    "status": "active",
+    "title": "TiMe Table",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2603&lang=jp"
   },
   {
-    "title": "Multi Path Story",
+    "id": 436,
     "point": 800,
     "source": "夏合宿2013:day4I",
+    "status": "active",
+    "title": "Multi Path Story",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2627"
   },
   {
-    "title": "円を横切るな!",
+    "id": 437,
     "point": 800,
     "source": "国内予選2014G",
+    "status": "active",
+    "title": "円を横切るな!",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1198&lang=jp"
   },
   {
-    "title": "Minimum Spanning Tree",
+    "id": 438,
     "point": 800,
     "source": "春コンテスト2013E",
+    "status": "active",
+    "title": "Minimum Spanning Tree",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2559"
   },
   {
-    "title": "スタンプラリー",
+    "id": 439,
     "point": 800,
     "source": "模擬国内2015F",
+    "status": "active",
+    "title": "スタンプラリー",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2704&lang=jp"
   },
   {
-    "title": "Sky Jump",
+    "id": 440,
     "point": 800,
     "source": "模擬地区2011H",
+    "status": "active",
+    "title": "Sky Jump",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2327"
   },
   {
-    "title": "White Bird",
+    "id": 441,
     "point": 800,
     "source": "夏合宿2011:day3I",
+    "status": "active",
+    "title": "White Bird",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2308"
   },
   {
-    "title": "Zigzag",
+    "id": 442,
     "point": 800,
     "source": "アジア地区予選2008J",
+    "status": "active",
+    "title": "Zigzag",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1294"
   },
   {
-    "title": "Chemist's Math",
+    "id": 443,
     "point": 800,
     "source": "アジア地区予選2009F",
+    "status": "active",
+    "title": "Chemist's Math",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1300"
   },
   {
-    "title": "Queen’s Case",
+    "id": 444,
     "point": 700,
     "source": "夏合宿2009:day3H",
+    "status": "active",
+    "title": "Queen’s Case",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2172"
   },
   {
-    "title": "Usagitobi",
+    "id": 445,
     "point": 900,
     "source": "夏合宿2010:day3C",
+    "status": "active",
+    "title": "Usagitobi",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2234&lang=jp"
   },
   {
-    "title": "Attack the Moles",
+    "id": 446,
     "point": 900,
     "source": "夏合宿2011:day2A",
+    "status": "active",
+    "title": "Attack the Moles",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2290&lang=jp"
   },
   {
-    "title": "Directional Resemblance",
+    "id": 447,
     "point": 900,
     "source": "アジア地区予選2013F",
+    "status": "active",
+    "title": "Directional Resemblance",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1340"
   },
   {
-    "title": "京都旅行",
+    "id": 448,
     "point": 700,
     "source": "夏合宿2013:day3L",
+    "status": "active",
+    "title": "京都旅行",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2618&lang=jp"
   },
   {
-    "title": "Removing Magical Tiles",
+    "id": 449,
     "point": 900,
     "source": "夏合宿2013:day4D",
+    "status": "active",
+    "title": "Removing Magical Tiles",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2622"
   },
   {
-    "title": "Directions",
+    "id": 450,
     "point": 800,
     "source": "夏合宿2014:day2F",
+    "status": "active",
+    "title": "Directions",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2634&lang=jp"
   },
   {
-    "title": "首都",
+    "id": 451,
     "point": 800,
     "source": "夏合宿2014:day4I",
+    "status": "active",
+    "title": "首都",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2647&lang=jp"
   },
   {
-    "title": "Speedrun",
+    "id": 452,
     "point": 800,
     "source": "模擬地区2014C",
+    "status": "active",
+    "title": "Speedrun",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2591"
   },
   {
-    "title": "ICPC: チョコレートの知的合同分割",
+    "id": 453,
     "point": 800,
     "source": "国内予選2008F",
+    "status": "active",
+    "title": "ICPC: チョコレートの知的合同分割",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1158&lang=jp"
   },
   {
-    "title": "Apples",
+    "id": 454,
     "point": 800,
     "source": "夏合宿2013:day2C",
+    "status": "active",
+    "title": "Apples",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2602&lang=jp"
   },
   {
-    "title": "壊れたドア",
+    "id": 455,
     "point": 800,
     "source": "国内予選2011G",
+    "status": "active",
+    "title": "壊れたドア",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1178&lang=jp"
   },
   {
-    "title": "The Teacher's Side of Math",
+    "id": 456,
     "point": 800,
     "source": "アジア地区予選2007J",
+    "status": "active",
+    "title": "The Teacher's Side of Math",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1284"
   },
   {
-    "title": "Cornering at Poles",
+    "id": 457,
     "point": 800,
     "source": "アジア地区予選2014H",
+    "status": "active",
+    "title": "Cornering at Poles",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1352"
   },
   {
-    "title": "Vongress",
+    "id": 458,
     "point": 800,
     "source": "夏合宿2014:day4J",
+    "status": "active",
+    "title": "Vongress",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2648&lang=jp"
   },
   {
-    "title": "鏡の迷路",
+    "id": 459,
     "point": 800,
     "source": "模擬国内2013G",
+    "status": "active",
+    "title": "鏡の迷路",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2514&lang=jp"
   },
   {
-    "title": "テトラ姫のパズル",
+    "id": 460,
     "point": 900,
     "source": "模擬国内2013F",
+    "status": "active",
+    "title": "テトラ姫のパズル",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2513&lang=jp"
   },
   {
-    "title": "Ancient Commemorative Monolith",
+    "id": 461,
     "point": 800,
     "source": "模擬地区2012G",
+    "status": "active",
+    "title": "Ancient Commemorative Monolith",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2540"
   },
   {
-    "title": "Revenge of Minimum Cost Flow",
+    "id": 462,
     "point": 800,
     "source": "春コンテスト2013G",
+    "status": "active",
+    "title": "Revenge of Minimum Cost Flow",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2561"
   },
   {
-    "title": "Kth Sentence ",
+    "id": 463,
     "point": 900,
     "source": "冬コンテスト2011B",
+    "status": "active",
+    "title": "Kth Sentence ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2341"
   },
   {
-    "title": "Counting 1's ",
+    "id": 464,
     "point": 900,
     "source": "模擬地区2012F",
+    "status": "active",
+    "title": "Counting 1's ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2539"
   },
   {
-    "title": "落書きの魔女",
+    "id": 465,
     "point": 900,
     "source": "夏合宿2011:day4E",
+    "status": "active",
+    "title": "落書きの魔女",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2314&lang=jp"
   },
   {
-    "title": "Company Organization",
+    "id": 466,
     "point": 900,
     "source": "アジア地区予選2012H",
+    "status": "active",
+    "title": "Company Organization",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1332"
   },
   {
-    "title": "Captain Q's Treasure",
+    "id": 467,
     "point": 900,
     "source": "アジア地区予選2011G",
+    "status": "active",
+    "title": "Captain Q's Treasure",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1321"
   },
   {
-    "title": "Dungeon Creation",
+    "id": 468,
+    "point": 0,
+    "source": "夏合宿2012:day4I",
+    "status": "hidden",
+    "title": "Sun and Moon ",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2455"
+  },
+  {
+    "id": 469,
     "point": 900,
     "source": "春コンテスト2012E",
+    "status": "active",
+    "title": "Dungeon Creation",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2393"
   },
   {
-    "title": "Sweet War",
+    "id": 470,
     "point": 900,
     "source": "アジア地区予選2014I",
+    "status": "active",
+    "title": "Sweet War",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1353"
   },
   {
-    "title": "Magical Switches",
+    "id": 471,
     "point": 900,
     "source": "模擬地区2013J",
+    "status": "active",
+    "title": "Magical Switches",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2574"
   },
   {
-    "title": "Rotation Game",
+    "id": 472,
     "point": 900,
     "source": "夏合宿2013:day4J",
+    "status": "active",
+    "title": "Rotation Game",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2628"
   },
   {
-    "title": "The J-th Number",
+    "id": 473,
     "point": 1000,
     "source": "春コンテスト2013I",
+    "status": "active",
+    "title": "The J-th Number",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2563"
   },
   {
-    "title": "Ancient Scrolls",
+    "id": 474,
     "point": 900,
     "source": "模擬地区2012J",
+    "status": "active",
+    "title": "Ancient Scrolls",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2543"
   },
   {
-    "title": "Top Spinning",
+    "id": 475,
     "point": 800,
     "source": "アジア地区予選2008H",
+    "status": "active",
+    "title": "Top Spinning",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1292"
   },
   {
-    "title": "Psychic Accelerator",
+    "id": 476,
     "point": 800,
     "source": "夏合宿2010:day4E",
+    "status": "active",
+    "title": "Psychic Accelerator",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2226"
   },
   {
-    "title": "Skyland",
+    "id": 477,
     "point": 900,
     "source": "春コンテスト2012H",
+    "status": "active",
+    "title": "Skyland",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2396"
   },
   {
-    "title": "くるくるドア",
+    "id": 478,
     "point": 900,
     "source": "模擬国内2015G",
+    "status": "active",
+    "title": "くるくるドア",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2705&lang=jp"
   },
   {
-    "title": "Brilliant Stars",
+    "id": 479,
     "point": 1000,
     "source": "夏合宿2011:day2B",
+    "status": "active",
+    "title": "Brilliant Stars",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2291&lang=jp"
   },
   {
-    "title": "姉妹港",
+    "id": 480,
     "point": 900,
     "source": "模擬国内2012G",
+    "status": "active",
+    "title": "姉妹港",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2405&lang=jp"
   },
   {
-    "title": "ドッグフード",
+    "id": 481,
     "point": 1000,
     "source": "模擬国内2012F",
+    "status": "active",
+    "title": "ドッグフード",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2404&lang=jp"
   },
   {
-    "title": "ねこ鍋改造計画（仮） ",
+    "id": 482,
     "point": 1000,
     "source": "夏合宿2010:day2H",
+    "status": "active",
+    "title": "ねこ鍋改造計画（仮） ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2337&lang=jp"
   },
   {
-    "title": "Palindrome Generator",
+    "id": 483,
     "point": 900,
     "source": "夏合宿2011:day3H",
+    "status": "active",
+    "title": "Palindrome Generator",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2307"
   },
   {
-    "title": "影の秘密",
+    "id": 484,
     "point": 1000,
     "source": "国内予選2006F",
+    "status": "active",
+    "title": "影の秘密",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1146&lang=jp"
   },
   {
-    "title": "一般化ポーカー",
+    "id": 485,
     "point": 1000,
     "source": "国内予選2012F",
+    "status": "active",
+    "title": "一般化ポーカー",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1184&lang=jp"
   },
   {
-    "title": "Color the Map Extreme",
+    "id": 486,
     "point": 900,
     "source": "模擬地区2014I",
+    "status": "active",
+    "title": "Color the Map Extreme",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2597"
   },
   {
-    "title": "Do use segment tree",
+    "id": 487,
     "point": 1000,
     "source": "夏合宿2012:day4D",
+    "status": "active",
+    "title": "Do use segment tree",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2450"
   },
   {
-    "title": "Lowest Pyramid",
+    "id": 488,
     "point": 900,
     "source": "アジア地区予選2007D",
+    "status": "active",
+    "title": "Lowest Pyramid",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1278"
   },
   {
-    "title": "Cubic Colonies",
+    "id": 489,
     "point": 1000,
     "source": "アジア地区予選2012J",
+    "status": "active",
+    "title": "Cubic Colonies",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1334"
   },
   {
-    "title": "CarrotBreeding",
+    "id": 490,
     "point": 1000,
     "source": "冬合宿2010:day3G",
+    "status": "active",
+    "title": "CarrotBreeding",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2375&lang=jp"
   },
   {
-    "title": "Lapin Noir",
+    "id": 491,
+    "point": 0,
+    "source": "模擬地区2009I",
+    "status": "hidden",
+    "title": "Crystal Jails",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2183"
+  },
+  {
+    "id": 492,
     "point": 1000,
     "source": "夏合宿2010:day3I",
+    "status": "active",
+    "title": "Lapin Noir",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2240&lang=jp"
   },
   {
-    "title": "DON'T PANIC! ",
+    "id": 493,
     "point": 1000,
     "source": "夏合宿2010:day4G",
+    "status": "active",
+    "title": "DON'T PANIC! ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2228"
   },
   {
-    "title": "Crossing Prisms",
+    "id": 494,
     "point": 1000,
     "source": "アジア地区予選2004I",
+    "status": "active",
+    "title": "Crossing Prisms",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1256"
   },
   {
-    "title": "番犬派遣会社",
+    "id": 495,
     "point": 1000,
     "source": "国内予選2011F",
+    "status": "active",
+    "title": "番犬派遣会社",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1177&lang=jp"
   },
   {
-    "title": "よくわかる二重魔法 ",
+    "id": 496,
     "point": 900,
     "source": "夏合宿2010:day2I",
+    "status": "active",
+    "title": "よくわかる二重魔法 ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2338&lang=jp"
   },
   {
-    "title": "Exhibition",
+    "id": 497,
     "point": 1000,
     "source": "アジア地区予選2014J",
+    "status": "active",
+    "title": "Exhibition",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1354"
   },
   {
-    "title": "Point Distance",
+    "id": 498,
     "point": 900,
     "source": "春コンテスト2013F",
+    "status": "active",
+    "title": "Point Distance",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2560"
   },
   {
-    "title": "Air Pollution",
+    "id": 499,
     "point": 900,
     "source": "夏合宿2013:day3K",
+    "status": "active",
+    "title": "Air Pollution",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2617&lang=jp"
   },
   {
-    "title": "Common Palindromes",
+    "id": 500,
     "point": 900,
     "source": "夏合宿2011:day2C",
+    "status": "active",
+    "title": "Common Palindromes",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2292&lang=jp"
   },
   {
-    "title": "Bouldering",
+    "id": 501,
     "point": 1000,
     "source": "夏合宿2010:day4F",
+    "status": "active",
+    "title": "Bouldering",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2227"
   },
   {
-    "title": "ACM洋菓子店",
+    "id": 502,
+    "point": 0,
+    "source": "夏合宿2009:day3J",
+    "status": "hidden",
+    "title": "Secret Operation",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2174"
+  },
+  {
+    "id": 503,
     "point": 1000,
     "source": "国内予選2012G",
+    "status": "active",
+    "title": "ACM洋菓子店",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1185&lang=jp"
   },
   {
-    "title": "Presentation",
+    "id": 504,
     "point": 1000,
     "source": "夏合宿2012:day4G",
+    "status": "active",
+    "title": "Presentation",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2453"
   },
   {
-    "title": "How to Create a Good Game",
+    "id": 505,
     "point": 1100,
     "source": "夏合宿2010:day4I",
+    "status": "active",
+    "title": "How to Create a Good Game",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2230"
   },
   {
-    "title": "Camera Control",
+    "id": 506,
     "point": 1000,
     "source": "模擬地区2010G",
+    "status": "active",
+    "title": "Camera Control",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2248"
   },
   {
-    "title": "Hobby on Rails",
+    "id": 507,
     "point": 1000,
     "source": "アジア地区予選2009I",
+    "status": "active",
+    "title": "Hobby on Rails",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1303"
   },
   {
-    "title": "古い記憶",
+    "id": 508,
     "point": 1100,
     "source": "国内予選2010F",
+    "status": "active",
+    "title": "古い記憶",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1170&lang=jp"
   },
   {
-    "title": "魔法島物語2",
+    "id": 509,
     "point": 1100,
     "source": "模擬国内2010G",
+    "status": "active",
+    "title": "魔法島物語2",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2203&lang=jp"
   },
   {
-    "title": "海岸線の浸食",
+    "id": 510,
+    "point": 0,
+    "source": "夏合宿2009:day2D",
+    "status": "hidden",
+    "title": "Double Sorting",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2158"
+  },
+  {
+    "id": 511,
     "point": 1000,
     "source": "模擬国内2009F",
+    "status": "active",
+    "title": "海岸線の浸食",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2154&lang=jp"
   },
   {
-    "title": "Rabbit Jumping",
+    "id": 512,
     "point": 1000,
     "source": "冬合宿2010:day4F",
+    "status": "active",
+    "title": "Rabbit Jumping",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2384"
   },
   {
-    "title": "プールの監視員",
+    "id": 513,
     "point": 1000,
     "source": "模擬国内2007E",
+    "status": "active",
+    "title": "プールの監視員",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2016&lang=jp"
   },
   {
-    "title": "Sunny Graph",
+    "id": 514,
     "point": 1000,
     "source": "冬コンテスト2011H",
+    "status": "active",
+    "title": "Sunny Graph",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2347"
   },
   {
-    "title": "締まっていこう",
+    "id": 515,
     "point": 1000,
     "source": "国内予選2009F",
+    "status": "active",
+    "title": "締まっていこう",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1164&lang=jp"
   },
   {
-    "title": "Alice and Bomb",
+    "id": 516,
     "point": 1100,
     "source": "模擬地区2010E",
+    "status": "active",
+    "title": "Alice and Bomb",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2246"
   },
   {
-    "title": "Cave Explorer",
+    "id": 517,
     "point": 1000,
     "source": "模擬地区2009J",
+    "status": "active",
+    "title": "Cave Explorer",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2184"
   },
   {
-    "title": "ThreeRooks",
+    "id": 518,
     "point": 1000,
     "source": "冬合宿2010:day3I",
+    "status": "active",
+    "title": "ThreeRooks",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2377&lang=jp"
   },
   {
-    "title": "くるくる",
+    "id": 519,
     "point": 1000,
     "source": "国内予選2007E",
+    "status": "active",
+    "title": "くるくる",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1151&lang=jp"
   },
   {
-    "title": "問題文担当者は働かない！",
+    "id": 520,
     "point": 1100,
     "source": "夏合宿2010:day2J",
+    "status": "active",
+    "title": "問題文担当者は働かない！",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2339&lang=jp"
   },
   {
-    "title": "最終防衛線",
+    "id": 521,
     "point": 1000,
     "source": "夏合宿2012:day2J",
+    "status": "active",
+    "title": "最終防衛線",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2433&lang=jp"
   },
   {
-    "title": "ゴルフ",
+    "id": 522,
     "point": 1100,
     "source": "模擬国内2014G",
+    "status": "active",
+    "title": "ゴルフ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2588&lang=jp"
   },
   {
-    "title": "Nurie",
+    "id": 523,
     "point": 1000,
     "source": "夏合宿2010:day3G",
+    "status": "active",
+    "title": "Nurie",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2238&lang=jp"
   },
   {
-    "title": "L Jumps",
+    "id": 524,
     "point": 1100,
     "source": "アジア地区予選2014K",
+    "status": "active",
+    "title": "L Jumps",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1355"
   },
   {
-    "title": "Distance Sum",
+    "id": 525,
     "point": 1000,
     "source": "夏合宿2014:day2H",
+    "status": "active",
+    "title": "Distance Sum",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2636&lang=jp"
   },
   {
-    "title": "Cellular Automaton",
+    "id": 526,
     "point": 1100,
     "source": "夏合宿2014:day2E",
+    "status": "active",
+    "title": "Cellular Automaton",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2633&lang=jp"
   },
   {
-    "title": "Rotating Cutter Bits",
+    "id": 527,
     "point": 1100,
     "source": "アジア地区予選2015H",
+    "status": "active",
+    "title": "Rotating Cutter Bits",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1363"
   },
   {
-    "title": "全自動円形掃除機",
+    "id": 528,
     "point": 1100,
     "source": "模擬国内2011G",
+    "status": "active",
+    "title": "全自動円形掃除機",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2258&lang=jp"
   },
   {
-    "title": "Cruel Bingo",
+    "id": 529,
     "point": 1100,
     "source": "夏合宿2010:day4J",
+    "status": "active",
+    "title": "Cruel Bingo",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2231"
   },
   {
-    "title": "ソウルジェムゲーム",
+    "id": 530,
     "point": 1200,
     "source": "夏合宿2011:day4J",
+    "status": "active",
+    "title": "ソウルジェムゲーム",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2319&lang=jp"
   },
   {
-    "title": "SolveMe",
+    "id": 531,
     "point": 1200,
     "source": "冬合宿2010:day3J",
+    "status": "active",
+    "title": "SolveMe",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2378&lang=jp"
   },
   {
-    "title": "Hashigo Sama",
+    "id": 532,
     "point": 1100,
     "source": "模擬地区2012I",
+    "status": "active",
+    "title": "Hashigo Sama",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2542"
   },
   {
-    "title": "Origami Through-Hole",
+    "id": 533,
     "point": 1100,
     "source": "アジア地区予選2009E",
+    "status": "active",
+    "title": "Origami Through-Hole",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1299"
   },
   {
-    "title": "Tampopo Machine",
+    "id": 534,
     "point": 1200,
     "source": "冬合宿2010:day4I",
+    "status": "active",
+    "title": "Tampopo Machine",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2387"
   },
   {
-    "title": "Digit",
+    "id": 535,
     "point": 1100,
     "source": "春コンテスト2012D",
+    "status": "active",
+    "title": "Digit",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2392"
   },
   {
-    "title": "World Trip",
+    "id": 536,
     "point": 1100,
     "source": "冬コンテスト2011J",
+    "status": "active",
+    "title": "World Trip",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2349"
   },
   {
-    "title": "Proportional Representation",
+    "id": 537,
     "point": 1200,
     "source": "春コンテスト2014G",
+    "status": "active",
+    "title": "Proportional Representation",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2683"
   },
   {
-    "title": "Substring Pairs",
+    "id": 538,
     "point": 1200,
     "source": "夏合宿2014:day2I",
+    "status": "active",
+    "title": "Substring Pairs",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2637&lang=jp"
   },
   {
-    "title": "Kimagure Cleaner",
+    "id": 539,
     "point": 1200,
     "source": "春コンテスト2015H",
+    "status": "active",
+    "title": "Kimagure Cleaner",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2694"
   },
   {
-    "title": "Card Game Strategy",
+    "id": 540,
     "point": 1200,
     "source": "春コンテスト2015B",
+    "status": "active",
+    "title": "Card Game Strategy",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2688"
   },
   {
-    "title": "New Game AI",
+    "id": 541,
     "point": 1200,
     "source": "春コンテスト2015J",
+    "status": "active",
+    "title": "New Game AI",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2696"
   },
   {
-    "title": "Casino",
+    "id": 542,
     "point": 1100,
     "source": "春コンテスト2015C",
+    "status": "active",
+    "title": "Casino",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2689"
   },
   {
-    "title": "Midpoint",
+    "id": 543,
     "point": 900,
     "source": "春コンテスト2015I",
+    "status": "active",
+    "title": "Midpoint",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2695"
   },
   {
-    "title": "幾何問題を解こう",
+    "id": 544,
     "point": 200,
     "source": "夏合宿2015:day2A",
+    "status": "active",
+    "title": "幾何問題を解こう",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2706&lang=jp"
   },
   {
-    "title": "監獄",
+    "id": 545,
     "point": 300,
     "source": "夏合宿2015:day2B",
+    "status": "active",
+    "title": "監獄",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2707&lang=jp"
   },
   {
-    "title": "ABC Gene",
+    "id": 546,
     "point": 300,
     "source": "夏合宿2015:day2C",
+    "status": "active",
+    "title": "ABC Gene",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2708&lang=jp"
   },
   {
-    "title": "真っ暗な部屋",
+    "id": 547,
     "point": 300,
     "source": "夏合宿2015:day2D",
+    "status": "active",
+    "title": "真っ暗な部屋",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2709&lang=jp"
   },
   {
-    "title": "坑道数式",
+    "id": 548,
     "point": 400,
     "source": "夏合宿2015:day2E",
+    "status": "active",
+    "title": "坑道数式",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2710&lang=jp"
   },
   {
-    "title": "ほぼ周期文字列",
+    "id": 549,
     "point": 600,
     "source": "夏合宿2015:day2F",
+    "status": "active",
+    "title": "ほぼ周期文字列",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2711&lang=jp"
   },
   {
-    "title": "Escape",
+    "id": 550,
     "point": 500,
     "source": "夏合宿2015:day2G",
+    "status": "active",
+    "title": "Escape",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2712&lang=jp"
   },
   {
-    "title": "Bit Operation Game",
+    "id": 551,
     "point": 550,
     "source": "夏合宿2015:day2H",
+    "status": "active",
+    "title": "Bit Operation Game",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2713&lang=jp"
   },
   {
-    "title": "ツインリバース",
+    "id": 552,
     "point": 800,
     "source": "夏合宿2015:day2I",
+    "status": "active",
+    "title": "ツインリバース",
     "url": "http://jag2015summer-day2.contest.atcoder.jp/tasks/icpc2015summer_day2_i"
   },
   {
-    "title": "連結",
+    "id": 553,
     "point": 800,
     "source": "夏合宿2015:day2J",
+    "status": "active",
+    "title": "連結",
     "url": "http://jag2015summer-day2.contest.atcoder.jp/tasks/icpc2015summer_day2_j"
   },
   {
-    "title": "Leapfrog",
+    "id": 554,
     "point": 800,
     "source": "夏合宿2015:day2K",
+    "status": "active",
+    "title": "Leapfrog",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2716&lang=jp"
   },
   {
-    "title": "Where is the Boundary",
+    "id": 555,
     "point": 250,
     "source": "夏合宿2015:day4A",
+    "status": "active",
+    "title": "Where is the Boundary",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2717"
   },
   {
-    "title": "Vector Field",
+    "id": 556,
     "point": 500,
     "source": "夏合宿2015:day4B",
+    "status": "active",
+    "title": "Vector Field",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2718"
   },
   {
-    "title": "Kuru Kuru Sushi",
+    "id": 557,
     "point": 1100,
     "source": "夏合宿2015:day4C",
+    "status": "active",
+    "title": "Kuru Kuru Sushi",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2719"
   },
   {
-    "title": "Identity Function",
+    "id": 558,
     "point": 450,
     "source": "夏合宿2015:day4D",
+    "status": "active",
+    "title": "Identity Function",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2720"
   },
   {
-    "title": "Enclose Points",
+    "id": 559,
     "point": 800,
     "source": "夏合宿2015:day4E",
+    "status": "active",
+    "title": "Enclose Points",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2721"
   },
   {
-    "title": "Marching Course",
+    "id": 560,
     "point": 700,
     "source": "夏合宿2015:day4F",
+    "status": "active",
+    "title": "Marching Course",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2722"
   },
   {
-    "title": "Surface Area of Cubes",
+    "id": 561,
     "point": 350,
     "source": "夏合宿2015:day4G",
+    "status": "active",
+    "title": "Surface Area of Cubes",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2723"
   },
   {
-    "title": "Laser Cutter",
+    "id": 562,
     "point": 700,
     "source": "夏合宿2015:day4H",
+    "status": "active",
+    "title": "Laser Cutter",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2724"
   },
   {
-    "title": "Live Programming",
+    "id": 563,
     "point": 800,
     "source": "夏合宿2015:day4I",
+    "status": "active",
+    "title": "Live Programming",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2725"
   },
   {
-    "title": "Black Company",
+    "id": 564,
     "point": 450,
     "source": "夏合宿2015:day4J",
+    "status": "active",
+    "title": "Black Company",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2726"
   },
   {
-    "title": "M and A",
+    "id": 565,
     "point": 200,
     "source": "模擬地区2015A",
+    "status": "active",
+    "title": "M and A",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2727"
   },
   {
-    "title": "Change a Password",
+    "id": 566,
     "point": 250,
     "source": "模擬地区2015B",
+    "status": "active",
+    "title": "Change a Password",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2728"
   },
   {
-    "title": "Delete Files",
+    "id": 567,
     "point": 500,
     "source": "模擬地区2015C",
+    "status": "active",
+    "title": "Delete Files",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2729"
   },
   {
-    "title": "Line Gimmick",
+    "id": 568,
     "point": 300,
     "source": "模擬地区2015D",
+    "status": "active",
+    "title": "Line Gimmick",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2730"
   },
   {
-    "title": "Shifting a Matrix",
+    "id": 569,
     "point": 500,
     "source": "模擬地区2015E",
+    "status": "active",
+    "title": "Shifting a Matrix",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2731"
   },
   {
-    "title": "Modern Annouce Network",
+    "id": 570,
     "point": 550,
     "source": "模擬地区2015F",
+    "status": "active",
+    "title": "Modern Annouce Network",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2732"
   },
   {
-    "title": "Cube Dividing",
+    "id": 571,
     "point": 800,
     "source": "模擬地区2015G",
+    "status": "active",
+    "title": "Cube Dividing",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2733"
   },
   {
-    "title": "Donut Decoration",
+    "id": 572,
     "point": 500,
     "source": "模擬地区2015H",
+    "status": "active",
+    "title": "Donut Decoration",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2734"
   },
   {
-    "title": "Shortest Bridge",
+    "id": 573,
     "point": 1100,
     "source": "模擬地区2015I",
+    "status": "active",
+    "title": "Shortest Bridge",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2735"
   },
   {
-    "title": "Longest Shortest Path",
+    "id": 574,
     "point": 1000,
     "source": "模擬地区2015J",
+    "status": "active",
+    "title": "Longest Shortest Path",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2736"
   },
   {
-    "title": "Optimal Tournament",
+    "id": 575,
     "point": 900,
     "source": "模擬地区2015K",
+    "status": "active",
+    "title": "Optimal Tournament",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2737"
   },
   {
-    "title": "Routing a Marathon Race",
+    "id": 576,
     "point": 900,
     "source": "アジア地区予選2015I",
+    "status": "active",
+    "title": "Routing a Marathon Race",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1364"
   },
   {
-    "title": "Post Office Investigation",
+    "id": 577,
     "point": 1000,
     "source": "アジア地区予選2015J",
+    "status": "active",
+    "title": "Post Office Investigation",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1365"
   },
   {
-    "title": "Min-Max Distance Game",
+    "id": 578,
     "point": 1100,
     "source": "アジア地区予選2015K",
+    "status": "active",
+    "title": "Min-Max Distance Game",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1366"
   },
   {
-    "title": "阿吽の呼吸",
+    "id": 579,
     "point": 100,
     "source": "模擬国内2016a:A",
+    "status": "active",
+    "title": "阿吽の呼吸",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2738&lang=jp"
   },
   {
-    "title": " 豪邸と宅配便 ",
+    "id": 580,
     "point": 150,
     "source": "模擬国内2016a:B",
+    "status": "active",
+    "title": " 豪邸と宅配便 ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2739&lang=jp"
   },
   {
-    "title": "みさわさんの根付き木",
+    "id": 581,
     "point": 350,
     "source": "模擬国内2016a:C",
+    "status": "active",
+    "title": "みさわさんの根付き木",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2740&lang=jp"
   },
   {
-    "title": "インビジブル",
+    "id": 582,
     "point": 400,
     "source": "模擬国内2016a:D",
+    "status": "active",
+    "title": "インビジブル",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2741&lang=jp"
   },
   {
-    "title": " 選挙活動 ",
+    "id": 583,
     "point": 600,
     "source": "模擬国内2016a:E",
+    "status": "active",
+    "title": " 選挙活動 ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2742&lang=jp"
   },
   {
-    "title": "土地相続",
+    "id": 584,
     "point": 600,
     "source": "模擬国内2016a:F",
+    "status": "active",
+    "title": "土地相続",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2743&lang=jp"
   },
   {
-    "title": " リングと紐 ",
+    "id": 585,
     "point": 900,
     "source": "模擬国内2016a:G",
+    "status": "active",
+    "title": " リングと紐 ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2744&lang=jp"
   },
   {
-    "title": "カレー作り",
+    "id": 586,
     "point": 100,
     "source": "模擬国内2016b:A",
+    "status": "active",
+    "title": "カレー作り",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2745&lang=jp"
   },
   {
-    "title": "jfen",
+    "id": 587,
     "point": 250,
     "source": "模擬国内2016b:B",
+    "status": "active",
+    "title": "jfen",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2746&lang=jp"
   },
   {
-    "title": "カーテン",
+    "id": 588,
     "point": 450,
     "source": "模擬国内2016b:C",
+    "status": "active",
+    "title": "カーテン",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2747&lang=jp"
   },
   {
-    "title": "夏合宿の朝は早い",
+    "id": 589,
     "point": 450,
     "source": "模擬国内2016b:D",
+    "status": "active",
+    "title": "夏合宿の朝は早い",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2748&lang=jp"
   },
   {
-    "title": "ぼくのかんがえたさいきょうのおふとん",
+    "id": 590,
     "point": 550,
     "source": "模擬国内2016b:E",
+    "status": "active",
+    "title": "ぼくのかんがえたさいきょうのおふとん",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2749&lang=jp"
   },
   {
-    "title": "百人一首",
+    "id": 591,
     "point": 900,
     "source": "模擬国内2016b:F",
+    "status": "active",
+    "title": "百人一首",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2750&lang=jp"
   },
   {
-    "title": "野球観戦",
+    "id": 592,
     "point": 550,
     "source": "模擬国内2016b:G",
+    "status": "active",
+    "title": "野球観戦",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2751&lang=jp"
   },
   {
-    "title": "被験者の選定",
+    "id": 593,
     "point": 100,
     "source": "国内予選2016A",
+    "status": "active",
+    "title": "被験者の選定",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1608&lang=jp"
   },
   {
-    "title": "当選者を探せ！",
+    "id": 594,
     "point": 150,
     "source": "国内予選2016B",
+    "status": "active",
+    "title": "当選者を探せ！",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1609&lang=jp"
   },
   {
-    "title": "竹の花",
+    "id": 595,
     "point": 200,
     "source": "国内予選2016C",
+    "status": "active",
+    "title": "竹の花",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1610&lang=jp"
   },
   {
-    "title": "ダルマ落とし",
+    "id": 596,
     "point": 400,
     "source": "国内予選2016D",
+    "status": "active",
+    "title": "ダルマ落とし",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1611&lang=jp"
   },
   {
-    "title": "3Dプリント",
+    "id": 597,
     "point": 500,
     "source": "国内予選2016E",
+    "status": "active",
+    "title": "3Dプリント",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1612&lang=jp"
   },
   {
-    "title": "文字解読",
+    "id": 598,
     "point": 550,
     "source": "国内予選2016F",
+    "status": "active",
+    "title": "文字解読",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1613&lang=jp"
   },
   {
-    "title": "ワープ航法",
+    "id": 599,
     "point": 900,
     "source": "国内予選2016G",
+    "status": "active",
+    "title": "ワープ航法",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1614&lang=jp"
   },
   {
-    "title": "プレゼント交換会",
+    "id": 600,
     "point": 700,
     "source": "国内予選2016H",
+    "status": "active",
+    "title": "プレゼント交換会",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1615&lang=jp"
   },
   {
-    "title": "Pipeline Plans",
+    "id": 601,
     "point": 900,
     "source": "夏合宿2012:day4F",
+    "status": "active",
+    "title": "Pipeline Plans",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2452"
   },
   {
-    "title": "Longest Lane",
+    "id": 602,
+    "point": 0,
+    "source": "冬合宿2010:day4C",
+    "status": "hidden",
+    "title": "Fair Game",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2381"
+  },
+  {
+    "id": 603,
+    "point": 0,
+    "source": "冬合宿2010:day4J",
+    "status": "hidden",
+    "title": "Top of the Hill",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2388"
+  },
+  {
+    "id": 604,
+    "point": 0,
+    "source": "春コンテスト2012C",
+    "status": "hidden",
+    "title": "Billiards Sorting",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2391"
+  },
+  {
+    "id": 605,
     "point": 800,
     "source": "春コンテスト2012F",
+    "status": "active",
+    "title": "Longest Lane",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2394"
   },
   {
-    "title": "Tree Allocation",
+    "id": 606,
     "point": 800,
     "source": "春コンテスト2012J",
+    "status": "active",
+    "title": "Tree Allocation",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2398"
   },
   {
-    "title": "GIGA Universe Cup",
+    "id": 607,
     "point": 400,
     "source": "アジア地区予選2002C",
+    "status": "active",
+    "title": "GIGA Universe Cup",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1234"
   },
   {
-    "title": "Poor Mail Forwarding",
+    "id": 608,
+    "point": 0,
+    "source": "アジア地区予選2002H",
+    "status": "hidden",
+    "title": "Viva Confetti",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1239"
+  },
+  {
+    "id": 609,
+    "point": 0,
+    "source": "アジア地区予選2003H",
+    "status": "hidden",
+    "title": "Monster Trap",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1247"
+  },
+  {
+    "id": 610,
     "point": 600,
     "source": "模擬国内2005E",
+    "status": "active",
+    "title": "Poor Mail Forwarding",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2010&lang=jp"
   },
   {
-    "title": "Best Matched Pair",
+    "id": 611,
+    "point": 0,
+    "source": "国内予選2005A",
+    "status": "hidden",
+    "title": "Ohga's Fortune",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1135&lang=jp"
+  },
+  {
+    "id": 612,
+    "point": 0,
+    "source": "模擬地区2011C",
+    "status": "hidden",
+    "title": "Chinese Classics",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2322"
+  },
+  {
+    "id": 613,
+    "point": 0,
+    "source": "模擬国内2005C",
+    "status": "hidden",
+    "title": "Dragon Fantasy",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2008&lang=jp"
+  },
+  {
+    "id": 614,
+    "point": 0,
+    "source": "春コンテスト2012G",
+    "status": "hidden",
+    "title": "Play in Basic",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2395"
+  },
+  {
+    "id": 615,
+    "point": 0,
+    "source": "春コンテスト2012A",
+    "status": "hidden",
+    "title": "Asynchronous Exceptions",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2389"
+  },
+  {
+    "id": 616,
+    "point": 0,
+    "source": "模擬国内2013B",
+    "status": "hidden",
+    "title": "どうぶつの盛り2013",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2509&lang=jp"
+  },
+  {
+    "id": 617,
+    "point": 0,
+    "source": "アジア地区予選2013J",
+    "status": "hidden",
+    "title": "C(O|W|A*RD*|S)* CROSSWORD Puzzle",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1344"
+  },
+  {
+    "id": 618,
+    "point": 0,
+    "source": "模擬国内2006E",
+    "status": "hidden",
+    "title": "Data Center on Fire",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2004&lang=jp"
+  },
+  {
+    "id": 619,
+    "point": 0,
+    "source": "アジア地区予選2004D",
+    "status": "hidden",
+    "title": "Pathological Paths",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1251"
+  },
+  {
+    "id": 620,
+    "point": 0,
+    "source": "夏合宿2014:day4G",
+    "status": "hidden",
+    "title": "リサイクル",
+    "url": "http://jag2014summer-day4.contest.atcoder.jp/tasks/icpc2014summer_day4_g"
+  },
+  {
+    "id": 621,
+    "point": 0,
+    "source": "夏合宿2013:day3J",
+    "status": "hidden",
+    "title": "くるくるくるりん",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2616&lang=jp"
+  },
+  {
+    "id": 622,
     "point": 150,
     "source": "模擬地区2016A",
+    "status": "active",
+    "title": "Best Matched Pair",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2780"
   },
   {
-    "title": "Help the Princess!",
+    "id": 623,
     "point": 250,
     "source": "模擬地区2016B",
+    "status": "active",
+    "title": "Help the Princess!",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2781"
   },
   {
-    "title": "We don't wanna work!",
+    "id": 624,
     "point": 550,
     "source": "模擬地区2016C",
+    "status": "active",
+    "title": "We don't wanna work!",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2782"
   },
   {
-    "title": "Parentheses",
+    "id": 625,
     "point": 350,
     "source": "模擬地区2016D",
+    "status": "active",
+    "title": "Parentheses",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2783"
   },
   {
-    "title": "Similarity of Subtrees",
+    "id": 626,
     "point": 450,
     "source": "模擬地区2016E",
+    "status": "active",
+    "title": "Similarity of Subtrees",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2784"
   },
   {
-    "title": "Escape from the Hell",
+    "id": 627,
     "point": 600,
     "source": "模擬地区2016F",
+    "status": "active",
+    "title": "Escape from the Hell",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2785"
   },
   {
-    "title": "Share the Ruins Preservation",
+    "id": 628,
     "point": 600,
     "source": "模擬地区2016G",
+    "status": "active",
+    "title": "Share the Ruins Preservation",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2786"
   },
   {
-    "title": "Pipe Fitter and the Fierce Dogs",
+    "id": 629,
     "point": 600,
     "source": "模擬地区2016H",
+    "status": "active",
+    "title": "Pipe Fitter and the Fierce Dogs",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2787"
   },
   {
-    "title": "Multisect",
+    "id": 630,
     "point": 700,
     "source": "模擬地区2016I",
+    "status": "active",
+    "title": "Multisect",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2788"
   },
   {
-    "title": "Compressed Formula",
+    "id": 631,
     "point": 700,
     "source": "模擬地区2016J",
+    "status": "active",
+    "title": "Compressed Formula",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2789"
   },
   {
-    "title": "Non-redundant Drive",
+    "id": 632,
     "point": 800,
     "source": "模擬地区2016K",
+    "status": "active",
+    "title": "Non-redundant Drive",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2790"
   },
   {
-    "title": "Rearranging a Sequence",
+    "id": 633,
     "point": 200,
     "source": "アジア地区予選2016A",
+    "status": "active",
+    "title": "Rearranging a Sequence",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1367"
   },
   {
-    "title": "Quality of Check Digits",
+    "id": 634,
     "point": 200,
     "source": "アジア地区予選2016B",
+    "status": "active",
+    "title": "Quality of Check Digits",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1368"
   },
   {
-    "title": "Distribution Center",
+    "id": 635,
     "point": 250,
     "source": "アジア地区予選2016C",
+    "status": "active",
+    "title": "Distribution Center",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1369"
   },
   {
-    "title": "Hidden Anagrams",
+    "id": 636,
     "point": 400,
     "source": "アジア地区予選2016D",
+    "status": "active",
+    "title": "Hidden Anagrams",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1370"
   },
   {
-    "title": "Infallibly Crack Perplexing Cryptarithm",
+    "id": 637,
     "point": 550,
     "source": "アジア地区予選2016E",
+    "status": "active",
+    "title": "Infallibly Crack Perplexing Cryptarithm",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1371"
   },
   {
-    "title": "Three Kingdoms of Bourdelot",
+    "id": 638,
     "point": 800,
     "source": "アジア地区予選2016F",
+    "status": "active",
+    "title": "Three Kingdoms of Bourdelot",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1372"
   },
   {
-    "title": "Placing Medals on a Binary Tree",
+    "id": 639,
     "point": 500,
     "source": "アジア地区予選2016G",
+    "status": "active",
+    "title": "Placing Medals on a Binary Tree",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1373"
   },
   {
-    "title": "Animal Companion in Maze",
+    "id": 640,
     "point": 900,
     "source": "アジア地区予選2016H",
+    "status": "active",
+    "title": "Animal Companion in Maze",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1374"
   },
   {
-    "title": "Skinny Polygon",
+    "id": 641,
     "point": 800,
     "source": "アジア地区予選2016I",
+    "status": "active",
+    "title": "Skinny Polygon",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1375"
   },
   {
-    "title": "Cover the Polygon with Your Disk",
+    "id": 642,
     "point": 800,
     "source": "アジア地区予選2016J",
+    "status": "active",
+    "title": "Cover the Polygon with Your Disk",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1376"
   },
   {
-    "title": "Black and White Boxes",
+    "id": 643,
     "point": 1000,
     "source": "アジア地区予選2016K",
+    "status": "active",
+    "title": "Black and White Boxes",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1377"
   },
   {
-    "title": "所得格差",
+    "id": 644,
     "point": 100,
     "source": "国内予選2018A",
+    "status": "active",
+    "title": "所得格差",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1624&lang=jp"
   },
   {
-    "title": "太郎君の買物",
+    "id": 645,
     "point": 100,
     "source": "国内予選2017A",
+    "status": "active",
+    "title": "太郎君の買物",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1616&lang=jp"
   },
   {
-    "title": "ほとんど同じプログラム",
+    "id": 646,
     "point": 200,
     "source": "国内予選2017B",
+    "status": "active",
+    "title": "ほとんど同じプログラム",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1617&lang=jp"
   },
   {
-    "title": "池のある庭園",
+    "id": 647,
     "point": 150,
     "source": "国内予選2017C",
+    "status": "active",
+    "title": "池のある庭園",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1618&lang=jp"
   },
   {
-    "title": "弁当作り",
+    "id": 648,
     "point": 500,
     "source": "国内予選2017D",
+    "status": "active",
+    "title": "弁当作り",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1619&lang=jp"
   },
   {
-    "title": "論理式圧縮機",
+    "id": 649,
     "point": 500,
     "source": "国内予選2017E",
+    "status": "active",
+    "title": "論理式圧縮機",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1620&lang=jp"
   },
   {
-    "title": "リボンたたみ",
+    "id": 650,
     "point": 500,
     "source": "国内予選2017F",
+    "status": "active",
+    "title": "リボンたたみ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1621&lang=jp"
   },
   {
-    "title": "折り紙",
+    "id": 651,
+    "point": 550,
+    "source": "国内予選2017G",
+    "status": "active",
+    "title": "迷宮を一周",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1622&lang=jp"
+  },
+  {
+    "id": 652,
+    "point": 0,
+    "source": "国内予選2017H",
+    "status": "pending",
+    "title": "等積変形",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1623&lang=jp"
+  },
+  {
+    "id": 653,
     "point": 250,
     "source": "国内予選2018B",
+    "status": "active",
+    "title": "折り紙",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1625&lang=jp"
   },
   {
-    "title": "超高層ビル「みなとハルカス」",
+    "id": 654,
     "point": 200,
     "source": "国内予選2018C",
+    "status": "active",
+    "title": "超高層ビル「みなとハルカス」",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1626&lang=jp"
   },
   {
-    "title": "全チームによるプレーオフ",
+    "id": 655,
     "point": 350,
     "source": "国内予選2018D",
+    "status": "active",
+    "title": "全チームによるプレーオフ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1627&lang=jp"
   },
   {
-    "title": "浮動小数点数",
+    "id": 656,
     "point": 450,
     "source": "国内予選2018E",
+    "status": "active",
+    "title": "浮動小数点数",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1628&lang=jp"
   },
   {
-    "title": "Secret of Chocolate Poles",
+    "id": 657,
+    "point": 0,
+    "source": "国内予選2018F",
+    "status": "pending",
+    "title": "正三角形の柵",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1629&lang=jp"
+  },
+  {
+    "id": 658,
+    "point": 0,
+    "source": "国内予選2018G",
+    "status": "pending",
+    "title": "数式探し",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1630&lang=jp"
+  },
+  {
+    "id": 659,
+    "point": 0,
+    "source": "国内予選2018H",
+    "status": "pending",
+    "title": "優秀なプログラマになるには",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1631&lang=jp"
+  },
+  {
+    "id": 660,
     "point": 200,
     "source": "アジア地区予選2017A",
+    "status": "active",
+    "title": "Secret of Chocolate Poles",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1378"
   },
   {
-    "title": "Parallel Lines",
+    "id": 661,
     "point": 350,
     "source": "アジア地区予選2017B",
+    "status": "active",
+    "title": "Parallel Lines",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1379"
   },
   {
-    "title": "Medical Checkup",
+    "id": 662,
     "point": 300,
     "source": "アジア地区予選2017C",
+    "status": "active",
+    "title": "Medical Checkup",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1380"
   },
   {
-    "title": "Pizza Delivery",
+    "id": 663,
+    "point": 0,
+    "source": "アジア地区予選2017D",
+    "status": "pending",
+    "title": "Making Perimeter of the Convex Hull Shortest",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1381"
+  },
+  {
+    "id": 664,
+    "point": 0,
+    "source": "アジア地区予選2017E",
+    "status": "pending",
+    "title": "Black or White",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1382"
+  },
+  {
+    "id": 665,
     "point": 550,
     "source": "アジア地区予選2017F",
+    "status": "active",
+    "title": "Pizza Delivery",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1383"
   },
   {
-    "title": "Starting a Scenic Railroad Service",
+    "id": 666,
+    "point": 0,
+    "source": "アジア地区予選2017G",
+    "status": "pending",
+    "title": "Rendezvous on a Tetrahedron",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1384"
+  },
+  {
+    "id": 667,
+    "point": 0,
+    "source": "アジア地区予選2017H",
+    "status": "pending",
+    "title": "Homework",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1385"
+  },
+  {
+    "id": 668,
     "point": 400,
     "source": "アジア地区予選2017I",
+    "status": "active",
+    "title": "Starting a Scenic Railroad Service",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1386"
   },
   {
-    "title": "JAG 模擬予選練習会",
+    "id": 669,
+    "point": 0,
+    "source": "アジア地区予選2017J",
+    "status": "pending",
+    "title": "String Puzzle",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1387"
+  },
+  {
+    "id": 670,
+    "point": 0,
+    "source": "アジア地区予選2017K",
+    "status": "pending",
+    "title": "Counting Cycles",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1388"
+  },
+  {
+    "id": 671,
     "point": 150,
     "source": "模擬国内2017A",
+    "status": "active",
+    "title": "JAG 模擬予選練習会",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2823&lang=jp"
   },
   {
-    "title": "海岸線",
+    "id": 672,
     "point": 150,
     "source": "模擬国内2017B",
+    "status": "active",
+    "title": "海岸線",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2824&lang=jp"
   },
   {
-    "title": "クイズ",
+    "id": 673,
     "point": 300,
     "source": "模擬国内2017C",
+    "status": "active",
+    "title": "クイズ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2825&lang=jp"
   },
   {
-    "title": "マトリョーシカ",
+    "id": 674,
+    "point": 0,
+    "source": "模擬国内2017D",
+    "status": "pending",
+    "title": "ゲームバランス",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2826&lang=jp"
+  },
+  {
+    "id": 675,
+    "point": 0,
+    "source": "模擬国内2017E",
+    "status": "pending",
+    "title": "凸多角形柱工業都市",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2827&lang=jp"
+  },
+  {
+    "id": 676,
     "point": 550,
     "source": "模擬国内2017F",
+    "status": "active",
+    "title": "マトリョーシカ",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2828&lang=jp"
   },
   {
-    "title": "改元",
+    "id": 677,
+    "point": 0,
+    "source": "模擬国内2017G",
+    "status": "pending",
+    "title": "へやわり！",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2829&lang=jp"
+  },
+  {
+    "id": 678,
+    "point": 0,
+    "source": "模擬国内2017H",
+    "status": "pending",
+    "title": "Big Maze",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2830&lang=jp"
+  },
+  {
+    "id": 679,
     "point": 100,
     "source": "模擬国内2018A",
+    "status": "active",
+    "title": "改元",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2881&lang=jp"
   },
   {
-    "title": "一般化うるう年",
+    "id": 680,
     "point": 150,
     "source": "模擬国内2018B",
+    "status": "active",
+    "title": "一般化うるう年",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2882&lang=jp"
   },
   {
-    "title": "知識の証明",
+    "id": 681,
     "point": 350,
     "source": "模擬国内2018C",
+    "status": "active",
+    "title": "知識の証明",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2883&lang=jp"
   },
   {
-    "title": "分割統治",
+    "id": 682,
+    "point": 0,
+    "source": "模擬国内2018D",
+    "status": "pending",
+    "title": "短歌数",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2884&lang=jp"
+  },
+  {
+    "id": 683,
     "point": 300,
     "source": "模擬国内2018E",
+    "status": "active",
+    "title": "分割統治",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2885&lang=jp"
   },
   {
-    "title": "Window",
+    "id": 684,
+    "point": 0,
+    "source": "模擬国内2018F",
+    "status": "pending",
+    "title": "対空シールド",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2886&lang=jp"
+  },
+  {
+    "id": 685,
+    "point": 0,
+    "source": "模擬国内2018G",
+    "status": "pending",
+    "title": "カジノ",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2887&lang=jp"
+  },
+  {
+    "id": 686,
+    "point": 0,
+    "source": "模擬国内2018H",
+    "status": "pending",
+    "title": "NINJA GAME",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2888&lang=jp"
+  },
+  {
+    "id": 687,
     "point": 150,
     "source": "模擬地区2017A",
+    "status": "active",
+    "title": "Window",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2856"
   },
   {
-    "title": "Prime-Factor Prime",
+    "id": 688,
+    "point": 0,
+    "source": "模擬地区2017B",
+    "status": "pending",
+    "title": "Tournament Chart",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2857"
+  },
+  {
+    "id": 689,
     "point": 350,
     "source": "模擬地区2017C",
+    "status": "active",
+    "title": "Prime-Factor Prime",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2858"
   },
   {
-    "title": "Star in Parentheses",
+    "id": 690,
+    "point": 0,
+    "source": "模擬地区2017D",
+    "status": "pending",
+    "title": "Revenge of the Broken Door",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2859"
+  },
+  {
+    "id": 691,
+    "point": 0,
+    "source": "模擬地区2017E",
+    "status": "pending",
+    "title": "Tree Separator",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2860"
+  },
+  {
+    "id": 692,
+    "point": 0,
+    "source": "模擬地区2017F",
+    "status": "pending",
+    "title": "RPG Maker",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2861"
+  },
+  {
+    "id": 693,
+    "point": 0,
+    "source": "模擬地区2017G",
+    "status": "pending",
+    "title": "Coin Slider",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2862"
+  },
+  {
+    "id": 694,
+    "point": 0,
+    "source": "模擬地区2017H",
+    "status": "pending",
+    "title": "Separate String",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2863"
+  },
+  {
+    "id": 695,
+    "point": 0,
+    "source": "模擬地区2017I",
+    "status": "pending",
+    "title": "Revenge of the Endless BFS",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2864"
+  },
+  {
+    "id": 696,
+    "point": 0,
+    "source": "模擬地区2017J",
+    "status": "pending",
+    "title": "Farm Village",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2865"
+  },
+  {
+    "id": 697,
+    "point": 0,
+    "source": "模擬地区2017K",
+    "status": "pending",
+    "title": "Conveyor Belt",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2866"
+  },
+  {
+    "id": 698,
     "point": 150,
     "source": "夏合宿2017:day3A",
+    "status": "active",
+    "title": "Star in Parentheses",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2845"
   },
   {
-    "title": "Ninja Map",
+    "id": 699,
+    "point": 0,
+    "source": "夏合宿2017:day3B",
+    "status": "pending",
+    "title": "Slimming Plan",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2846"
+  },
+  {
+    "id": 700,
     "point": 300,
     "source": "夏合宿2017:day3C",
+    "status": "active",
+    "title": "Ninja Map",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2847"
   },
   {
-    "title": "GuruGuru",
+    "id": 701,
+    "point": 0,
+    "source": "夏合宿2017:day3D",
+    "status": "pending",
+    "title": "Janken Master",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2848"
+  },
+  {
+    "id": 702,
+    "point": 0,
+    "source": "夏合宿2017:day3E",
+    "status": "pending",
+    "title": "Route Calculator",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2849"
+  },
+  {
+    "id": 703,
+    "point": 0,
+    "source": "夏合宿2017:day3F",
+    "status": "pending",
+    "title": "Endless BFS",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2850"
+  },
+  {
+    "id": 704,
+    "point": 0,
+    "source": "夏合宿2017:day3G",
+    "status": "pending",
+    "title": "Low Range-Sum Matrix",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2851"
+  },
+  {
+    "id": 705,
+    "point": 0,
+    "source": "夏合宿2017:day3H",
+    "status": "pending",
+    "title": "Tiny Room",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2852"
+  },
+  {
+    "id": 706,
+    "point": 0,
+    "source": "夏合宿2017:day3I",
+    "status": "pending",
+    "title": "Librarian's Work",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2853"
+  },
+  {
+    "id": 707,
+    "point": 0,
+    "source": "夏合宿2017:day3J",
+    "status": "pending",
+    "title": "Sum Source Detection",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2854"
+  },
+  {
+    "id": 708,
+    "point": 0,
+    "source": "夏合宿2017:day3K",
+    "status": "pending",
+    "title": "Permutation Period",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2855"
+  },
+  {
+    "id": 709,
     "point": 200,
     "source": "夏合宿2018:day3A",
+    "status": "active",
+    "title": "GuruGuru",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2904"
   },
   {
-    "title": "Colorful Drink",
+    "id": 710,
     "point": 250,
     "source": "夏合宿2018:day3B",
+    "status": "active",
+    "title": "Colorful Drink",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2905"
   },
   {
-    "title": "Santa's Gift",
+    "id": 711,
     "point": 300,
     "source": "夏合宿2018:day3C",
+    "status": "active",
+    "title": "Santa's Gift",
     "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2906"
+  },
+  {
+    "id": 712,
+    "point": 0,
+    "source": "夏合宿2018:day3D",
+    "status": "pending",
+    "title": "Prefix Suffix Search",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2907"
+  },
+  {
+    "id": 713,
+    "point": 0,
+    "source": "夏合宿2018:day3E",
+    "status": "pending",
+    "title": "Magic Triangles",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2908"
+  },
+  {
+    "id": 714,
+    "point": 0,
+    "source": "夏合宿2018:day3F",
+    "status": "pending",
+    "title": "Nim without Zero",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2909"
+  },
+  {
+    "id": 715,
+    "point": 0,
+    "source": "夏合宿2018:day3G",
+    "status": "pending",
+    "title": "Additions",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2910"
+  },
+  {
+    "id": 716,
+    "point": 0,
+    "source": "夏合宿2018:day3H",
+    "status": "pending",
+    "title": "Enlarge Circles",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2911"
+  },
+  {
+    "id": 717,
+    "point": 0,
+    "source": "夏合宿2018:day3I",
+    "status": "pending",
+    "title": "Sum of QQ",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2912"
+  },
+  {
+    "id": 718,
+    "point": 0,
+    "source": "夏合宿2018:day3J",
+    "status": "pending",
+    "title": "Prime Routing",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2913"
+  },
+  {
+    "id": 719,
+    "point": 0,
+    "source": "夏合宿2018:day3K",
+    "status": "pending",
+    "title": "Rough Sorting",
+    "url": "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2914"
   }
 ]

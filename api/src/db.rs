@@ -5,15 +5,25 @@ use crate::schema::problems;
 use diesel::prelude::*;
 use diesel::r2d2::{self, ConnectionManager};
 use diesel::Connection as _;
+use diesel_derive_enum::DbEnum;
 
+#[derive(DbEnum, Debug)]
+#[DieselType = "Pstatus"]
+pub enum ProblemStatus {
+    Pending,
+    Active,
+    Hidden,
+}
 
-#[derive(Queryable, Debug)]
+#[derive(Insertable, Queryable, Debug)]
+#[table_name = "problems"]
 pub struct Problem {
     pub id: i32,
     pub title: String,
     pub source: String,
     pub point: i32,
     pub url: String,
+    pub status: ProblemStatus,
 }
 
 #[derive(Insertable, Debug)]
@@ -23,18 +33,12 @@ pub struct NewProblem {
     pub source: String,
     pub point: i32,
     pub url: String,
+    pub status: ProblemStatus,
 }
 
 #[derive(Queryable, Insertable, Debug)]
 #[table_name = "aoj_problems"]
 pub struct AojProblem {
-    pub problem_id: i32,
-    pub aoj_id: String,
-}
-
-#[derive(Insertable, Debug)]
-#[table_name = "aoj_problems"]
-pub struct NewAojProblem {
     pub problem_id: i32,
     pub aoj_id: String,
 }
@@ -95,8 +99,7 @@ pub fn get_all_problems(connection: &Connection) -> Vec<Problem> {
         .expect("Failed to query problems")
 }
 
-pub fn initialize_problems(connection: &Connection, new_problems: &[NewProblem]) -> Vec<Problem> {
-    // required to delete aoj_problems first for foreign key constraint
+pub fn initialize_problems(connection: &Connection, new_problems: &[Problem], aoj_problems: &[AojProblem]) {
     diesel::delete(aoj_problems::table)
         .execute(connection)
         .expect("Failed to delete aoj_problems");
@@ -105,16 +108,10 @@ pub fn initialize_problems(connection: &Connection, new_problems: &[NewProblem])
         .expect("Failed to delete problems");
     diesel::insert_into(problems::table)
         .values(new_problems)
-        .get_results(connection)
-        .expect("Failed to save new problems")
-}
-
-pub fn initialize_aoj_problems(connection: &Connection, new_aoj_problems: &[NewAojProblem]) {
-    diesel::delete(aoj_problems::table)
         .execute(connection)
-        .expect("Failed to delete aoj_problems");
+        .expect("Failed to save new problems");
     diesel::insert_into(aoj_problems::table)
-        .values(new_aoj_problems)
+        .values(aoj_problems)
         .execute(connection)
         .expect("Failed to save new aoj_problems");
 }

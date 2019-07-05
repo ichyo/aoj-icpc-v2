@@ -7,10 +7,21 @@ use url::Url;
 
 #[derive(Deserialize)]
 struct Problem {
+    id: i32,
     title: String,
     source: String,
     point: i32,
     url: String,
+    status: String,
+}
+
+fn to_problem_status(status: &str) -> db::ProblemStatus {
+    match status {
+        "active" => db::ProblemStatus::Active,
+        "hidden" => db::ProblemStatus::Hidden,
+        "pending" => db::ProblemStatus::Pending,
+        _ => unreachable!(),
+    }
 }
 
 fn to_aoj_id(problem_url: &str) -> Option<String> {
@@ -34,30 +45,33 @@ fn main() {
 
     let problems = problems
         .into_iter()
-        .map(|p| db::NewProblem {
+        .map(|p| db::Problem {
+            id: p.id,
             title: p.title,
             source: p.source,
             point: p.point,
             url: p.url,
+            status: to_problem_status(&p.status),
         })
         .collect::<Vec<_>>();
 
-    info!("Adding {} problems", problems.len());
-
-    let problems = db::initialize_problems(&conn, &problems);
     let aoj_problems = problems
         .iter()
         .filter_map(|p| {
-            to_aoj_id(&p.url).map(|aoj_id| db::NewAojProblem {
+            to_aoj_id(&p.url).map(|aoj_id| db::AojProblem {
                 problem_id: p.id,
                 aoj_id,
             })
         })
         .collect::<Vec<_>>();
 
-    info!("Adding {} aoj problems", aoj_problems.len());
+    info!(
+        "Adding {} problems ({} aojs)",
+        problems.len(),
+        aoj_problems.len()
+    );
 
-    db::initialize_aoj_problems(&conn, &aoj_problems);
+    db::initialize_problems(&conn, &problems, &aoj_problems);
 
     info!("{} initialized", database_url);
 }
