@@ -10,9 +10,8 @@ struct Problem {
     point: i32,
     title: String,
     source: String,
-    solutions: u32,
     url: String,
-    stars: u16,
+    status: String,
 }
 
 #[derive(Serialize, Deserialize, Debug)]
@@ -31,9 +30,8 @@ fn problems(pool: web::Data<db::Pool>) -> impl Responder {
                 point: p.point,
                 title: p.title,
                 source: p.source,
-                solutions: 0,
                 url: p.url,
-                stars: 0,
+                status: p.status.to_string(),
             })
             .collect::<Vec<_>>(),
     )
@@ -71,7 +69,7 @@ fn main() -> std::io::Result<()> {
         )
         .get_matches();
 
-    let port = matches.value_of("port").unwrap_or("8000");
+    let port = matches.value_of("port").unwrap_or("8080");
     let addr = format!("0.0.0.0:{}", port);
 
     let pool = db::create_pool(&database_url);

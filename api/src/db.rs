@@ -6,6 +6,7 @@ use diesel::prelude::*;
 use diesel::r2d2::{self, ConnectionManager};
 use diesel::Connection as _;
 use diesel_derive_enum::DbEnum;
+use std::string::ToString;
 
 #[derive(DbEnum, Debug)]
 #[DieselType = "Pstatus"]
@@ -13,6 +14,16 @@ pub enum ProblemStatus {
     Pending,
     Active,
     Hidden,
+}
+
+impl ToString for ProblemStatus {
+    fn to_string(&self) -> String {
+        match self {
+            ProblemStatus::Pending => "pending".to_string(),
+            ProblemStatus::Active => "active".to_string(),
+            ProblemStatus::Hidden => "hidden".to_string(),
+        }
+    }
 }
 
 #[derive(Insertable, Queryable, Debug)]
@@ -94,12 +105,16 @@ pub fn establish_connection(database_url: &str) -> Connection {
 pub fn get_all_problems(connection: &Connection) -> Vec<Problem> {
     use crate::schema::problems::dsl::*;
     problems
-        .order((point.asc(), source.asc()))
+        .order(id.asc())
         .load::<Problem>(connection)
         .expect("Failed to query problems")
 }
 
-pub fn initialize_problems(connection: &Connection, new_problems: &[Problem], aoj_problems: &[AojProblem]) {
+pub fn initialize_problems(
+    connection: &Connection,
+    new_problems: &[Problem],
+    aoj_problems: &[AojProblem],
+) {
     diesel::delete(aoj_problems::table)
         .execute(connection)
         .expect("Failed to delete aoj_problems");
