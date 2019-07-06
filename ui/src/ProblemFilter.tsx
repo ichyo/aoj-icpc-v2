@@ -45,8 +45,8 @@ class ProblemFilterBuilder {
         return this;
     }
 
-    setHideAC(): ProblemFilterBuilder {
-        this._hideAC = true;
+    setHideAC(hideAC: boolean): ProblemFilterBuilder {
+        this._hideAC = hideAC;
         return this;
     }
 

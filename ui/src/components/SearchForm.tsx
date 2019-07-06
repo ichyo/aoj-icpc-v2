@@ -5,6 +5,7 @@ export interface FormData {
     aojUserId: string | null,
     minimumPoint: number | null,
     maximumPoint: number | null,
+    hideAC: boolean,
 }
 
 interface FormProps {
@@ -16,12 +17,14 @@ const SearchForm: React.FC<FormProps> = ({ onSubmit, points }) => {
     const [aojUserId, setAojUserId] = useState("");
     const [minimumPoint, setMinimumPoint] = useState(null as number | null);
     const [maximumPoint, setMaximumPoint] = useState(null as number | null);
+    const [hideAC, setHideAC] = useState(false);
 
     const formData = (): FormData => {
         return {
             aojUserId,
             minimumPoint,
             maximumPoint,
+            hideAC,
         }
     };
 
@@ -47,6 +50,12 @@ const SearchForm: React.FC<FormProps> = ({ onSubmit, points }) => {
         }
     };
 
+    const handleHideAcChange = (event: ChangeEvent<HTMLInputElement>) => {
+        const value = event.target.checked;
+        console.log(value);
+        setHideAC(value);
+    };
+
     return (
         <form className="form-inline mb-3 mt-3" onSubmit={handleSubmit}>
             <input
@@ -69,6 +78,11 @@ const SearchForm: React.FC<FormProps> = ({ onSubmit, points }) => {
                 }
             </select>
             <span className="mr-3" />
+            <div className="form-check form-check-inline">
+                <input className="form-check-input" id="hideAC" type="checkbox" checked={hideAC} onChange={handleHideAcChange} />
+                <label className="form-check-label" htmlFor="hideAC">Hide AC</label>
+            </div>
+            <span className="mr-2" />
             <button type="submit" className="btn btn-primary">Update</button>
         </form>
     );
