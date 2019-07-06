@@ -122,6 +122,7 @@ fn insert_solutions(connection: db::Connection, solutions: &[AojSolution]) -> Re
 }
 
 fn main() -> Result<(), Error> {
+    dotenv::dotenv().ok();
     env_logger::init_from_env("AOJICPC_LOG");
 
     let database_url = std::env::var("DATABASE_URL").expect("DATABASE_URL");

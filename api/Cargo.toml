@@ -12,6 +12,7 @@ path = "src/lib.rs"
 aoj-client = { git = "https://github.com/ichyo/aoj-client" }
 
 actix-web = "1.0"
+dotenv = "0.14"
 diesel = { version = "1.0", features = ["postgres", "r2d2"] }
 diesel-derive-enum = { version = "0.4", features = ["postgres"] }
 env_logger = "0.6.1"
