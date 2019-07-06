@@ -26,11 +26,15 @@ RUN rm target/release/deps/*aoj_icpc*
 COPY src src
 # Build app (bin will be in /usr/src/app/target/release/aoj-icpc-api-server)
 RUN cargo build --release --bin aoj-icpc-api-server
+# Build crawler (TODO: Separete into different container)
+RUN cargo build --release --bin aoj_crawler
 
 FROM debian:stretch-slim
 # Install dependencies
 RUN apt-get update && apt-get install -y libpq-dev
-# Copy bin from builder to this new image
+# Copy app from builder to this new image
 COPY --from=build /app/target/release/aoj-icpc-api-server /bin/
+# Copy crawler from builder to this new image
+COPY --from=build /app/target/release/aoj_crawler /bin/
 # Default command, run app
-CMD ["/bin/aoj-icpc-api-server", "--port", "80"]
+CMD ["aoj-icpc-api-server", "--port", "80"]
