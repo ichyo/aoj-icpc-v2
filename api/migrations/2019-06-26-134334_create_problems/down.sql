@@ -1,4 +1,4 @@
 -- This file should undo anything in `up.sql`
-DROP TABLE problems
+DROP TABLE IF EXISTS problems;
 
-DROP TYPE PROBLEM_STATUS;
+DROP TYPE IF EXISTS PSTATUS;
