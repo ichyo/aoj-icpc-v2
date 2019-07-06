@@ -36,6 +36,7 @@ fn to_aoj_id(problem_url: &str) -> Option<String> {
 }
 
 fn main() {
+    dotenv::dotenv().ok();
     env_logger::init_from_env("AOJICPC_LOG");
 
     let database_url = std::env::var("DATABASE_URL").expect("DATABASE_URL is required");
@@ -73,5 +74,5 @@ fn main() {
 
     db::initialize_problems(&conn, &problems, &aoj_problems);
 
-    info!("{} initialized", database_url);
+    info!("database initialized");
 }
