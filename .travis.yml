@@ -6,8 +6,8 @@ rust:
 services:
   - docker
 
-script:
-  - cd api && cargo test --verbose
+before_script:
+  - cd api
 
 deploy:
   provider: script
