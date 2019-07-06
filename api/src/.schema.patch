@@ -1,0 +1,13 @@
+diff --git a/api/src/schema.rs b/api/src/schema.rs
+index 70a89bb..5ba9fdf 100644
+--- a/api/src/schema.rs
++++ b/api/src/schema.rs
+@@ -1,6 +1,8 @@
++#![allow(unused_imports)]
++
+ table! {
+     use diesel::sql_types::*;
+     use crate::db::Pstatus;
+ 
+     aoj_problems (problem_id) {
+         problem_id -> Int4,
