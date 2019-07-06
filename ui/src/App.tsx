@@ -37,13 +37,23 @@ const App: React.FC = () => {
     setProblemFilter(filter);
   };
 
+  const handleSort = (comparator: (a: Problem, b: Problem) => number) => {
+    const sorted_problems = Array.from(problems.sort(comparator));
+    setProblems(sorted_problems);
+  }
+
   const points = Array.from(new Set(problems.map(p => p.point).sort((a, b) => a - b)));
   const filteredProblems = problemFilter.filters(problems, user);
 
   return (
     <div className="container">
       <SearchForm onSubmit={handleSubmit} points={points} />
-      <ProblemTable problems={filteredProblems} user={user} solutions={solutions} />
+      <ProblemTable
+        problems={filteredProblems}
+        user={user}
+        solutions={solutions}
+        handleSort={handleSort}
+      />
     </div>
   );
 }

@@ -25,6 +25,7 @@ export default class ProblemFilter {
             (!this.minimumPoint || p.point >= this.minimumPoint)
             && (!this.maximumPoint || p.point <= this.maximumPoint)
             && (!this.hideAC || !solved_set.has(p.id))
+            && p.status === "active"
         )
     }
 }

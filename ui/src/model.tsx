@@ -6,6 +6,7 @@ export interface Problem {
     solutions: number,
     url: string,
     stars: number,
+    status: string,
 }
 
 export interface User {

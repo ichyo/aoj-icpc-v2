@@ -7,6 +7,7 @@ interface Props {
     problems: Array<Problem>,
     user: User | null,
     solutions: Map<string, number>,
+    handleSort: (comparator: (a: Problem, b: Problem) => number) => void,
 }
 
 interface RowProps {
@@ -30,18 +31,36 @@ const ProblemRow: React.FC<RowProps> = ({ problem, solved, solution }) => {
     );
 }
 
-const ProblemTable: React.FC<Props> = ({ problems, user, solutions }) => {
+const ProblemTable: React.FC<Props> = ({ problems, user, solutions, handleSort }) => {
     const user_solutions = new Set(user ? user.solutions : []);
     return (
         <table className="table table-sm">
             <thead>
                 <tr>
                     <th><FontAwesomeIcon icon={faCheck} /></th>
-                    <th scope="col" className="text-center">Point</th>
-                    <th scope="col">Title</th>
-                    <th scope="col">Source</th>
+                    <th scope="col" className="text-center">
+                        <a href="#" onClick={() => handleSort((a, b) => a.point - b.point)}>
+                            Point
+                        </a>
+                    </th>
+                    <th scope="col">
+                        <a href="#" onClick={() => handleSort((a, b) => a.title.localeCompare(b.title))}>
+                            Title
+                        </a>
+                    </th>
+                    <th scope="col">
+                        <a href="#" onClick={() => handleSort((a, b) => a.source.localeCompare(b.source))}>
+                            Source
+                        </a>
+                    </th>
                     <th scope="col" className="text-center"><FontAwesomeIcon icon={faStar} /></th>
-                    <th scope="col">Solutions</th>
+                    <th scope="col">
+                        <a href="#" onClick={() => handleSort((a, b) =>
+                            (solutions.get(b.id.toString()) || 0) -
+                            (solutions.get(a.id.toString()) || 0))}>
+                            Solutions
+                        </a>
+                    </th>
                 </tr>
             </thead>
             <tbody>
