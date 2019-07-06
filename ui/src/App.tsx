@@ -9,6 +9,7 @@ import { Problem, User } from './model';
 
 const App: React.FC = () => {
   const [problems, setProblems] = useState([] as Problem[]);
+  const [solutions, setSolutions] = useState(new Map());
   const [user, setUser] = useState(null as User | null);
   const [problemFilter, setProblemFilter] = useState(ProblemFilter.default());
 
@@ -16,6 +17,9 @@ const App: React.FC = () => {
     fetch("/api/v1/problems")
       .then(res => res.json())
       .then(res => setProblems(res));
+    fetch("/api/v1/problems/solutions")
+      .then(res => res.json())
+      .then(res => setSolutions(new Map(Object.entries(res))));
   }, []);
 
   const handleSubmit = (data: FormData) => {
@@ -39,7 +43,7 @@ const App: React.FC = () => {
   return (
     <div className="container">
       <SearchForm onSubmit={handleSubmit} points={points} />
-      <ProblemTable problems={filteredProblems} user={user} />
+      <ProblemTable problems={filteredProblems} user={user} solutions={solutions} />
     </div>
   );
 }

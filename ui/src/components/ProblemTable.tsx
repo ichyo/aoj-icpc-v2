@@ -5,15 +5,17 @@ import { Problem, User } from '../model';
 
 interface Props {
     problems: Array<Problem>,
-    user: User | null
+    user: User | null,
+    solutions: Map<string, number>,
 }
 
 interface RowProps {
     problem: Problem,
     solved: boolean,
+    solution: number,
 }
 
-const ProblemRow: React.FC<RowProps> = ({ problem, solved }) => {
+const ProblemRow: React.FC<RowProps> = ({ problem, solved, solution }) => {
     return (
         <tr key={problem.id}>
             <td className="text-center text-success">
@@ -23,13 +25,13 @@ const ProblemRow: React.FC<RowProps> = ({ problem, solved }) => {
             <td><a href={problem.url} target="_blank" rel="noopener noreferrer">{problem.title}</a></td>
             <td>{problem.source}</td>
             <td className="text-center">{problem.stars}</td>
-            <td>{problem.solutions}</td>
+            <td>{solution}</td>
         </tr>
     );
 }
 
-const ProblemTable: React.FC<Props> = ({ problems, user }) => {
-    const solutions = new Set(user ? user.solutions : []);
+const ProblemTable: React.FC<Props> = ({ problems, user, solutions }) => {
+    const user_solutions = new Set(user ? user.solutions : []);
     return (
         <table className="table table-sm">
             <thead>
@@ -44,8 +46,12 @@ const ProblemTable: React.FC<Props> = ({ problems, user }) => {
             </thead>
             <tbody>
                 {problems.map(p => {
-                    const solved = solutions.has(p.id);
-                    return <ProblemRow problem={p} solved={solved} />
+                    const solved = user_solutions.has(p.id);
+                    return <ProblemRow
+                        problem={p}
+                        solved={solved}
+                        solution={solutions.get(p.id.toString()) || 0}
+                    />
                 })}
             </tbody>
         </table>
