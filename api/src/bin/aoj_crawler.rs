@@ -4,11 +4,11 @@ use aoj_client::Client;
 use failure::Error;
 
 use aoj_icpc::db;
+use chrono::DateTime;
+use chrono::Utc;
 use log::debug;
 use log::info;
 use std::collections::{HashMap, HashSet};
-use chrono::DateTime;
-use chrono::Utc;
 
 struct AojSolution {
     user_aoj_id: String,
@@ -16,12 +16,22 @@ struct AojSolution {
     submission_time: DateTime<Utc>,
 }
 
-fn from_status(size: u32) -> Result<Vec<AojSolution>, Error> {
+fn from_status(size: u32, max_page: u32, since: DateTime<Utc>) -> Result<Vec<AojSolution>, Error> {
     let client = Client::default();
 
-    let solutions = client
-        .solution_client()
-        .find_all(FindAllRequest::default().set_page(0).set_size(size))?;
+    let mut solutions = Vec::new();
+    for page in 0..max_page {
+        let s = client
+            .solution_client()
+            .find_all(FindAllRequest::default().set_page(page).set_size(size))?;
+        let last_date = s.last().unwrap().submission_date;
+        solutions.extend(s);
+        info!("page = {} last_date = {}", page, last_date);
+        if last_date < since {
+            break;
+        }
+        std::thread::sleep(std::time::Duration::from_millis(800));
+    }
 
     let solutions = solutions
         .into_iter()
@@ -31,6 +41,11 @@ fn from_status(size: u32) -> Result<Vec<AojSolution>, Error> {
             submission_time: s.submission_date,
         })
         .collect::<Vec<_>>();
+
+    info!(
+        "Last submission: {}",
+        solutions.last().unwrap().submission_time
+    );
 
     Ok(solutions)
 }
@@ -131,10 +146,46 @@ fn main() -> Result<(), Error> {
     dotenv::dotenv().ok();
     env_logger::init_from_env("AOJICPC_LOG");
 
+    let matches = clap::App::new("AOJ Solution Crawler")
+        .version("0.1.0")
+        .args(&[
+            clap::Arg::with_name("all")
+                .long("all")
+                .takes_value(false)
+                .help("all problems"),
+            clap::Arg::with_name("size")
+                .long("size")
+                .takes_value(true)
+                .help("size to fetch"),
+            clap::Arg::with_name("seconds")
+                .long("seconds")
+                .takes_value(true)
+                .help("since N seconds ago"),
+        ])
+        .get_matches();
+
     let database_url = std::env::var("DATABASE_URL").expect("DATABASE_URL");
     let connection = db::establish_connection(&database_url);
 
-    //let solutions = from_status(100)?;
-    let solutions = from_problems(&connection)?;
+    let since = Utc::now()
+        - chrono::Duration::seconds(
+            matches
+                .value_of("seconds")
+                .and_then(|s| s.parse::<i64>().ok())
+                .unwrap_or(0),
+        );
+
+    let solutions = if matches.occurrences_of("all") > 0 {
+        from_problems(&connection)?
+    } else {
+        from_status(
+            matches
+                .value_of("size")
+                .and_then(|s| s.parse::<u32>().ok())
+                .unwrap_or(100),
+            100,
+            since,
+        )?
+    };
     insert_solutions(connection, &solutions)
 }
