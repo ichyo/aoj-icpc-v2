@@ -1,0 +1,14 @@
+language: rust
+
+rust:
+  - stable
+
+services:
+  - docker
+
+script:
+  - cd api && cargo test --verbose
+
+deploy:
+  provider: script
+  script: bash scripts/deploy.sh
