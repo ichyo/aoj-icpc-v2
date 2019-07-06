@@ -37,6 +37,11 @@ fn problems(pool: web::Data<db::Pool>) -> impl Responder {
     )
 }
 
+fn solutions(pool: web::Data<db::Pool>) -> impl Responder {
+    let connection = pool.get().expect("Failed to get connection from pool");
+    web::Json(db::get_number_of_solutions_by_problems(&connection))
+}
+
 fn aoj_user(pool: web::Data<db::Pool>, aoj_user_id: web::Path<String>) -> impl Responder {
     let connection = pool.get().expect("Failed to get connection from pool");
     let aoj_user_id = aoj_user_id.into_inner();
@@ -80,6 +85,7 @@ fn main() -> std::io::Result<()> {
         App::new()
             .data(pool.clone())
             .service(web::resource("/api/v1/problems").to(problems))
+            .service(web::resource("/api/v1/problems/solutions").to(solutions))
             .service(web::resource("/api/v1/aoj_users/{id}").to(aoj_user))
     })
     .bind(addr)?

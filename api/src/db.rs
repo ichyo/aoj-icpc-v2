@@ -4,8 +4,11 @@ use crate::schema::aoj_users;
 use crate::schema::problems;
 use diesel::prelude::*;
 use diesel::r2d2::{self, ConnectionManager};
+use diesel::sql_query;
+use diesel::sql_types::{Integer, BigInt};
 use diesel::Connection as _;
 use diesel_derive_enum::DbEnum;
+use std::collections::HashMap;
 use std::string::ToString;
 
 #[derive(DbEnum, Debug)]
@@ -68,7 +71,7 @@ pub struct AojUser {
     pub aoj_id: String,
 }
 
-#[derive(Insertable, Debug)]
+#[derive(Insertable, Debug, Eq, PartialEq, Hash)]
 #[table_name = "aoj_users"]
 pub struct NewAojUser {
     pub aoj_id: String,
@@ -139,7 +142,7 @@ pub fn get_aoj_users_by_aoj_ids(connection: &Connection, aoj_ids: &[String]) -> 
         .expect("Failed to load aoj users")
 }
 
-pub fn upsert_aoj_users(connection: &Connection, users: &[NewAojUser]) -> Vec<AojUser> {
+pub fn insert_aoj_users(connection: &Connection, users: &[NewAojUser]) -> Vec<AojUser> {
     diesel::insert_into(aoj_users::table)
         .values(users)
         .on_conflict_do_nothing()
@@ -154,12 +157,14 @@ pub fn get_all_aoj_problems(connection: &Connection) -> Vec<AojProblem> {
         .expect("Failed to load aoj problems")
 }
 
-pub fn upsert_aoj_solutions(connection: &Connection, solutions: &[NewAojSolution]) {
+pub fn insert_aoj_solutions(connection: &Connection, solutions: &[NewAojSolution]) {
+    for solutions in solutions.chunks(10000) {
     diesel::insert_into(aoj_solutions::table)
         .values(solutions)
         .on_conflict_do_nothing()
         .execute(connection)
         .expect("Failed to insert aoj solutions");
+    }
 }
 
 pub fn get_aoj_solutions_by_aoj_user<'a>(
@@ -171,4 +176,23 @@ pub fn get_aoj_solutions_by_aoj_user<'a>(
         .expect("Failed to load solutions")
         .grouped_by(users);
     users.iter().zip(solutions).collect::<Vec<_>>()
+}
+
+pub fn get_number_of_solutions_by_problems(connection: &Connection) -> HashMap<i32, i64> {
+    #[derive(QueryableByName)]
+    struct Count {
+        #[sql_type = "Integer"]
+        aoj_problem_id: i32,
+        #[sql_type = "BigInt"]
+        count: i64,
+    };
+    let count: Vec<Count> = sql_query(
+        "SELECT aoj_problem_id, COUNT(*) as count FROM aoj_solutions GROUP BY aoj_problem_id",
+    )
+    .load(connection)
+    .expect("Query failed");
+    count
+        .iter()
+        .map(|c| (c.aoj_problem_id, c.count))
+        .collect::<HashMap<_, _>>()
 }
