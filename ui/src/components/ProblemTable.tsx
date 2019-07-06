@@ -20,7 +20,7 @@ const ProblemRow: React.FC<RowProps> = ({ problem, solved, solution }) => {
     return (
         <tr key={problem.id}>
             <td className="text-center text-success">
-                {solved ? <FontAwesomeIcon icon={faCheckCircle} /> : null}
+                {solved ? <FontAwesomeIcon icon={faCheck} /> : null}
             </td>
             <td className="text-center">{problem.point}</td>
             <td><a href={problem.url} target="_blank" rel="noopener noreferrer">{problem.title}</a></td>
@@ -37,7 +37,7 @@ const ProblemTable: React.FC<Props> = ({ problems, user, solutions, handleSort }
         <table className="table table-sm">
             <thead>
                 <tr>
-                    <th><FontAwesomeIcon icon={faCheck} /></th>
+                    <th className="text-center"><FontAwesomeIcon icon={faCheck} /></th>
                     <th scope="col" className="text-center">
                         <a href="#" onClick={() => handleSort((a, b) => a.point - b.point)}>
                             Point
