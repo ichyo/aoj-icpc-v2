@@ -52,7 +52,6 @@ const SearchForm: React.FC<FormProps> = ({ onSubmit, points }) => {
 
     const handleHideAcChange = (event: ChangeEvent<HTMLInputElement>) => {
         const value = event.target.checked;
-        console.log(value);
         setHideAC(value);
     };
 

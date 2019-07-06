@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck, faCheckCircle, faStar } from '@fortawesome/free-solid-svg-icons'
-import React from 'react';
+import React, { useState } from 'react';
 import { Problem, User } from '../model';
 
 interface Props {
@@ -33,29 +33,37 @@ const ProblemRow: React.FC<RowProps> = ({ problem, solved, solution }) => {
 
 const ProblemTable: React.FC<Props> = ({ problems, user, solutions, handleSort }) => {
     const user_solutions = new Set(user ? user.solutions : []);
+    const [[lastSortType, lastSortOrder], setLastSort] = useState(['', false] as [string, boolean]);
+
+    const clickSort = (type: string, comparator: (a: Problem, b: Problem) => number) => {
+        const reverse = lastSortType === type ? !lastSortOrder : false;
+        setLastSort([type, reverse]);
+        handleSort((a, b) => reverse ? -comparator(a, b) : comparator(a, b));
+    };
+
     return (
         <table className="table table-sm">
             <thead>
                 <tr>
                     <th className="text-center"><FontAwesomeIcon icon={faCheck} /></th>
                     <th scope="col" className="text-center">
-                        <a href="#" onClick={() => handleSort((a, b) => a.point - b.point)}>
+                        <a href="#" onClick={() => clickSort('point', (a, b) => a.point - b.point)}>
                             Point
                         </a>
                     </th>
                     <th scope="col">
-                        <a href="#" onClick={() => handleSort((a, b) => a.title.localeCompare(b.title))}>
+                        <a href="#" onClick={() => clickSort('title', (a, b) => a.title.localeCompare(b.title))}>
                             Title
                         </a>
                     </th>
                     <th scope="col">
-                        <a href="#" onClick={() => handleSort((a, b) => a.source.localeCompare(b.source))}>
+                        <a href="#" onClick={() => clickSort('source', (a, b) => a.source.localeCompare(b.source))}>
                             Source
                         </a>
                     </th>
                     <th scope="col" className="text-center"><FontAwesomeIcon icon={faStar} /></th>
                     <th scope="col">
-                        <a href="#" onClick={() => handleSort((a, b) =>
+                        <a href="#" onClick={() => clickSort('solutions', (a, b) =>
                             (solutions.get(b.id.toString()) || 0) -
                             (solutions.get(a.id.toString()) || 0))}>
                             Solutions
