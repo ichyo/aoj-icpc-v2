@@ -7,10 +7,13 @@ use aoj_icpc::db;
 use log::debug;
 use log::info;
 use std::collections::{HashMap, HashSet};
+use chrono::DateTime;
+use chrono::Utc;
 
 struct AojSolution {
     user_aoj_id: String,
     problem_aoj_id: String,
+    submission_time: DateTime<Utc>,
 }
 
 fn from_status(size: u32) -> Result<Vec<AojSolution>, Error> {
@@ -25,6 +28,7 @@ fn from_status(size: u32) -> Result<Vec<AojSolution>, Error> {
         .map(|s| AojSolution {
             user_aoj_id: s.user_id,
             problem_aoj_id: s.problem_id,
+            submission_time: s.submission_date,
         })
         .collect::<Vec<_>>();
 
@@ -54,6 +58,7 @@ fn from_problems(connection: &db::Connection) -> Result<Vec<AojSolution>, Error>
                 .map(|s| AojSolution {
                     user_aoj_id: s.user_id,
                     problem_aoj_id: s.problem_id,
+                    submission_time: s.submission_date,
                 })
                 .collect::<Vec<_>>();
 
@@ -108,6 +113,7 @@ fn insert_solutions(connection: db::Connection, solutions: &[AojSolution]) -> Re
                 (Some(p), Some(u)) => Some(db::NewAojSolution {
                     aoj_problem_id: p.problem_id,
                     aoj_user_id: u.id,
+                    submission_time: s.submission_time,
                 }),
                 _ => None,
             }

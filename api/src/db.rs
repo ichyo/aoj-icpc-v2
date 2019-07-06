@@ -8,6 +8,8 @@ use diesel::sql_query;
 use diesel::sql_types::{Integer, BigInt};
 use diesel::Connection as _;
 use diesel_derive_enum::DbEnum;
+use chrono::DateTime;
+use chrono::Utc;
 use std::collections::HashMap;
 use std::string::ToString;
 
@@ -84,6 +86,7 @@ pub struct NewAojUser {
 pub struct AojSolution {
     pub aoj_user_id: i32,
     pub aoj_problem_id: i32,
+    pub submission_time: DateTime<Utc>,
 }
 
 #[derive(Insertable, Debug)]
@@ -91,6 +94,7 @@ pub struct AojSolution {
 pub struct NewAojSolution {
     pub aoj_problem_id: i32,
     pub aoj_user_id: i32,
+    pub submission_time: DateTime<Utc>,
 }
 
 pub type Connection = PgConnection;
