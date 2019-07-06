@@ -22,8 +22,8 @@ apt-get install jq -y
 
 # install ecs-deploy
 curl https://raw.githubusercontent.com/silinternational/ecs-deploy/master/ecs-deploy | \
-  tee -a /usr/bin/ecs-deploy
-chmod +x /usr/bin/ecs-deploy
+  sudo tee /usr/bin/ecs-deploy
+sudo chmod +x /usr/bin/ecs-deploy
 
 docker login --username $DOCKER_HUB_USER --password $DOCKER_HUB_PSW
 
