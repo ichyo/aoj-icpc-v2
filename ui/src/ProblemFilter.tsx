@@ -4,11 +4,13 @@ export default class ProblemFilter {
     readonly minimumPoint: number | null;
     readonly maximumPoint: number | null;
     readonly hideAC: boolean;
+    readonly showPending: boolean;
 
     constructor(builder: ProblemFilterBuilder) {
         this.minimumPoint = builder.minimumPoint;
         this.maximumPoint = builder.maximumPoint;
         this.hideAC = builder.hideAC;
+        this.showPending = builder.showPending;
     }
 
     static default(): ProblemFilter {
@@ -25,7 +27,8 @@ export default class ProblemFilter {
             (!this.minimumPoint || p.point >= this.minimumPoint)
             && (!this.maximumPoint || p.point <= this.maximumPoint)
             && (!this.hideAC || !solved_set.has(p.id))
-            && p.status === "active"
+            && (p.status === "active" ||
+                (this.showPending && p.status === "pending"))
         )
     }
 }
@@ -34,6 +37,7 @@ class ProblemFilterBuilder {
     private _minimumPoint: number | null = null;
     private _maximumPoint: number | null = null;
     private _hideAC: boolean = false;
+    private _showPending: boolean = false;
 
     setMinimumPoint(point: number | null): ProblemFilterBuilder {
         this._minimumPoint = point;
@@ -47,6 +51,11 @@ class ProblemFilterBuilder {
 
     setHideAC(hideAC: boolean): ProblemFilterBuilder {
         this._hideAC = hideAC;
+        return this;
+    }
+
+    setShowPending(showPending: boolean): ProblemFilterBuilder {
+        this._showPending = showPending;
         return this;
     }
 
@@ -64,5 +73,9 @@ class ProblemFilterBuilder {
 
     get hideAC() {
         return this._hideAC;
+    }
+
+    get showPending() {
+        return this._showPending;
     }
 }

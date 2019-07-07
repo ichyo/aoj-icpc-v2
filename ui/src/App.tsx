@@ -46,7 +46,8 @@ const App: React.FC = () => {
     const builder = ProblemFilter.builder()
       .setMinimumPoint(data.minimumPoint)
       .setMaximumPoint(data.maximumPoint)
-      .setHideAC(data.hideAC);
+      .setHideAC(data.hideAC)
+      .setShowPending(data.showPending);
 
     const filter = builder.build();
     setProblemFilter(filter);

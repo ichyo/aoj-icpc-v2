@@ -6,6 +6,7 @@ export interface FormData {
     minimumPoint: number | null,
     maximumPoint: number | null,
     hideAC: boolean,
+    showPending: boolean,
 }
 
 interface FormProps {
@@ -18,6 +19,7 @@ const SearchForm: React.FC<FormProps> = ({ onSubmit, points }) => {
     const [minimumPoint, setMinimumPoint] = useState(null as number | null);
     const [maximumPoint, setMaximumPoint] = useState(null as number | null);
     const [hideAC, setHideAC] = useState(false);
+    const [showPending, setShowPending] = useState(false);
 
     const formData = (): FormData => {
         return {
@@ -25,6 +27,7 @@ const SearchForm: React.FC<FormProps> = ({ onSubmit, points }) => {
             minimumPoint,
             maximumPoint,
             hideAC,
+            showPending
         }
     };
 
@@ -55,6 +58,11 @@ const SearchForm: React.FC<FormProps> = ({ onSubmit, points }) => {
         setHideAC(value);
     };
 
+    const handleShowPendingChange = (event: ChangeEvent<HTMLInputElement>) => {
+        const value = event.target.checked;
+        setShowPending(value);
+    };
+
     return (
         <form className="form-inline mb-3 mt-3" onSubmit={handleSubmit}>
             <input
@@ -80,6 +88,10 @@ const SearchForm: React.FC<FormProps> = ({ onSubmit, points }) => {
             <div className="form-check form-check-inline">
                 <input className="form-check-input" id="hideAC" type="checkbox" checked={hideAC} onChange={handleHideAcChange} />
                 <label className="form-check-label" htmlFor="hideAC">Hide AC</label>
+            </div>
+            <div className="form-check form-check-inline">
+                <input className="form-check-input" id="showPending" type="checkbox" checked={showPending} onChange={handleShowPendingChange} />
+                <label className="form-check-label" htmlFor="showPending">Show ?</label>
             </div>
             <span className="mr-2" />
             <button type="submit" className="btn btn-primary">Update</button>

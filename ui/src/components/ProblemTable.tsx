@@ -22,7 +22,7 @@ const ProblemRow: React.FC<RowProps> = ({ problem, solved, solution }) => {
             <td className="text-center text-success">
                 {solved ? <FontAwesomeIcon icon={faCheck} /> : null}
             </td>
-            <td className="text-center">{problem.point}</td>
+            <td className="text-center">{problem.point != 0 ? problem.point : '?'}</td>
             <td><a href={problem.url} target="_blank" rel="noopener noreferrer">{problem.title}</a></td>
             <td>{problem.source}</td>
             <td className="text-center">{problem.stars}</td>
