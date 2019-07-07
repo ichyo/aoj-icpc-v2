@@ -85,6 +85,13 @@ const SearchForm: React.FC<FormProps> = ({ onSubmit, points, years }) => {
         setShowPending(value);
     };
 
+    const formatPoint = (point: number) => {
+        if (point == 1200) {
+            return "1200+";
+        }
+        return point.toString();
+    };
+
     return (
         <form className="form-inline mb-3 mt-3" onSubmit={handleSubmit}>
             <input
@@ -97,13 +104,13 @@ const SearchForm: React.FC<FormProps> = ({ onSubmit, points, years }) => {
             <select className="form-control col-2 col-lg-1" onChange={handleMinChange}>
                 <option selected={minimumPoint == null}>FROM</option>
                 {
-                    points.map(p => <option selected={minimumPoint == p}>{p}</option>)
+                    points.map(p => <option selected={minimumPoint == p}>{formatPoint(p)}</option>)
                 }
             </select>
             <select className="form-control col-2 col-lg-1" onChange={handleMaxChange}>
                 <option selected={maximumPoint == null}>TO</option>
                 {
-                    points.map(p => <option selected={maximumPoint == p}>{p}</option>)
+                    points.map(p => <option selected={maximumPoint == p}>{formatPoint(p)}</option>)
                 }
             </select>
             <span className="mr-3" />
