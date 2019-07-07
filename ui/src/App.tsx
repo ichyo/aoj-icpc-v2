@@ -37,9 +37,7 @@ const App: React.FC = () => {
 
   const handleSubmit = (data: FormData) => {
     const currentUser = user ? user.id : "";
-    if (currentUser !== data.aojUserId) {
-      setUser(null);
-    }
+    setUser(null);
     if (data.aojUserId) {
       fetch("/api/v1/aoj_users/" + data.aojUserId)
         .then(res => res.json())
