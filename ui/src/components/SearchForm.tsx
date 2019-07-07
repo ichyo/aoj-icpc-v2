@@ -1,4 +1,5 @@
 import React, { useState, FormEvent, ChangeEvent } from 'react';
+import { formatPoint } from '../utils';
 
 export interface FormData {
     aojUserId: string | null,
@@ -85,12 +86,6 @@ const SearchForm: React.FC<FormProps> = ({ onSubmit, points, years }) => {
         setShowPending(value);
     };
 
-    const formatPoint = (point: number) => {
-        if (point == 1200) {
-            return "1200+";
-        }
-        return point.toString();
-    };
 
     return (
         <form className="form-inline mb-3 mt-3" onSubmit={handleSubmit}>
