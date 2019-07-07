@@ -7,6 +7,8 @@ export interface Problem {
     url: string,
     stars: number,
     status: string,
+    year: number,
+    source_type: string,
 }
 
 export interface User {

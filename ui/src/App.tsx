@@ -33,8 +33,6 @@ const App: React.FC = () => {
         setProblems(problems);
         setSolutions(new Map(Object.entries(solutions)));
       });
-
-    //.then(res => setSolutions(new Map(Object.entries(res))));
   }, []);
 
   const handleSubmit = (data: FormData) => {
@@ -52,7 +50,9 @@ const App: React.FC = () => {
       .setMinimumPoint(data.minimumPoint)
       .setMaximumPoint(data.maximumPoint)
       .setHideAC(data.hideAC)
-      .setShowPending(data.showPending);
+      .setShowPending(data.showPending)
+      .setSinceYear(data.sinceYear)
+      .setUntilYear(data.untilYear);
 
     const filter = builder.build();
     setProblemFilter(filter);
@@ -63,12 +63,13 @@ const App: React.FC = () => {
     setProblems(sorted_problems);
   }
 
-  const points = Array.from(new Set(problems.map(p => p.point).sort((a, b) => a - b)));
+  const points = Array.from(new Set(problems.map(p => p.point).filter(p => p != 0))).sort((a, b) => a - b);
+  const years = Array.from(new Set(problems.map(p => p.year))).sort((a, b) => a - b);
   const filteredProblems = problemFilter.filters(problems, user);
 
   return (
     <div className="container">
-      <SearchForm onSubmit={handleSubmit} points={points} />
+      <SearchForm onSubmit={handleSubmit} points={points} years={years} />
       {user ? <PointSummury problems={filteredProblems} user={user} /> : null}
       <ProblemTable
         problems={filteredProblems}

@@ -1,10 +1,11 @@
 import React, { useState, FormEvent, ChangeEvent } from 'react';
-import { POINT_CONVERSION_COMPRESSED } from 'constants';
 
 export interface FormData {
     aojUserId: string | null,
     minimumPoint: number | null,
     maximumPoint: number | null,
+    sinceYear: number | null,
+    untilYear: number | null,
     hideAC: boolean,
     showPending: boolean,
 }
@@ -12,14 +13,17 @@ export interface FormData {
 interface FormProps {
     onSubmit: (data: FormData) => void,
     points: number[],
+    years: number[],
 }
 
-const SearchForm: React.FC<FormProps> = ({ onSubmit, points }) => {
+const SearchForm: React.FC<FormProps> = ({ onSubmit, points, years }) => {
     const [aojUserId, setAojUserId] = useState("");
     const [minimumPoint, setMinimumPoint] = useState(null as number | null);
     const [maximumPoint, setMaximumPoint] = useState(null as number | null);
     const [hideAC, setHideAC] = useState(false);
     const [showPending, setShowPending] = useState(false);
+    const [sinceYear, setSinceYear] = useState(null as number | null);
+    const [untilYear, setUntilYear] = useState(null as number | null);
 
     const formData = (): FormData => {
         return {
@@ -27,7 +31,9 @@ const SearchForm: React.FC<FormProps> = ({ onSubmit, points }) => {
             minimumPoint,
             maximumPoint,
             hideAC,
-            showPending
+            showPending,
+            sinceYear,
+            untilYear,
         }
     };
 
@@ -50,6 +56,22 @@ const SearchForm: React.FC<FormProps> = ({ onSubmit, points }) => {
         const point = parseInt(value);
         if (!isNaN(point)) {
             setMaximumPoint(point);
+        }
+    };
+
+    const handleSinceChange = (event: ChangeEvent<HTMLSelectElement>) => {
+        const value = event.target.value;
+        const point = parseInt(value);
+        if (!isNaN(point)) {
+            setSinceYear(point);
+        }
+    };
+
+    const handleUntilChange = (event: ChangeEvent<HTMLSelectElement>) => {
+        const value = event.target.value;
+        const point = parseInt(value);
+        if (!isNaN(point)) {
+            setUntilYear(point);
         }
     };
 
@@ -82,6 +104,19 @@ const SearchForm: React.FC<FormProps> = ({ onSubmit, points }) => {
                 <option selected={maximumPoint == null}>TO</option>
                 {
                     points.map(p => <option selected={maximumPoint == p}>{p}</option>)
+                }
+            </select>
+            <span className="mr-3" />
+            <select className="form-control col-2 col-lg-1" onChange={handleSinceChange}>
+                <option selected={sinceYear == null}>SINCE</option>
+                {
+                    years.map(p => <option selected={sinceYear == p}>{p}</option>)
+                }
+            </select>
+            <select className="form-control col-2 col-lg-1" onChange={handleUntilChange}>
+                <option selected={untilYear == null}>UNTIL</option>
+                {
+                    years.map(p => <option selected={untilYear == p}>{p}</option>)
                 }
             </select>
             <span className="mr-3" />
