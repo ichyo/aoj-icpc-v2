@@ -1,8 +1,13 @@
 use actix_web::{web, App, HttpServer, Responder};
+use chrono::prelude::*;
 use serde::{Deserialize, Serialize};
+use failure::Error;
 
+use aoj_icpc::aoj;
 use aoj_icpc::db;
-use log::info;
+use log::{info, error};
+use std::thread;
+use std::time;
 
 #[derive(Serialize, Deserialize, Debug)]
 struct Problem {
@@ -58,6 +63,14 @@ fn aoj_user(pool: web::Data<db::Pool>, aoj_user_id: web::Path<String>) -> impl R
     }
 }
 
+fn update_aoj_solutions(pool: db::Pool, duration: time::Duration) -> Result<(), Error> {
+    let since = Utc::now() - chrono::Duration::from_std(duration)?;
+    let conn = pool.get()?;
+    let solutions = aoj::fetch_recent_solutions(10, 100, since)?;
+    aoj::insert_solutions(&conn, &solutions)?;
+    Ok(())
+}
+
 fn main() -> std::io::Result<()> {
     env_logger::init_from_env("AOJICPC_LOG");
 
@@ -78,6 +91,17 @@ fn main() -> std::io::Result<()> {
     let addr = format!("0.0.0.0:{}", port);
 
     let pool = db::create_pool(&database_url);
+
+    {
+        let pool = pool.clone();
+        thread::spawn(move || loop {
+            info!("Updating solutions");
+            if let Err(e) = update_aoj_solutions(pool.clone(), time::Duration::from_secs(20)) {
+                error!("Failed to update solutions: {}", e);
+            }
+            thread::sleep(time::Duration::from_secs(10));
+        });
+    }
 
     info!("Running {}", addr);
 
