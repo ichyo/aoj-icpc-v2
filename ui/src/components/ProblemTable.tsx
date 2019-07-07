@@ -25,7 +25,7 @@ const ProblemRow: React.FC<RowProps> = ({ problem, solved, solution }) => {
             <td className="text-center">{problem.point != 0 ? problem.point : '?'}</td>
             <td><a href={problem.url} target="_blank" rel="noopener noreferrer">{problem.title}</a></td>
             <td>{problem.source}</td>
-            <td className="text-center">{problem.stars}</td>
+            { /* <td className="text-center">{problem.stars}</td> */}
             <td>{solution}</td>
         </tr>
     );
@@ -61,7 +61,7 @@ const ProblemTable: React.FC<Props> = ({ problems, user, solutions, handleSort }
                             Source
                         </a>
                     </th>
-                    <th scope="col" className="text-center"><FontAwesomeIcon icon={faStar} /></th>
+                    { /* <th scope="col" className="text-center"><FontAwesomeIcon icon={faStar} /></th> */}
                     <th scope="col">
                         <a href="#" onClick={() => clickSort('solutions', (a, b) =>
                             (solutions.get(b.id.toString()) || 0) -
