@@ -2,14 +2,14 @@ use crate::schema::aoj_problems;
 use crate::schema::aoj_solutions;
 use crate::schema::aoj_users;
 use crate::schema::problems;
+use chrono::DateTime;
+use chrono::Utc;
 use diesel::prelude::*;
 use diesel::r2d2::{self, ConnectionManager};
 use diesel::sql_query;
-use diesel::sql_types::{Integer, BigInt};
+use diesel::sql_types::{BigInt, Integer};
 use diesel::Connection as _;
 use diesel_derive_enum::DbEnum;
-use chrono::DateTime;
-use chrono::Utc;
 use std::collections::HashMap;
 use std::string::ToString;
 
@@ -31,7 +31,29 @@ impl ToString for ProblemStatus {
     }
 }
 
-#[derive(Insertable, Queryable, Debug)]
+#[derive(DbEnum, Debug)]
+#[DieselType = "Sourcetype"]
+pub enum SourceType {
+    Domestic,
+    Regional,
+    JagDomestic,
+    JagRegional,
+    Others,
+}
+
+impl ToString for SourceType {
+    fn to_string(&self) -> String {
+        match &self {
+            SourceType::Domestic => "domestic".to_string(),
+            SourceType::Regional => "regional".to_string(),
+            SourceType::JagDomestic => "jag_domestic".to_string(),
+            SourceType::JagRegional => "jag_regional".to_string(),
+            SourceType::Others => "other".to_string(),
+        }
+    }
+}
+
+#[derive(Insertable, Queryable, AsChangeset, Debug)]
 #[table_name = "problems"]
 pub struct Problem {
     pub id: i32,
@@ -40,19 +62,11 @@ pub struct Problem {
     pub point: i32,
     pub url: String,
     pub status: ProblemStatus,
+    pub year: i16,
+    pub source_type: SourceType,
 }
 
-#[derive(Insertable, Debug)]
-#[table_name = "problems"]
-pub struct NewProblem {
-    pub title: String,
-    pub source: String,
-    pub point: i32,
-    pub url: String,
-    pub status: ProblemStatus,
-}
-
-#[derive(Queryable, Insertable, Debug)]
+#[derive(Queryable, Insertable, AsChangeset, Debug)]
 #[table_name = "aoj_problems"]
 pub struct AojProblem {
     pub problem_id: i32,
@@ -79,21 +93,13 @@ pub struct NewAojUser {
     pub aoj_id: String,
 }
 
-#[derive(Queryable, Associations, Identifiable, Debug)]
+#[derive(Queryable, Associations, Identifiable, Insertable, Debug)]
 #[table_name = "aoj_solutions"]
 #[belongs_to(AojUser)]
 #[primary_key(aoj_user_id, aoj_problem_id)]
 pub struct AojSolution {
     pub aoj_user_id: i32,
     pub aoj_problem_id: i32,
-    pub submission_time: DateTime<Utc>,
-}
-
-#[derive(Insertable, Debug)]
-#[table_name = "aoj_solutions"]
-pub struct NewAojSolution {
-    pub aoj_problem_id: i32,
-    pub aoj_user_id: i32,
     pub submission_time: DateTime<Utc>,
 }
 
@@ -117,25 +123,29 @@ pub fn get_all_problems(connection: &Connection) -> Vec<Problem> {
         .expect("Failed to query problems")
 }
 
-pub fn initialize_problems(
+pub fn update_problems(
     connection: &Connection,
     new_problems: &[Problem],
     aoj_problems: &[AojProblem],
 ) {
-    diesel::delete(aoj_problems::table)
-        .execute(connection)
-        .expect("Failed to delete aoj_problems");
-    diesel::delete(problems::table)
-        .execute(connection)
-        .expect("Failed to delete problems");
-    diesel::insert_into(problems::table)
-        .values(new_problems)
-        .execute(connection)
-        .expect("Failed to save new problems");
-    diesel::insert_into(aoj_problems::table)
-        .values(aoj_problems)
-        .execute(connection)
-        .expect("Failed to save new aoj_problems");
+    for problem in new_problems {
+        diesel::insert_into(problems::table)
+            .values(problem)
+            .on_conflict(problems::dsl::id)
+            .do_update()
+            .set(problem)
+            .execute(connection)
+            .expect("Failed to save new problems");
+    }
+    for problem in aoj_problems {
+        diesel::insert_into(aoj_problems::table)
+            .values(problem)
+            .on_conflict(aoj_problems::dsl::problem_id)
+            .do_update()
+            .set(problem)
+            .execute(connection)
+            .expect("Failed to save new aoj_problems");
+    }
 }
 
 pub fn get_aoj_users_by_aoj_ids(connection: &Connection, aoj_ids: &[String]) -> Vec<AojUser> {
@@ -161,13 +171,13 @@ pub fn get_all_aoj_problems(connection: &Connection) -> Vec<AojProblem> {
         .expect("Failed to load aoj problems")
 }
 
-pub fn insert_aoj_solutions(connection: &Connection, solutions: &[NewAojSolution]) {
+pub fn insert_aoj_solutions(connection: &Connection, solutions: &[AojSolution]) {
     for solutions in solutions.chunks(10000) {
-    diesel::insert_into(aoj_solutions::table)
-        .values(solutions)
-        .on_conflict_do_nothing()
-        .execute(connection)
-        .expect("Failed to insert aoj solutions");
+        diesel::insert_into(aoj_solutions::table)
+            .values(solutions)
+            .on_conflict_do_nothing()
+            .execute(connection)
+            .expect("Failed to insert aoj solutions");
     }
 }
 

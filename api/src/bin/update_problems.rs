@@ -13,6 +13,8 @@ struct Problem {
     point: i32,
     url: String,
     status: String,
+    year: i16,
+    source_type: String,
 }
 
 fn to_problem_status(status: &str) -> db::ProblemStatus {
@@ -20,6 +22,17 @@ fn to_problem_status(status: &str) -> db::ProblemStatus {
         "active" => db::ProblemStatus::Active,
         "hidden" => db::ProblemStatus::Hidden,
         "pending" => db::ProblemStatus::Pending,
+        _ => unreachable!(),
+    }
+}
+
+fn to_source_type(s: &str) -> db::SourceType {
+    match s {
+        "domestic" => db::SourceType::Domestic,
+        "regional" => db::SourceType::Regional,
+        "jag_domestic" => db::SourceType::JagDomestic,
+        "jag_regional" => db::SourceType::JagRegional,
+        "others" => db::SourceType::Others,
         _ => unreachable!(),
     }
 }
@@ -53,6 +66,8 @@ fn main() {
             point: p.point,
             url: p.url,
             status: to_problem_status(&p.status),
+            source_type: to_source_type(&p.source_type),
+            year: p.year,
         })
         .collect::<Vec<_>>();
 
@@ -67,12 +82,12 @@ fn main() {
         .collect::<Vec<_>>();
 
     info!(
-        "Adding {} problems ({} aojs)",
+        "Updating {} problems ({} aojs)",
         problems.len(),
         aoj_problems.len()
     );
 
-    db::initialize_problems(&conn, &problems, &aoj_problems);
+    db::update_problems(&conn, &problems, &aoj_problems);
 
-    info!("database initialized");
+    info!("update problems");
 }

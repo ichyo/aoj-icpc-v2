@@ -3,5 +3,5 @@
 
 [print_schema]
 file = "src/schema.rs"
-import_types = ["diesel::sql_types::*", "crate::db::Pstatus"]
+import_types = ["diesel::sql_types::*", "crate::db::{Pstatus, Sourcetype}"]
 patch_file = "src/.schema.patch"

@@ -17,6 +17,8 @@ struct Problem {
     source: String,
     url: String,
     status: String,
+    source_type: String,
+    year: i16,
 }
 
 #[derive(Serialize, Deserialize, Debug)]
@@ -38,6 +40,8 @@ fn problems(pool: web::Data<db::Pool>) -> impl Responder {
                 source: p.source,
                 url: p.url,
                 status: p.status.to_string(),
+                source_type: p.source_type.to_string(),
+                year: p.year,
             })
             .collect::<Vec<_>>(),
     )

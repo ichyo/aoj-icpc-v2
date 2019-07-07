@@ -132,7 +132,7 @@ pub fn insert_solutions(
                 problems_by_id.get(&s.problem_aoj_id),
                 users_by_id.get(&s.user_aoj_id),
             ) {
-                (Some(p), Some(u)) => Some(db::NewAojSolution {
+                (Some(p), Some(u)) => Some(db::AojSolution {
                     aoj_problem_id: p.problem_id,
                     aoj_user_id: u.id,
                     submission_time: s.submission_time,
