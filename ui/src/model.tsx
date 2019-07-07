@@ -10,5 +10,6 @@ export interface Problem {
 }
 
 export interface User {
+    id: string,
     solutions: Array<number>,
 }

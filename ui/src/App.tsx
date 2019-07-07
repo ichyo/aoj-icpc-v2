@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import './components/ProblemTable';
+import PointSummury from './components/PointSummary';
 import ProblemTable from './components/ProblemTable';
 import ProblemFilter from './ProblemFilter';
 import SearchForm, { FormData } from './components/SearchForm';
@@ -37,6 +38,10 @@ const App: React.FC = () => {
   }, []);
 
   const handleSubmit = (data: FormData) => {
+    const currentUser = user ? user.id : "";
+    if (currentUser !== data.aojUserId) {
+      setUser(null);
+    }
     if (data.aojUserId) {
       fetch("/api/v1/aoj_users/" + data.aojUserId)
         .then(res => res.json())
@@ -64,6 +69,7 @@ const App: React.FC = () => {
   return (
     <div className="container">
       <SearchForm onSubmit={handleSubmit} points={points} />
+      {user ? <PointSummury problems={filteredProblems} user={user} /> : null}
       <ProblemTable
         problems={filteredProblems}
         user={user}

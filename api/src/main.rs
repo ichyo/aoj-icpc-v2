@@ -1,11 +1,11 @@
 use actix_web::{web, App, HttpServer, Responder};
 use chrono::prelude::*;
-use serde::{Deserialize, Serialize};
 use failure::Error;
+use serde::{Deserialize, Serialize};
 
 use aoj_icpc::aoj;
 use aoj_icpc::db;
-use log::{info, error};
+use log::{error, info};
 use std::thread;
 use std::time;
 
@@ -21,6 +21,7 @@ struct Problem {
 
 #[derive(Serialize, Deserialize, Debug)]
 struct AojUser {
+    id: String,
     solutions: Vec<i32>,
 }
 
@@ -50,10 +51,11 @@ fn solutions(pool: web::Data<db::Pool>) -> impl Responder {
 fn aoj_user(pool: web::Data<db::Pool>, aoj_user_id: web::Path<String>) -> impl Responder {
     let connection = pool.get().expect("Failed to get connection from pool");
     let aoj_user_id = aoj_user_id.into_inner();
-    let users = db::get_aoj_users_by_aoj_ids(&connection, &[aoj_user_id]);
+    let users = db::get_aoj_users_by_aoj_ids(&connection, &[aoj_user_id.clone()]);
     let solutions_by_users = db::get_aoj_solutions_by_aoj_user(&connection, &users);
     match solutions_by_users.get(0) {
         Some((_, solutions)) => web::HttpResponse::Ok().json(AojUser {
+            id: aoj_user_id,
             solutions: solutions
                 .iter()
                 .map(|s| s.aoj_problem_id)

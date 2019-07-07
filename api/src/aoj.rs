@@ -16,7 +16,11 @@ pub struct AojSolution {
     submission_time: DateTime<Utc>,
 }
 
-pub fn fetch_recent_solutions(size: u32, max_page: u32, since: DateTime<Utc>) -> Result<Vec<AojSolution>, Error> {
+pub fn fetch_recent_solutions(
+    size: u32,
+    max_page: u32,
+    since: DateTime<Utc>,
+) -> Result<Vec<AojSolution>, Error> {
     let client = Client::default();
 
     let mut solutions = Vec::new();
@@ -87,7 +91,10 @@ pub fn fetch_all_solutions(connection: &db::Connection) -> Result<Vec<AojSolutio
     Ok(solutions)
 }
 
-pub fn insert_solutions(connection: &db::Connection, solutions: &[AojSolution]) -> Result<(), Error> {
+pub fn insert_solutions(
+    connection: &db::Connection,
+    solutions: &[AojSolution],
+) -> Result<(), Error> {
     let problems = db::get_all_aoj_problems(&connection);
     let problems_by_id = problems
         .iter()
