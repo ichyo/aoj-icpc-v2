@@ -14,12 +14,26 @@ const App: React.FC = () => {
   const [problemFilter, setProblemFilter] = useState(ProblemFilter.default());
 
   useEffect(() => {
-    fetch("/api/v1/problems")
-      .then(res => res.json())
-      .then(res => setProblems(res));
-    fetch("/api/v1/problems/solutions")
-      .then(res => res.json())
-      .then(res => setSolutions(new Map(Object.entries(res))));
+    const apiProblems = fetch("/api/v1/problems")
+      .then(res => res.json());
+
+    const apiSolutions = fetch("/api/v1/problems/solutions")
+      .then(res => res.json());
+
+    Promise.all([apiProblems, apiSolutions])
+      .then(([problems, solutions]) => {
+        problems.sort((a: Problem, b: Problem) => {
+          if (a.point != b.point) {
+            return a.point - b.point
+          }
+          return (solutions[b.id.toString()] || 0)
+            - (solutions[a.id.toString()] || 0);
+        })
+        setProblems(problems);
+        setSolutions(new Map(Object.entries(solutions)));
+      });
+
+    //.then(res => setSolutions(new Map(Object.entries(res))));
   }, []);
 
   const handleSubmit = (data: FormData) => {
