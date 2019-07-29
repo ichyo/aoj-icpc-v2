@@ -4,12 +4,12 @@
     publish = "ui/build/"
 
 [[redirects]]
-  from = "/api/*"
-  to = "https://api.aoj-icpc.ichyo.net/api/:splat"
-  status = 200
-  force = true
+    from = "/api/*"
+    to = "https://api.aoj-icpc.ichyo.net/api/:splat"
+    status = 200
+    force = true
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+    from = "/*"
+    to = "/index.html"
+    status = 200
